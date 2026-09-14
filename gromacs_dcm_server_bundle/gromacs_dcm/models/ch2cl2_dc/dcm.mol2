@@ -1,0 +1,16 @@
+@<TRIPOS>MOLECULE
+DCM
+3 3 1 0 0
+SMALL
+USER_CHARGES
+
+@<TRIPOS>ATOM
+      1 C1          0.000000    0.000000    0.000000 DU       1 DCM       0.404400
+      2 CL1         1.467200    0.000000    1.079438 DJ       1 DCM      -0.202200
+      3 CL2        -1.467200    0.000000    1.079438 DJ       1 DCM      -0.202200
+@<TRIPOS>BOND
+     1    1    2 1
+     2    1    3 1
+     3    2    3 1
+@<TRIPOS>SUBSTRUCTURE
+     1 DCM         1 TEMP              0 ****  ****    0 ROOT

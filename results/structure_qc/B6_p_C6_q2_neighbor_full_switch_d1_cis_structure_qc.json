@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "state": "B6_p_C6_q2_neighbor_full_switch_d1_cis",
+  "orbit": "full_switch_d1",
+  "source_q1": "gromacs_dcm_server_bundle/structures/B6_p_C6_q1_V1_V2_cis.pdb",
+  "first_reaction": [
+    "V1",
+    "V2"
+  ],
+  "second_reaction": [
+    "V4",
+    "V6"
+  ],
+  "second_reaction_source_serials": [
+    191,
+    195
+  ],
+  "both_internal_double_bonds": "Z/cis",
+  "q1_formula": "C184H230O24",
+  "q2_formula": "C182H226O24",
+  "q1_atom_count": 438,
+  "q2_atom_count": 432,
+  "active_vinyl_count": 8,
+  "active_pair_count": 28,
+  "output_pdb": "gromacs_dcm_server_bundle/structures/B6_p_C6_q2_neighbor_full_switch_d1_cis.pdb",
+  "output_explicit_bond_mol2": "gromacs_dcm_server_bundle/structures/B6_p_C6_q2_neighbor_full_switch_d1_cis_antechamber.mol2"
+}

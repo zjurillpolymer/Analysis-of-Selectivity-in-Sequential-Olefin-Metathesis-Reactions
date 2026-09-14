@@ -1,0 +1,17 @@
+name: mtmr-gromacs-dcm
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - ambertools=26
+  # Required by recent conda-forge teLeap builds; some AmberTools artifacts
+  # have omitted this runtime dependency from their package metadata.
+  - libxml2-16=2.15.3
+  - parmed
+  - numpy
+  - scipy
+  - pandas
+  - mdanalysis
+  - pip
+  - pip:
+      - packmol-memgen

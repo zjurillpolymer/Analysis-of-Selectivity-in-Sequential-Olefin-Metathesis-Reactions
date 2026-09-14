@@ -1,0 +1,57 @@
+{
+  "model": "B6 neighbour-arm-only q1 orbit table",
+  "q0_pair": "V1-V2",
+  "arm_cycle": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "allowed_arm_edges": [
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      5
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      4,
+      5
+    ]
+  ],
+  "q1_candidate_count": 17,
+  "orbit_counts": {
+    "full_reuse": 1,
+    "full_switch_d1": 8,
+    "full_switch_d2": 4,
+    "one_arm_reuse": 4
+  },
+  "coarse_category_counts": {
+    "full_reuse": 1,
+    "full_switch": 12,
+    "one_arm_reuse": 4
+  },
+  "representative_q1_pairs": {
+    "full_reuse": "V3-V12",
+    "full_switch_d1": "V4-V6",
+    "full_switch_d2": "V6-V8",
+    "one_arm_reuse": "V3-V10"
+  },
+  "warning": "Counts are conditional on the fixed q0 endpoint pair. A new MD/umbrella path is needed only for each non-equivalent orbit; counts are retained as degeneracy and must not be silently discarded."
+}

@@ -1,0 +1,28 @@
+{
+  "state": "B6_p_C6_q2_V3_V6_V11_V12_cis",
+  "replicas": 3,
+  "blocks": 15,
+  "block_duration_ps": 10000.0,
+  "contact_threshold_A": 5.0,
+  "first_second_half_spearman": 0.7339901477832512,
+  "first_second_top5_jaccard": 1.0,
+  "first_half_top5": [
+    "V2_V10_跨臂",
+    "V7_V8_跨臂",
+    "V7_V9_跨臂",
+    "V8_V10_跨臂",
+    "V9_V10_跨臂"
+  ],
+  "second_half_top5": [
+    "V2_V10_跨臂",
+    "V7_V8_跨臂",
+    "V7_V9_跨臂",
+    "V8_V10_跨臂",
+    "V9_V10_跨臂"
+  ],
+  "top_mean_pair": "V8_V10_跨臂",
+  "top_replica_consensus_pairs": [
+    "V8_V10_跨臂",
+    "V7_V9_跨臂"
+  ]
+}

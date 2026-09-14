@@ -1,0 +1,2 @@
+state,system,trajectory_duration_ps,pairs,material_pairs_2pct,pairs_pass,pairs_caution,pairs_extend,material_pairs_extend,max_material_split_rhat,min_material_combined_ess,max_material_tau_ps,recommendation
+B6_p_C6_q0,B6_p_C6,50000.0,66,18,66,0,0,0,1.03551942905165,578.9688586925673,382.9065849029356,sufficient_for_current_contact_observable

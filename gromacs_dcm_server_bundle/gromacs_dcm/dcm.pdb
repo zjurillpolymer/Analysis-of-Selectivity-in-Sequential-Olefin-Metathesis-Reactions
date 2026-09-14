@@ -1,0 +1,11 @@
+HETATM    1  C1  DCM A   1       0.000   0.000   0.000  1.00  0.00           C
+HETATM    2 CL1  DCM A   1       1.028   1.028   1.028  1.00  0.00          CL
+HETATM    3 CL2  DCM A   1       1.028  -1.028  -1.028  1.00  0.00          CL
+HETATM    4  H1  DCM A   1      -0.629   0.629  -0.629  1.00  0.00           H
+HETATM    5  H2  DCM A   1      -0.629  -0.629   0.629  1.00  0.00           H
+CONECT    1    2    3    4    5
+CONECT    2    1
+CONECT    3    1
+CONECT    4    1
+CONECT    5    1
+END

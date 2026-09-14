@@ -1,0 +1,16 @@
+{
+  "job_name": "B6 neighbor q1-q2 Amber parameterization",
+  "command": "bash run_amber.sh",
+  "log_file": "amber_job.log",
+  "backward_files": [
+    "B6_neighbor_amber_results.tar.gz",
+    "amber_job.log"
+  ],
+  "project_id": 4377225,
+  "machine_type": "c8_m16_cpu",
+  "image_address": "registry.dp.tech/dptech/amber:24_rc2",
+  "input_directory": ".",
+  "max_reschedule_times": 2,
+  "max_run_time": 1440,
+  "nnode": 1
+}

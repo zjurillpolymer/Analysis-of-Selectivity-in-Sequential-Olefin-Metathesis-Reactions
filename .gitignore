@@ -1,0 +1,31 @@
+# Trajectory and simulation products (keep the Git repository lightweight)
+*.xtc
+*.trr
+*.edr
+*.cpt
+*.tpr
+*.gro
+*.log
+*.out
+*.err
+*.tar.gz
+*.tgz
+*.zip
+*.npz
+*.npy
+
+# Generated/temporary directories
+__pycache__/
+.DS_Store
+*/runs/
+*/run/
+*/cache/
+*/workspace/*/runs/
+*/workspace/*/solvent_validation/
+
+# Local credentials and machine-specific configuration
+.env
+.env.*
+*accesskey*
+*secret*
+*password*

@@ -1,0 +1,4 @@
+state,system,replica,expected_frames,expected_duration_ps,path,frames,pair_columns,time_start_ps,time_end_ps,absolute_time_start_ps,absolute_time_end_ps,duration_ps,median_dt_ps,max_dt_error_ps,duplicate_frames,duplicate_times,nonfinite_distances,nonpositive_distances,frame_count_ok,frame_sequence_ok,duration_ok,dt_ok,finite_ok,positive_ok,unique_ok,status,issue
+B6_p_C6_q0,B6_p_C6,1,100001,50000.0,gromacs_dcm/runs/B6_p_C6_q0/replica_01/vinyl_distances.csv,100001,66,0.0,50000.0,0.0,50000.0,50000.0,0.5,0.0,0,0,0,0,True,True,True,True,True,True,True,pass,
+B6_p_C6_q0,B6_p_C6,2,100001,50000.0,gromacs_dcm/runs/B6_p_C6_q0/replica_02/vinyl_distances.csv,100001,66,0.0,50000.0,0.0,50000.0,50000.0,0.5,0.0,0,0,0,0,True,True,True,True,True,True,True,pass,
+B6_p_C6_q0,B6_p_C6,3,100001,50000.0,gromacs_dcm/runs/B6_p_C6_q0/replica_03/vinyl_distances.csv,100001,66,0.0,50000.0,0.0,50000.0,50000.0,0.5,0.0,0,0,0,0,True,True,True,True,True,True,True,pass,

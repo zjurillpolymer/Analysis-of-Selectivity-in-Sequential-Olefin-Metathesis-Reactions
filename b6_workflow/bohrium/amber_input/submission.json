@@ -1,0 +1,16 @@
+{
+  "status": "submitted",
+  "submitted_at": "2026-09-14T14:55:20+08:00",
+  "bohr_job_id": 20735563,
+  "internal_job_id": 23380990,
+  "bohr_job_group_id": 7416857,
+  "internal_job_group_id": 16547758,
+  "project_id": 4377225,
+  "states": [
+    "B6_p_C6_q1_V1_V2_cis",
+    "B6_p_C6_q2_neighbor_full_reuse_cis",
+    "B6_p_C6_q2_neighbor_one_arm_reuse_cis",
+    "B6_p_C6_q2_neighbor_full_switch_d1_cis",
+    "B6_p_C6_q2_neighbor_full_switch_d2_cis"
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "status": "PASS",
+  "state": "B6_p_C6_q1_V1_V2_cis",
+  "method": "q0 reactive-frame extraction + restrained/unrestrained MMFF94",
+  "source_q0_state": "B6_p_C6_q0",
+  "source_replica": 1,
+  "distance_column": "V1_V2_跨臂",
+  "screened_candidate_count": 2,
+  "passing_candidate_count": 2,
+  "minimum_candidate_separation_ps": 100.0,
+  "selected_source_frame": 296,
+  "selected_source_time_ps": 148.0,
+  "selected_pre_reaction_distance_A": 13.520248,
+  "selected_mmff_energy_kcal_mol": 456.98938132014314,
+  "new_bond_length_A": 1.3426971613136378,
+  "new_bond_dihedral_deg": -1.3298850929920627,
+  "new_bond_geometry": "cis",
+  "consumed_vinyls": [
+    "V1",
+    "V2"
+  ],
+  "new_double_bond_source_serials": [
+    187,
+    189
+  ],
+  "new_double_bond_output_serials": [
+    187,
+    188
+  ],
+  "initial_formula": "C186H234O24",
+  "product_formula": "C184H230O24",
+  "formula_delta": {
+    "C": 2,
+    "H": 4
+  },
+  "initial_atom_count": 444,
+  "product_atom_count": 438,
+  "adds_one_graph_cycle": true,
+  "active_vinyl_count": 10,
+  "active_pair_count": 45,
+  "active_vinyl_mapping_product_pdb_1based": {
+    "V3": [
+      189,
+      190
+    ],
+    "V4": [
+      191,
+      192
+    ],
+    "V5": [
+      193,
+      194
+    ],
+    "V6": [
+      195,
+      196
+    ],
+    "V7": [
+      197,
+      198
+    ],
+    "V8": [
+      199,
+      200
+    ],
+    "V9": [
+      201,
+      202
+    ],
+    "V10": [
+      203,
+      204
+    ],
+    "V11": [
+      205,
+      206
+    ],
+    "V12": [
+      207,
+      208
+    ]
+  },
+  "output_pdb": "gromacs_dcm_server_bundle/structures/B6_p_C6_q1_V1_V2_cis.pdb",
+  "output_explicit_bond_mol2": "gromacs_dcm_server_bundle/structures/B6_p_C6_q1_V1_V2_cis_antechamber.mol2",
+  "screened_candidates": [
+    {
+      "frame": 698,
+      "time_ps": 349.0,
+      "distance_A": 12.747211,
+      "restrained_status": 0,
+      "relaxed_status": 0,
+      "mmff_energy_kcal_mol": 458.8361547462383,
+      "new_bond_length_A": 1.343870448739722,
+      "new_bond_dihedral_deg": 0.8080392370400796,
+      "new_bond_geometry": "cis",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "frame": 296,
+      "time_ps": 148.0,
+      "distance_A": 13.520248,
+      "restrained_status": 0,
+      "relaxed_status": 0,
+      "mmff_energy_kcal_mol": 456.98938132014314,
+      "new_bond_length_A": 1.3426971613136378,
+      "new_bond_dihedral_deg": -1.3298850929920627,
+      "new_bond_geometry": "cis",
+      "passed": true,
+      "error": ""
+    }
+  ]
+}

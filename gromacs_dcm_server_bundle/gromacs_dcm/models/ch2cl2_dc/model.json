@@ -1,0 +1,32 @@
+{
+  "model": "ch2cl2_dc",
+  "name": "CH2Cl2-DC",
+  "representation": "rigid three-site united atom",
+  "reference": "C. J. Fennell, L. Li and K. A. Dill, J. Phys. Chem. B 116, 6936-6944 (2012)",
+  "doi": "10.1021/jp3002383",
+  "mixing_rule": "Lorentz-Berthelot",
+  "fit_temperature_K": 298.15,
+  "sites": {
+    "UA": {
+      "mass_u": 14.027,
+      "charge_e": 0.4044,
+      "sigma_A": 3.71813,
+      "epsilon_kJ_mol": 1.28189
+    },
+    "Cl": {
+      "mass_u": 35.45,
+      "charge_e": -0.2022,
+      "sigma_A": 3.53079,
+      "epsilon_kJ_mol": 1.28189
+    }
+  },
+  "constraints_A": {
+    "UA-Cl": 1.8215,
+    "Cl-Cl": 2.9344
+  },
+  "published_298K_properties": {
+    "density_kg_m3": 1316.34,
+    "enthalpy_vaporization_kJ_mol": 28.74,
+    "dielectric_constant": 8.8
+  }
+}

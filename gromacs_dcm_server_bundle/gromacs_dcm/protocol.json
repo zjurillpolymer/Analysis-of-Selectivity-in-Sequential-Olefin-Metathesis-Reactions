@@ -1,0 +1,38 @@
+{
+  "protocol": {
+    "force_field": "GAFF2",
+    "charge_model": "AM1-BCC",
+    "sqm_grms_tol_kcal_mol_A": 0.01,
+    "solvent": "explicit dichloromethane (DCM)",
+    "dcm_model": "CH2Cl2-DC rigid three-site united atom",
+    "dcm_model_doi": "10.1021/jp3002383",
+    "mixing_rule": "Lorentz-Berthelot",
+    "temperature_K": 313.15,
+    "pressure_bar": 1.0,
+    "constraints": "solute X-H bonds plus all three CH2Cl2-DC distances (LINCS)",
+    "timestep_fs": 2.0,
+    "nvt_ps": 100.0,
+    "npt_ps": 1000.0,
+    "pilot_replicas": 4,
+    "pilot_production_ps_per_replica": 2000.0,
+    "trajectory_interval_ps": 0.5,
+    "box_padding_nm": 2.0,
+    "initial_pack_density_g_cm3": 1.18,
+    "target_dcm_density_g_cm3": 1.29,
+    "dcm_density_gate_relative": 0.03,
+    "experimental_mtmr_concentration_M": 3e-05,
+    "concentration_treatment": "infinite-dilution single-solute box; no intermolecular MTMR encounters"
+  },
+  "states": {
+    "total": 23,
+    "q0": 11,
+    "q1": 4,
+    "q2": 8
+  },
+  "scientific_boundary": [
+    "All old GFN-FF/300 K/vacuum trajectories are method controls only.",
+    "No old and new trajectory frames may be pooled in one fitted q matrix.",
+    "MD estimates state-conditioned conformational contact kernels; reactions remain a separate graph model.",
+    "The experimental 3e-5 M concentration is represented as infinite dilution, not by a literal 38 nm one-solute box."
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "analysis": "replicated explicit-DCM distance-trajectory audit",
+  "states": [
+    "B6_p_C6_q2_V3_V6_V11_V12_cis"
+  ],
+  "replicas_per_state": 3,
+  "trajectory_files_expected": 3,
+  "trajectory_files_read": 3,
+  "frames_read": 300003,
+  "expected_frames_total": 300003,
+  "expected_duration_ps_by_state": {
+    "B6_p_C6_q2_V3_V6_V11_V12_cis": 50000.0
+  },
+  "pair_columns_by_state": {
+    "B6_p_C6_q2_V3_V6_V11_V12_cis": 28
+  },
+  "quality_passed": true,
+  "fatal_issues": [],
+  "contact_definition": {
+    "soft_sigmoid_center_A": 5.0,
+    "soft_sigmoid_width_A": 0.5,
+    "hard_sensitivity_thresholds_A": [
+      4.0,
+      5.0,
+      6.0,
+      7.0
+    ]
+  },
+  "uncertainty_unit": "independent replica",
+  "autocorrelation_method": "Geyer initial-positive-sequence statistical inefficiency",
+  "convergence_rule": {
+    "pass": "split_Rhat <= 1.05 and combined ESS >= 400",
+    "caution": "split_Rhat <= 1.10 and combined ESS >= 200",
+    "extend": "otherwise",
+    "extension_triage": "only pairs carrying >=2% of state soft-contact mass control the state recommendation"
+  },
+  "state_recommendations": {
+    "B6_p_C6_q2_V3_V6_V11_V12_cis": "sufficient_for_current_contact_observable"
+  }
+}
