@@ -114,7 +114,10 @@ def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--root", default=str(Path(__file__).resolve().parents[1]))
     parser.add_argument("--force", action="store_true")
+    parser.add_argument("--conformers", type=int, default=4)
     args = parser.parse_args()
+    if args.conformers < 1:
+        parser.error("--conformers must be positive")
     root = Path(args.root).resolve()
     bundle = root / "gromacs_dcm_server_bundle"
     q1, mapping, q1_row = q1_source(root)
@@ -136,7 +139,7 @@ def main() -> None:
     output_dir = bundle / "structures"
     manifest_path = bundle / "gromacs_dcm/state_manifest.csv"
     audits: list[dict[str, object]] = []
-    for category, pair_text in representatives.items():
+    for orbit_index, (category, pair_text) in enumerate(representatives.items()):
         pair = parse_pair(pair_text)
         if not set(pair).issubset(mapping):
             raise ValueError(f"{category} pair {pair_text} is not active in q1")
@@ -157,9 +160,36 @@ def main() -> None:
             for _, retained in terminal_retained
         )
         product = metathesis.edit_second_metathesis(q1, mapping, pair)
+        # A graph edit alone leaves the new C=C at the original inter-arm
+        # separation (5--27 A in the first Amber batch). Re-embed the whole
+        # q2 molecule with both internal alkenes constrained to Z/cis before
+        # exporting coordinates for parameterization or MD.
+        product, mmff_energy, mmff_status = metathesis.embed_and_optimize(
+            product, seed=20260916 + orbit_index, conformers=args.conformers
+        )
+        if mmff_status != 0:
+            raise ValueError(f"{category} MMFF94 optimization did not converge")
         second_bond = bond_by_serials(product, second_serials)
         if second_bond.GetStereo() != Chem.BondStereo.STEREOZ:
             raise ValueError(f"{category} new bond is not Z/cis")
+        geometric_stereo = Chem.Mol(product)
+        Chem.AssignStereochemistryFrom3D(geometric_stereo)
+        for bond_serials in (q1_first_bond, second_serials):
+            if bond_by_serials(geometric_stereo, bond_serials).GetStereo() != Chem.BondStereo.STEREOZ:
+                raise ValueError(f"{category} optimized coordinates do not preserve both cis alkenes")
+        conformer = product.GetConformer()
+        bond_lengths = [
+            conformer.GetAtomPosition(bond.GetBeginAtomIdx()).Distance(
+                conformer.GetAtomPosition(bond.GetEndAtomIdx())
+            )
+            for bond in product.GetBonds()
+        ]
+        new_bond_length = bond_lengths[second_bond.GetIdx()]
+        if not 1.20 <= new_bond_length <= 1.50 or max(bond_lengths) > 2.20:
+            raise ValueError(
+                f"{category} optimized bond geometry is invalid: "
+                f"new C=C {new_bond_length:.2f} A; max bond {max(bond_lengths):.2f} A"
+            )
         initial_atoms = Counter(atom.GetSymbol() for atom in q1.GetAtoms())
         final_atoms = Counter(atom.GetSymbol() for atom in product.GetAtoms())
         if initial_atoms - final_atoms != Counter({"C": 2, "H": 4}):
@@ -194,6 +224,13 @@ def main() -> None:
             "second_reaction": [f"V{pair[0]}", f"V{pair[1]}"],
             "second_reaction_source_serials": list(second_serials),
             "both_internal_double_bonds": "Z/cis",
+            "geometric_stereo_from_3d": "Z/cis for both internal double bonds",
+            "new_double_bond_length_A": round(new_bond_length, 4),
+            "maximum_bond_length_A": round(max(bond_lengths), 4),
+            "mmff_energy_kcal_mol": round(mmff_energy, 4),
+            "mmff_optimization_status": mmff_status,
+            "etkdg_conformers": args.conformers,
+            "etkdg_seed": 20260916 + orbit_index,
             "q1_formula": rdMolDescriptors.CalcMolFormula(q1),
             "q2_formula": rdMolDescriptors.CalcMolFormula(product),
             "q1_atom_count": q1.GetNumAtoms(),

@@ -16,6 +16,13 @@
     199
   ],
   "both_internal_double_bonds": "Z/cis",
+  "geometric_stereo_from_3d": "Z/cis for both internal double bonds",
+  "new_double_bond_length_A": 1.3434,
+  "maximum_bond_length_A": 1.5749,
+  "mmff_energy_kcal_mol": 468.4292,
+  "mmff_optimization_status": 0,
+  "etkdg_conformers": 4,
+  "etkdg_seed": 20260918,
   "q1_formula": "C184H230O24",
   "q2_formula": "C182H226O24",
   "q1_atom_count": 438,
