@@ -1,4 +1,4 @@
-# B6 q2 repaired-geometry Amber input — not yet submitted
+# B6 q2 repaired-geometry Amber input — submitted
 
 The first parameterization job (Bohr ID 20735563) exited successfully, but
 all four q2 products contained a newly created double bond spanning 5–27 Å.
@@ -15,4 +15,5 @@ repaired geometry rather than reused from the distorted input.
 
 This directory is a self-contained Bohrium `bohr job submit` input. Its
 `job.json` uses project 4377225 and the same AmberTools image as the first
-job. **No new Bohrium job has been submitted from this bundle.**
+job. Submitted as Bohr job **20744510** (group **7422312**); see
+`submission.json`. Completion and output QC have not yet been verified.
