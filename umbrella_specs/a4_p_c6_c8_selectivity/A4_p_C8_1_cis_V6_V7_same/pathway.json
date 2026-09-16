@@ -1,0 +1,28 @@
+{
+  "state": "A4_p_C8_1_cis",
+  "replica": 1,
+  "left": 6,
+  "right": 7,
+  "route_class": "",
+  "topology_class": "same",
+  "maximum_nm": 2.75,
+  "initial_distance_nm": 1.4566731788565341,
+  "half_box_limit_nm": 3.09206,
+  "window_count": 25,
+  "source_manifest_row": {
+    "system": "A4_p_C8",
+    "state": "A4_p_C8_1_cis",
+    "stage": "q1",
+    "branch": "cross",
+    "lineage_q1_pair": "V2-V4",
+    "lineage_q1_arm_edge": "A1-A3",
+    "lineage_q2_pair": "",
+    "pair": "V6-V7",
+    "left": "6",
+    "right": "7",
+    "topology_class": "same",
+    "route_class": "",
+    "allowed_by_neighbour_model": "True",
+    "q0_mean_soft_contact": ""
+  }
+}

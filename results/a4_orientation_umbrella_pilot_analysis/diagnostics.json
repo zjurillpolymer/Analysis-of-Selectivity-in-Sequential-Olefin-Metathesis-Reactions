@@ -1,0 +1,318 @@
+{
+  "c5_q2_reuse_v1_v6": {
+    "pathway": "c5_q2_reuse_v1_v6",
+    "system": "C5",
+    "route": "reuse",
+    "centers_deg": [
+      0.0,
+      30.0,
+      60.0,
+      90.0,
+      120.0,
+      150.0,
+      180.0
+    ],
+    "free_energy_dimensionless": [
+      0.0,
+      -1.6567321469236982,
+      -2.0151573627264154,
+      -1.6924907287995627,
+      -1.0113028023979471,
+      0.02920187501465552,
+      1.926729967953122
+    ],
+    "adjacent_overlap": [
+      0.634258292167523,
+      0.5698478116499212,
+      0.5268326719224656,
+      0.5704755874653196,
+      0.48416868626585635,
+      0.68070155246958
+    ],
+    "pathway_summary": {
+      "pathway": "c5_q2_reuse_v1_v6",
+      "system": "C5",
+      "route": "reuse",
+      "windows": 7,
+      "frames": 14007,
+      "wham_iterations": 1080,
+      "wham_residual": 9.843681425536488e-12,
+      "min_adjacent_overlap": 0.48416868626585635,
+      "mean_adjacent_overlap": 0.5777141003234444,
+      "transitions_gate_total": 1816,
+      "mean_axis_angle_deg": 56.10655998860235,
+      "orientation_gate_probability": 0.32858654272855425,
+      "mean_distance_nm": 0.516991799030994,
+      "distance_contact_probability": 0.44365323815966695,
+      "orientation_free_energy_kcal_mol": 0.6925841381001325,
+      "effective_sample_size": 9340.667153586837,
+      "first_half_mean_axis_angle_deg": 55.46235716829049,
+      "first_half_orientation_gate_probability": 0.33826991599663603,
+      "first_half_mean_distance_nm": 0.5138325012013627,
+      "first_half_distance_contact_probability": 0.45680127490097433,
+      "first_half_orientation_free_energy_kcal_mol": 0.6745103261360856,
+      "first_half_effective_sample_size": 4479.2896234854925,
+      "second_half_mean_axis_angle_deg": 56.48305164487158,
+      "second_half_orientation_gate_probability": 0.3231402170499048,
+      "second_half_mean_distance_nm": 0.5194373961048033,
+      "second_half_distance_contact_probability": 0.43360993345674553,
+      "second_half_orientation_free_energy_kcal_mol": 0.7029850899338288,
+      "second_half_effective_sample_size": 4895.054919285553
+    },
+    "half_metrics": {
+      "first_half": {
+        "mean_axis_angle_deg": 55.46235716829049,
+        "orientation_gate_probability": 0.33826991599663603,
+        "mean_distance_nm": 0.5138325012013627,
+        "distance_contact_probability": 0.45680127490097433,
+        "orientation_free_energy_kcal_mol": 0.6745103261360856,
+        "effective_sample_size": 4479.2896234854925
+      },
+      "second_half": {
+        "mean_axis_angle_deg": 56.48305164487158,
+        "orientation_gate_probability": 0.3231402170499048,
+        "mean_distance_nm": 0.5194373961048033,
+        "distance_contact_probability": 0.43360993345674553,
+        "orientation_free_energy_kcal_mol": 0.7029850899338288,
+        "effective_sample_size": 4895.054919285553
+      }
+    }
+  },
+  "c5_q2_switch_v4_v6": {
+    "pathway": "c5_q2_switch_v4_v6",
+    "system": "C5",
+    "route": "switch",
+    "centers_deg": [
+      0.0,
+      30.0,
+      60.0,
+      90.0,
+      120.0,
+      150.0,
+      180.0
+    ],
+    "free_energy_dimensionless": [
+      0.0,
+      -1.6095249671680794,
+      -2.0603363303299496,
+      -2.2082259323481552,
+      -2.0894671264905753,
+      -1.5968259668471043,
+      0.005998526038680636
+    ],
+    "adjacent_overlap": [
+      0.6481170989098833,
+      0.5240740898259215,
+      0.46690298489669674,
+      0.5052907961431233,
+      0.48320317853768424,
+      0.6685645508679914
+    ],
+    "pathway_summary": {
+      "pathway": "c5_q2_switch_v4_v6",
+      "system": "C5",
+      "route": "switch",
+      "windows": 7,
+      "frames": 14007,
+      "wham_iterations": 798,
+      "wham_residual": 9.828728976535306e-12,
+      "min_adjacent_overlap": 0.46690298489669674,
+      "mean_adjacent_overlap": 0.5493587831968835,
+      "transitions_gate_total": 1653,
+      "mean_axis_angle_deg": 56.18128244167529,
+      "orientation_gate_probability": 0.3309888837207351,
+      "mean_distance_nm": 0.5203716339719259,
+      "distance_contact_probability": 0.43083060604930756,
+      "orientation_free_energy_kcal_mol": 0.6880510200774598,
+      "effective_sample_size": 11015.448273915667,
+      "first_half_mean_axis_angle_deg": 57.06862608423414,
+      "first_half_orientation_gate_probability": 0.31664444217175747,
+      "first_half_mean_distance_nm": 0.5223290665723731,
+      "first_half_distance_contact_probability": 0.4234940847416291,
+      "first_half_orientation_free_energy_kcal_mol": 0.7156218863115126,
+      "first_half_effective_sample_size": 5368.267888122905,
+      "second_half_mean_axis_angle_deg": 55.12745587582377,
+      "second_half_orientation_gate_probability": 0.3481346973557901,
+      "second_half_mean_distance_nm": 0.5186347771564376,
+      "second_half_distance_contact_probability": 0.4371510939725052,
+      "second_half_orientation_free_energy_kcal_mol": 0.6566223134440677,
+      "second_half_effective_sample_size": 5571.140068566539
+    },
+    "half_metrics": {
+      "first_half": {
+        "mean_axis_angle_deg": 57.06862608423414,
+        "orientation_gate_probability": 0.31664444217175747,
+        "mean_distance_nm": 0.5223290665723731,
+        "distance_contact_probability": 0.4234940847416291,
+        "orientation_free_energy_kcal_mol": 0.7156218863115126,
+        "effective_sample_size": 5368.267888122905
+      },
+      "second_half": {
+        "mean_axis_angle_deg": 55.12745587582377,
+        "orientation_gate_probability": 0.3481346973557901,
+        "mean_distance_nm": 0.5186347771564376,
+        "distance_contact_probability": 0.4371510939725052,
+        "orientation_free_energy_kcal_mol": 0.6566223134440677,
+        "effective_sample_size": 5571.140068566539
+      }
+    }
+  },
+  "c8_q2_reuse_v5_v7": {
+    "pathway": "c8_q2_reuse_v5_v7",
+    "system": "C8",
+    "route": "reuse",
+    "centers_deg": [
+      0.0,
+      30.0,
+      60.0,
+      90.0,
+      120.0,
+      150.0,
+      180.0
+    ],
+    "free_energy_dimensionless": [
+      0.0,
+      -1.7862804755469441,
+      -2.479087558114088,
+      -2.8550431213150524,
+      -2.939990393768899,
+      -2.5742372669791775,
+      -1.0128203885345328
+    ],
+    "adjacent_overlap": [
+      0.6465101755770805,
+      0.5357417906907282,
+      0.5378794325855405,
+      0.5073925562334756,
+      0.5400276264101003,
+      0.6729114833275016
+    ],
+    "pathway_summary": {
+      "pathway": "c8_q2_reuse_v5_v7",
+      "system": "C8",
+      "route": "reuse",
+      "windows": 7,
+      "frames": 14007,
+      "wham_iterations": 1056,
+      "wham_residual": 9.839684622647837e-12,
+      "min_adjacent_overlap": 0.5073925562334756,
+      "mean_adjacent_overlap": 0.5734105108040711,
+      "transitions_gate_total": 1793,
+      "mean_axis_angle_deg": 56.18873638628429,
+      "orientation_gate_probability": 0.3300105306039181,
+      "mean_distance_nm": 0.5296997315922789,
+      "distance_contact_probability": 0.39748670598146985,
+      "orientation_free_energy_kcal_mol": 0.6898931480455573,
+      "effective_sample_size": 10515.213683659362,
+      "first_half_mean_axis_angle_deg": 55.02260908864488,
+      "first_half_orientation_gate_probability": 0.3498448971265665,
+      "first_half_mean_distance_nm": 0.5304018086458282,
+      "first_half_distance_contact_probability": 0.39449133516244317,
+      "first_half_orientation_free_energy_kcal_mol": 0.653572804526115,
+      "first_half_effective_sample_size": 5451.3952235500155,
+      "second_half_mean_axis_angle_deg": 57.303525462461835,
+      "second_half_orientation_gate_probability": 0.31099558988166887,
+      "second_half_mean_distance_nm": 0.528590908583463,
+      "second_half_distance_contact_probability": 0.4018682237228964,
+      "second_half_orientation_free_energy_kcal_mol": 0.7268236454557232,
+      "second_half_effective_sample_size": 5069.042495980697
+    },
+    "half_metrics": {
+      "first_half": {
+        "mean_axis_angle_deg": 55.02260908864488,
+        "orientation_gate_probability": 0.3498448971265665,
+        "mean_distance_nm": 0.5304018086458282,
+        "distance_contact_probability": 0.39449133516244317,
+        "orientation_free_energy_kcal_mol": 0.653572804526115,
+        "effective_sample_size": 5451.3952235500155
+      },
+      "second_half": {
+        "mean_axis_angle_deg": 57.303525462461835,
+        "orientation_gate_probability": 0.31099558988166887,
+        "mean_distance_nm": 0.528590908583463,
+        "distance_contact_probability": 0.4018682237228964,
+        "orientation_free_energy_kcal_mol": 0.7268236454557232,
+        "effective_sample_size": 5069.042495980697
+      }
+    }
+  },
+  "c8_q2_switch_v4_v5": {
+    "pathway": "c8_q2_switch_v4_v5",
+    "system": "C8",
+    "route": "switch",
+    "centers_deg": [
+      0.0,
+      30.0,
+      60.0,
+      90.0,
+      120.0,
+      150.0,
+      180.0
+    ],
+    "free_energy_dimensionless": [
+      0.0,
+      -1.700055284254756,
+      -2.053036359551998,
+      -1.836672777448695,
+      -1.2968601226428609,
+      -0.3766631301124267,
+      1.463025641986586
+    ],
+    "adjacent_overlap": [
+      0.6661747221277303,
+      0.5501630226728559,
+      0.5281669139955767,
+      0.5040731473086038,
+      0.5419920958360656,
+      0.6268205352940647
+    ],
+    "pathway_summary": {
+      "pathway": "c8_q2_switch_v4_v5",
+      "system": "C8",
+      "route": "switch",
+      "windows": 7,
+      "frames": 14007,
+      "wham_iterations": 1070,
+      "wham_residual": 9.879652651534343e-12,
+      "min_adjacent_overlap": 0.5040731473086038,
+      "mean_adjacent_overlap": 0.5695650728724829,
+      "transitions_gate_total": 1858,
+      "mean_axis_angle_deg": 56.51834992740654,
+      "orientation_gate_probability": 0.3239865386883588,
+      "mean_distance_nm": 0.5172039094029699,
+      "distance_contact_probability": 0.4405496187275433,
+      "orientation_free_energy_kcal_mol": 0.7013574015761594,
+      "effective_sample_size": 9804.522126459078,
+      "first_half_mean_axis_angle_deg": 57.25767488344911,
+      "first_half_orientation_gate_probability": 0.3101046894116614,
+      "first_half_mean_distance_nm": 0.5179780998791701,
+      "first_half_distance_contact_probability": 0.4380399933468336,
+      "first_half_orientation_free_energy_kcal_mol": 0.7286088693140876,
+      "first_half_effective_sample_size": 4853.40073417636,
+      "second_half_mean_axis_angle_deg": 55.76013446846713,
+      "second_half_orientation_gate_probability": 0.33812359861453684,
+      "second_half_mean_distance_nm": 0.5162024598533463,
+      "second_half_distance_contact_probability": 0.4438661089646935,
+      "second_half_orientation_free_energy_kcal_mol": 0.6747795548737981,
+      "second_half_effective_sample_size": 4947.20010322771
+    },
+    "half_metrics": {
+      "first_half": {
+        "mean_axis_angle_deg": 57.25767488344911,
+        "orientation_gate_probability": 0.3101046894116614,
+        "mean_distance_nm": 0.5179780998791701,
+        "distance_contact_probability": 0.4380399933468336,
+        "orientation_free_energy_kcal_mol": 0.7286088693140876,
+        "effective_sample_size": 4853.40073417636
+      },
+      "second_half": {
+        "mean_axis_angle_deg": 55.76013446846713,
+        "orientation_gate_probability": 0.33812359861453684,
+        "mean_distance_nm": 0.5162024598533463,
+        "distance_contact_probability": 0.4438661089646935,
+        "orientation_free_energy_kcal_mol": 0.6747795548737981,
+        "effective_sample_size": 4947.20010322771
+      }
+    }
+  }
+}

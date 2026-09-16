@@ -1,0 +1,19 @@
+{
+  "primary_setting": "d5_axis45_side45",
+  "q0_assumption": "cross fixed",
+  "target_products": [
+    "R2",
+    "R4"
+  ],
+  "systems": [
+    "C6",
+    "C7"
+  ],
+  "bootstrap_replicates": 5000,
+  "files": [
+    "q1_q2_branch_weights.csv",
+    "q2_matching_outcomes.csv",
+    "r2_r4_predictions.csv",
+    "REPORT.md"
+  ]
+}

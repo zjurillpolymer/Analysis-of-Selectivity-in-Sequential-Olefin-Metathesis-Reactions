@@ -1,0 +1,18 @@
+{
+  "pathway": "anchor_v5_same_v5_v6",
+  "topology": "same_arm",
+  "left": 5,
+  "right": 6,
+  "replica": 3,
+  "maximum_nm": 2.225,
+  "pair_column": "V5_V6_同臂",
+  "initial_distance_nm": 1.8352401,
+  "minimum_nm": 0.35,
+  "window_spacing_nm": 0.075,
+  "window_count": 26,
+  "force_constant_kJ_mol_nm2": 500.0,
+  "steering_rate_nm_ps": 0.0005,
+  "equilibration_ps_per_window": 200.0,
+  "production_ps_per_window": 2000.0,
+  "source_replica": "replica_03"
+}

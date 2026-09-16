@@ -1,55 +1,49 @@
-# B6 邻居约化模型：反应路径与显式 DCM 模拟
+# Sequential Olefin Metathesis Selectivity: A4 and B6
 
-这个仓库只保存最近完成的 **B6_p_C6 邻居臂模型**工作：q0→q1→q2（并保留已完成的 q3 分支）、结构构建与质量审计、显式二氯甲烷（DCM）Amber/GROMACS 流程，以及 Bohrium 提交模板。
+本仓库整理近期的 A4/B6 分子内烯烃复分解选择性工作，保留结构、Amber/GROMACS/umbrella 脚本与协议、精简结果和审计记录。旧三参数拟合、参数扫描、原始轨迹、检查点、下载包和已标作废的报告不在仓库内。
 
-核心约定是：
+## 分子与状态
 
-- q0 固定为跨臂反应；
-- 后续只允许相邻臂乙烯基对，间位候选不进入反应图；
-- q1 的候选 orbit 保留简并度，q2 的 `full_reuse`、`one_arm_reuse`、`full_switch_d1`、`full_switch_d2` 分开处理；
-- 双键结构默认采用 cis 构型；
-- 无偏 MD 用于路径/构象检查，umbrella 或其他自由能计算作为路径解释证据；
-- 本仓库不包含旧的三参数拟合、参数扫描、历史 A4/C5/C8 分析，也不包含原始轨迹和大体积压缩包。
+| 体系 | 已收入的状态 | 当前用途 |
+| --- | --- | --- |
+| A4-m-C5/C6/C7/C8 | 各自 q0、q1 cis、q2 adjacent/opposite/mixed/reuse；另保存 q1 trans 候选结构 | q1 三分支、q2 匹配与 R2/R4 产率分析 |
+| A4-p-C6/C8 | 各自 q0、q1 cis、q2 adjacent/opposite cis | A4-p 选择性与构象分析 |
+| B6-p-C6 | q0、q1、q2 邻臂分支及已构建的 q3 | B6 邻臂约化模型 |
+| B6-p-C5/C8 | q0 起始结构 | 后续扩展的输入；尚无同级别的 q1/q2 结果 |
+
+A4 的四臂几何不采用 B6 的“间位臂对排除”规则。B6 模型则固定 q0 为跨臂，并在后续反应图中只考虑相邻臂候选；这是一项模型约定，不等同于 MD 中完全不存在其他接触。A4 的目标产率报告只在 R2/R4 间归一化，详见下列报告，不能把表中的条件概率直接当作全部湿实验产物的绝对产率。
 
 ## 目录
 
-- `analysis/`：B6 邻居 orbit、q1/q2/q3 结构生成、显式 DCM 建模和轨迹分析脚本。
-- `gromacs_dcm_server_bundle/`：可复用的 DCM 模型、GROMACS 参数、B6-only `state_manifest.csv` 和提交所需结构。
-- `results/b6_neighbor_orbit_table/`：q1 邻居候选表与简并度审计。
-- `results/structure_qc/`：q1/q2 结构的原子数、键序和电荷等 QC 记录。
-- `results/md_contacts/`：q0 50 ns、q1 50 ns、q2 50 ns 和 q3 20 ns 的精简 reader-facing 结果（CSV、报告和小图；不含 XTC）。
-- `b6_workflow/bohrium/amber_input/`：当前 B6 邻居分支 AmberTools 参数化任务的可审计输入和提交元数据。
+- [`analysis/`](analysis/)：A4/B6 结构构建、Bohrium 准备与提交、显式 DCM、无偏 MD、umbrella 与结果分析脚本。部分早期脚本保留作溯源；解释结果时优先参考下列较新的报告。
+- [`gromacs_dcm_server_bundle/`](gromacs_dcm_server_bundle/)：结构、44 行合并状态清单、DCM 模型和 GROMACS `.mdp`。清单合并自原始主清单、A4-p C6/C8 清单、A4-m C5/C8 与 C6/C7 q2 补充清单；B3 行未收入。
+- [`umbrella_specs/`](umbrella_specs/)：关键 A4 umbrella 批次的 `pathway.json`、`windows.csv`、`index.ndx` 和 `.mdp` 等文本协议。这里只是协议/路径记录，不含起始 `.gro/.cpt`、拓扑或窗口轨迹，因此不能直接在本仓库内继续运行已完成的窗口。
+- [`results/`](results/)：精简报告、CSV、JSON 和小型诊断图；没有原始 XTC/EDR。
+- [`b6_workflow/bohrium/amber_input/`](b6_workflow/bohrium/amber_input/)：B6 AmberTools 参数化任务输入及提交元数据。Bohrium AccessKey/SSO 凭据不入库。
 
-## 常用命令
+优先阅读 [`A4-m-C5–C8 R2/R4 统一反应图报告`](results/a4_m_c5_c8_r2_r4_complete_umbrella_update/REPORT.md)、[`A4-m-C6/C7 双证据报告`](results/a4_m_c6_c7_r2_r4_dual_evidence/REPORT.md)、[`C5/C8 q1 二维 umbrella 重加权与采样审计`](results/a4_m_c5_c8_q1_umbrella_2d_3rep_analysis/REPORT.md)，以及 [`A4-p 审计`](results/a4p_detailed_analysis/DETAILED_REPORT.md)。这些报告分别说明口径、适用范围和采样限制；它们不是一个已对四个 A4 分子完全验证的统一产率预测模型。
 
-从仓库根目录生成邻居 q1 orbit 表：
+## 最小检查与使用
+
+在仓库根目录验证状态清单、结构路径及乙烯基对定义：
+
+```bash
+python analysis/validate_selectivity_bundle.py
+```
+
+生成 B6-p-C6 邻居 q1 orbit 表：
 
 ```bash
 python analysis/build_b6_neighbor_orbit_table.py
 ```
 
-在有 q0 轨迹和 RDKit/MDAnalysis 环境时生成 q1/q2 结构：
-
-```bash
-python analysis/build_b6_q1_md_structure.py --root .
-python analysis/build_b6_neighbor_q2_representatives.py --root .
-```
-
-显式 DCM setup 脚本以 `gromacs_dcm_server_bundle` 作为 `--root`：
+在具备 AmberTools、GROMACS、Packmol、ParmEd 以及相应原始起点的环境中，显式 DCM 建模以 `gromacs_dcm_server_bundle` 为 `--root`，并通过 `--states` 指定所需状态：
 
 ```bash
 python analysis/setup_explicit_dcm_gromacs.py \
   --root gromacs_dcm_server_bundle \
-  --states B6_p_C6_q1_V1_V2_cis \
-           B6_p_C6_q2_neighbor_full_reuse_cis \
-           B6_p_C6_q2_neighbor_one_arm_reuse_cis \
-           B6_p_C6_q2_neighbor_full_switch_d1_cis \
-           B6_p_C6_q2_neighbor_full_switch_d2_cis \
-  --parameterize-only --jobs 1
+  --states A4_m_C6_q0 B6_p_C6_q1_V1_V2_cis \
+  --dry-run
 ```
 
-AmberTools 远程输入位于 `b6_workflow/bohrium/amber_input/`；其中的 `run_amber.sh` 只做 GAFF2/AM1-BCC 参数化，Packmol/tleap/ParmEd 留给后续本地或 GROMACS 阶段。AccessKey 不写入仓库，使用 `bohr auth login` 的本机凭据。
-
-## 数据边界
-
-仓库中的数值结果均为可追溯的汇总表或小型审计文件。原始 XTC/TRR/EDR/CPT/TPI、Bohrium 下载包和缓存文件被 `.gitignore` 排除；需要时可依据提交元数据重新下载。
+原始 XTC/TRR/EDR/CPT/TPR/GRO、Bohrium 下载包和缓存需要从本地归档或原计算任务获取；仓库中的脚本与协议不表示仅凭本仓库即可重建所有已计算数值。

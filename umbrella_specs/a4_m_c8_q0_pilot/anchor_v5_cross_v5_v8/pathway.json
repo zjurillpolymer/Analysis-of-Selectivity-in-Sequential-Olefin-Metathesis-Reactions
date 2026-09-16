@@ -1,0 +1,18 @@
+{
+  "pathway": "anchor_v5_cross_v5_v8",
+  "topology": "cross_arm",
+  "left": 5,
+  "right": 8,
+  "replica": 1,
+  "maximum_nm": 3.05,
+  "pair_column": "V5_V8_跨臂",
+  "initial_distance_nm": 2.5111018,
+  "minimum_nm": 0.35,
+  "window_spacing_nm": 0.075,
+  "window_count": 37,
+  "force_constant_kJ_mol_nm2": 500.0,
+  "steering_rate_nm_ps": 0.0005,
+  "equilibration_ps_per_window": 200.0,
+  "production_ps_per_window": 2000.0,
+  "source_replica": "replica_01"
+}

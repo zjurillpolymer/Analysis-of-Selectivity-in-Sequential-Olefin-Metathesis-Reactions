@@ -1,0 +1,3 @@
+system,definition,full_reuse,partial_reuse,full_switch,range_conditioned_R2_mass_fraction
+C5,NAC conditional on each path's distance in 0.32-2.78 nm; q2 primary fixed,0.39025075898267897,0.20333945168913303,0.406409789328188,0.7019025472928165
+C8,NAC conditional on each path's distance in 0.32-2.78 nm; q2 primary fixed,0.031965304060891965,0.6837213073975745,0.28431338854153354,0.03218096603190855

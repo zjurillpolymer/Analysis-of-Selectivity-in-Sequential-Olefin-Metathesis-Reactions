@@ -1,0 +1,3359 @@
+{
+  "protocol": {
+    "temperature_K": 313.15,
+    "contact_nm": [
+      0.35,
+      0.5
+    ],
+    "reference_nm": [
+      0.9,
+      1.5
+    ],
+    "common_window_centers_nm": [
+      0.35,
+      2.65
+    ],
+    "production_analysis_ps": [
+      100,
+      500
+    ],
+    "bootstraps": 100,
+    "metric": "ratio of independently normalized contact/reference odds; not a kinetic branching probability"
+  },
+  "pathways": [
+    {
+      "pathway": "A4_p_C6_1_cis_V1_V3_cross",
+      "source_path": "/Users/arcadio/Molecular_dynamics_project/results/a4p_bohrium_recovery/20713124/umbrella/a4_p_c6_c8_selectivity/A4_p_C6_1_cis_V1_V3_cross",
+      "metadata": {
+        "state": "A4_p_C6_1_cis",
+        "replica": 3,
+        "left": 1,
+        "right": 3,
+        "route_class": "",
+        "topology_class": "cross",
+        "maximum_nm": 2.75,
+        "initial_distance_nm": 1.0479188899910148,
+        "half_box_limit_nm": 3.21543,
+        "window_count": 25,
+        "source_manifest_row": {
+          "system": "A4_p_C6",
+          "state": "A4_p_C6_1_cis",
+          "stage": "q1",
+          "branch": "cross",
+          "lineage_q1_pair": "V6-V7",
+          "lineage_q1_arm_edge": "A3-A4",
+          "lineage_q2_pair": "",
+          "pair": "V1-V3",
+          "left": "1",
+          "right": "3",
+          "topology_class": "cross",
+          "route_class": "",
+          "allowed_by_neighbour_model": "True",
+          "q0_mean_soft_contact": ""
+        }
+      },
+      "windows": [
+        {
+          "window": "window_000_0.350nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 0.327853,
+          "max_nm": 0.589451,
+          "mean_nm": 0.42862903245942574,
+          "samples": 801
+        },
+        {
+          "window": "window_001_0.450nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 0.332197,
+          "max_nm": 0.674609,
+          "mean_nm": 0.4837126104868914,
+          "samples": 801
+        },
+        {
+          "window": "window_002_0.550nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 0.385458,
+          "max_nm": 0.789904,
+          "mean_nm": 0.5711953458177278,
+          "samples": 801
+        },
+        {
+          "window": "window_003_0.650nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 0.464693,
+          "max_nm": 0.920387,
+          "mean_nm": 0.6633811585518103,
+          "samples": 801
+        },
+        {
+          "window": "window_004_0.750nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 0.539972,
+          "max_nm": 0.985838,
+          "mean_nm": 0.7534638002496878,
+          "samples": 801
+        },
+        {
+          "window": "window_005_0.850nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 0.638163,
+          "max_nm": 1.05219,
+          "mean_nm": 0.84117,
+          "samples": 801
+        },
+        {
+          "window": "window_006_0.950nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 0.687605,
+          "max_nm": 1.15928,
+          "mean_nm": 0.9430013945068664,
+          "samples": 801
+        },
+        {
+          "window": "window_007_1.050nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 0.797165,
+          "max_nm": 1.25859,
+          "mean_nm": 1.0509719812734084,
+          "samples": 801
+        },
+        {
+          "window": "window_008_1.150nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 0.941646,
+          "max_nm": 1.35601,
+          "mean_nm": 1.168063343320849,
+          "samples": 801
+        },
+        {
+          "window": "window_009_1.250nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 1.08702,
+          "max_nm": 1.49655,
+          "mean_nm": 1.2825104744069913,
+          "samples": 801
+        },
+        {
+          "window": "window_010_1.350nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 1.16232,
+          "max_nm": 1.58977,
+          "mean_nm": 1.3736664669163545,
+          "samples": 801
+        },
+        {
+          "window": "window_011_1.450nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 1.21781,
+          "max_nm": 1.72359,
+          "mean_nm": 1.4671060799001248,
+          "samples": 801
+        },
+        {
+          "window": "window_012_1.550nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 1.32381,
+          "max_nm": 1.86722,
+          "mean_nm": 1.565367215980025,
+          "samples": 801
+        },
+        {
+          "window": "window_013_1.650nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 1.36031,
+          "max_nm": 1.90206,
+          "mean_nm": 1.6777334581772785,
+          "samples": 801
+        },
+        {
+          "window": "window_014_1.750nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 1.53447,
+          "max_nm": 1.96868,
+          "mean_nm": 1.7669082397003748,
+          "samples": 801
+        },
+        {
+          "window": "window_015_1.850nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 1.68418,
+          "max_nm": 2.08616,
+          "mean_nm": 1.8716667290886393,
+          "samples": 801
+        },
+        {
+          "window": "window_016_1.950nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 1.75326,
+          "max_nm": 2.1444,
+          "mean_nm": 1.9469221722846444,
+          "samples": 801
+        },
+        {
+          "window": "window_017_2.050nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 1.86006,
+          "max_nm": 2.28296,
+          "mean_nm": 2.0576955805243444,
+          "samples": 801
+        },
+        {
+          "window": "window_018_2.150nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 1.94203,
+          "max_nm": 2.42797,
+          "mean_nm": 2.160191161048689,
+          "samples": 801
+        },
+        {
+          "window": "window_019_2.250nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 2.01584,
+          "max_nm": 2.514,
+          "mean_nm": 2.2494592384519354,
+          "samples": 801
+        },
+        {
+          "window": "window_020_2.350nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 2.17858,
+          "max_nm": 2.62228,
+          "mean_nm": 2.369694219725343,
+          "samples": 801
+        },
+        {
+          "window": "window_021_2.450nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 2.20668,
+          "max_nm": 2.75853,
+          "mean_nm": 2.4593404494382023,
+          "samples": 801
+        },
+        {
+          "window": "window_022_2.550nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 2.32656,
+          "max_nm": 2.80605,
+          "mean_nm": 2.5713697877652937,
+          "samples": 801
+        },
+        {
+          "window": "window_023_2.650nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 2.41745,
+          "max_nm": 2.8346,
+          "mean_nm": 2.6429193508114857,
+          "samples": 801
+        },
+        {
+          "window": "window_024_2.750nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 2.54269,
+          "max_nm": 2.93458,
+          "mean_nm": 2.7350636953807745,
+          "samples": 801
+        }
+      ],
+      "completed_windows": 25,
+      "common24_dg_kj_mol": {
+        "full": 7.991114607353679,
+        "first": 5.551270430452651,
+        "second": 10.490469921772341
+      },
+      "half_difference_kj_mol": 4.93919949131969,
+      "neighbour_histogram_overlaps": [
+        0.6117353308364544,
+        0.5106117353308365,
+        0.5230961298377029,
+        0.5530586766541823,
+        0.5593008739076155,
+        0.4506866416978777,
+        0.43196004993757803,
+        0.4332084893882647,
+        0.4157303370786517,
+        0.5106117353308365,
+        0.4943820224719101,
+        0.5068664169787765,
+        0.4431960049937578,
+        0.5205992509363295,
+        0.4744069912609239,
+        0.5742821473158551,
+        0.3895131086142322,
+        0.4556803995006242,
+        0.5230961298377028,
+        0.3645443196004994,
+        0.5318352059925093,
+        0.4282147315855181,
+        0.5842696629213484
+      ],
+      "minimum_neighbour_overlap": 0.3645443196004994,
+      "unsampled_metric_boundary_bins": [],
+      "full25_dg_kj_mol": 7.99110910304877,
+      "terminal_window_sensitivity_kj_mol": -5.5043049087544205e-06
+    },
+    {
+      "pathway": "A4_p_C6_1_cis_V3_V4_same",
+      "source_path": "/Users/arcadio/Molecular_dynamics_project/results/a4p_bohrium_recovery/20713125/umbrella/a4_p_c6_c8_selectivity/A4_p_C6_1_cis_V3_V4_same",
+      "metadata": {
+        "state": "A4_p_C6_1_cis",
+        "replica": 2,
+        "left": 3,
+        "right": 4,
+        "route_class": "",
+        "topology_class": "same",
+        "maximum_nm": 2.75,
+        "initial_distance_nm": 1.4175697513702812,
+        "half_box_limit_nm": 3.21992,
+        "window_count": 25,
+        "source_manifest_row": {
+          "system": "A4_p_C6",
+          "state": "A4_p_C6_1_cis",
+          "stage": "q1",
+          "branch": "cross",
+          "lineage_q1_pair": "V6-V7",
+          "lineage_q1_arm_edge": "A3-A4",
+          "lineage_q2_pair": "",
+          "pair": "V3-V4",
+          "left": "3",
+          "right": "4",
+          "topology_class": "same",
+          "route_class": "",
+          "allowed_by_neighbour_model": "True",
+          "q0_mean_soft_contact": ""
+        }
+      },
+      "windows": [
+        {
+          "window": "window_000_0.350nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 0.339056,
+          "max_nm": 0.626287,
+          "mean_nm": 0.4554247041198502,
+          "samples": 801
+        },
+        {
+          "window": "window_001_0.450nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 0.337678,
+          "max_nm": 0.727696,
+          "mean_nm": 0.501152858926342,
+          "samples": 801
+        },
+        {
+          "window": "window_002_0.550nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 0.393262,
+          "max_nm": 0.828369,
+          "mean_nm": 0.5995329900124844,
+          "samples": 801
+        },
+        {
+          "window": "window_003_0.650nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 0.440492,
+          "max_nm": 0.921773,
+          "mean_nm": 0.6996245530586767,
+          "samples": 801
+        },
+        {
+          "window": "window_004_0.750nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 0.521519,
+          "max_nm": 0.997982,
+          "mean_nm": 0.7958670424469414,
+          "samples": 801
+        },
+        {
+          "window": "window_005_0.850nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 0.665842,
+          "max_nm": 1.11932,
+          "mean_nm": 0.8757536329588016,
+          "samples": 801
+        },
+        {
+          "window": "window_006_0.950nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 0.739269,
+          "max_nm": 1.21437,
+          "mean_nm": 0.9782480923845194,
+          "samples": 801
+        },
+        {
+          "window": "window_007_1.050nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 0.883781,
+          "max_nm": 1.28021,
+          "mean_nm": 1.1006241360799,
+          "samples": 801
+        },
+        {
+          "window": "window_008_1.150nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 0.968054,
+          "max_nm": 1.38584,
+          "mean_nm": 1.193602975031211,
+          "samples": 801
+        },
+        {
+          "window": "window_009_1.250nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 1.09427,
+          "max_nm": 1.4487,
+          "mean_nm": 1.2752923345817728,
+          "samples": 801
+        },
+        {
+          "window": "window_010_1.350nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 1.09543,
+          "max_nm": 1.54148,
+          "mean_nm": 1.3579235205992508,
+          "samples": 801
+        },
+        {
+          "window": "window_011_1.450nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 1.17551,
+          "max_nm": 1.6747,
+          "mean_nm": 1.4738133832709113,
+          "samples": 801
+        },
+        {
+          "window": "window_012_1.550nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 1.39042,
+          "max_nm": 1.79953,
+          "mean_nm": 1.5761065543071162,
+          "samples": 801
+        },
+        {
+          "window": "window_013_1.650nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 1.43269,
+          "max_nm": 1.84607,
+          "mean_nm": 1.6531819975031212,
+          "samples": 801
+        },
+        {
+          "window": "window_014_1.750nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 1.54664,
+          "max_nm": 1.96362,
+          "mean_nm": 1.7701571785268415,
+          "samples": 801
+        },
+        {
+          "window": "window_015_1.850nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 1.65063,
+          "max_nm": 2.12855,
+          "mean_nm": 1.8622068164794006,
+          "samples": 801
+        },
+        {
+          "window": "window_016_1.950nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 1.73699,
+          "max_nm": 2.10063,
+          "mean_nm": 1.927508739076155,
+          "samples": 801
+        },
+        {
+          "window": "window_017_2.050nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 1.80679,
+          "max_nm": 2.21466,
+          "mean_nm": 2.029711972534332,
+          "samples": 801
+        },
+        {
+          "window": "window_018_2.150nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 1.8905,
+          "max_nm": 2.25219,
+          "mean_nm": 2.0759926966292137,
+          "samples": 801
+        },
+        {
+          "window": "window_019_2.250nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 1.97247,
+          "max_nm": 2.33644,
+          "mean_nm": 2.1513566416978778,
+          "samples": 801
+        },
+        {
+          "window": "window_020_2.350nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 2.04578,
+          "max_nm": 2.37064,
+          "mean_nm": 2.1965345692883895,
+          "samples": 801
+        },
+        {
+          "window": "window_021_2.450nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 2.12187,
+          "max_nm": 2.38984,
+          "mean_nm": 2.251915031210986,
+          "samples": 801
+        },
+        {
+          "window": "window_022_2.550nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 2.13848,
+          "max_nm": 2.40726,
+          "mean_nm": 2.295109825218477,
+          "samples": 801
+        },
+        {
+          "window": "window_023_2.650nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 2.19692,
+          "max_nm": 2.42204,
+          "mean_nm": 2.3260590012484395,
+          "samples": 801
+        },
+        {
+          "window": "window_024_2.750nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 2.20196,
+          "max_nm": 2.41672,
+          "mean_nm": 2.333644556803995,
+          "samples": 801
+        }
+      ],
+      "completed_windows": 25,
+      "common24_dg_kj_mol": {
+        "full": 20.559546317573712,
+        "first": 22.527028576298253,
+        "second": 19.048429716969576
+      },
+      "half_difference_kj_mol": 3.4785988593286774,
+      "neighbour_histogram_overlaps": [
+        0.6654182272159801,
+        0.47815230961298383,
+        0.5031210986267166,
+        0.50187265917603,
+        0.5642946317103621,
+        0.45942571785268416,
+        0.352059925093633,
+        0.48813982521847693,
+        0.5667915106117354,
+        0.5280898876404495,
+        0.40074906367041196,
+        0.49188514357053686,
+        0.5880149812734083,
+        0.3982521847690387,
+        0.4856429463171036,
+        0.6179775280898876,
+        0.45318352059925093,
+        0.6766541822721598,
+        0.50187265917603,
+        0.7116104868913857,
+        0.5455680399500624,
+        0.5792759051186018,
+        0.6729088639201
+      ],
+      "minimum_neighbour_overlap": 0.352059925093633,
+      "unsampled_metric_boundary_bins": [],
+      "full25_dg_kj_mol": 20.55954711089574,
+      "terminal_window_sensitivity_kj_mol": 7.933220267375418e-07
+    },
+    {
+      "pathway": "A4_p_C6_2_adjacent_cis_V1_V4_switch",
+      "source_path": "/Users/arcadio/Molecular_dynamics_project/results/a4p_bohrium_recovery/20713126/umbrella/a4_p_c6_c8_selectivity/A4_p_C6_2_adjacent_cis_V1_V4_switch",
+      "metadata": {
+        "state": "A4_p_C6_2_adjacent_cis",
+        "replica": 3,
+        "left": 1,
+        "right": 4,
+        "route_class": "switch",
+        "topology_class": "cross",
+        "maximum_nm": 2.75,
+        "initial_distance_nm": 1.352279834205923,
+        "half_box_limit_nm": 3.124985,
+        "window_count": 25,
+        "source_manifest_row": {
+          "system": "A4_p_C6",
+          "state": "A4_p_C6_2_adjacent_cis",
+          "stage": "q2",
+          "branch": "adjacent",
+          "lineage_q1_pair": "V6-V7",
+          "lineage_q1_arm_edge": "A3-A4",
+          "lineage_q2_pair": "V2-V8",
+          "pair": "V1-V4",
+          "left": "1",
+          "right": "4",
+          "topology_class": "cross",
+          "route_class": "switch",
+          "allowed_by_neighbour_model": "True",
+          "q0_mean_soft_contact": ""
+        }
+      },
+      "windows": [
+        {
+          "window": "window_000_0.350nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 0.313978,
+          "max_nm": 0.615955,
+          "mean_nm": 0.43323839325842695,
+          "samples": 801
+        },
+        {
+          "window": "window_001_0.450nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 0.341278,
+          "max_nm": 0.665772,
+          "mean_nm": 0.4833908052434457,
+          "samples": 801
+        },
+        {
+          "window": "window_002_0.550nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 0.358627,
+          "max_nm": 0.76821,
+          "mean_nm": 0.5516174918851436,
+          "samples": 801
+        },
+        {
+          "window": "window_003_0.650nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 0.433673,
+          "max_nm": 0.854819,
+          "mean_nm": 0.6478189937578027,
+          "samples": 801
+        },
+        {
+          "window": "window_004_0.750nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 0.549059,
+          "max_nm": 1.04323,
+          "mean_nm": 0.7908399687890137,
+          "samples": 801
+        },
+        {
+          "window": "window_005_0.850nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 0.611491,
+          "max_nm": 1.08286,
+          "mean_nm": 0.8646524369538077,
+          "samples": 801
+        },
+        {
+          "window": "window_006_0.950nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 0.732506,
+          "max_nm": 1.17154,
+          "mean_nm": 0.9692653570536828,
+          "samples": 801
+        },
+        {
+          "window": "window_007_1.050nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 0.858949,
+          "max_nm": 1.29703,
+          "mean_nm": 1.0584614294631711,
+          "samples": 801
+        },
+        {
+          "window": "window_008_1.150nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 0.897216,
+          "max_nm": 1.34607,
+          "mean_nm": 1.1489916129837703,
+          "samples": 801
+        },
+        {
+          "window": "window_009_1.250nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 1.01518,
+          "max_nm": 1.51026,
+          "mean_nm": 1.2603594382022472,
+          "samples": 801
+        },
+        {
+          "window": "window_010_1.350nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 1.08709,
+          "max_nm": 1.57479,
+          "mean_nm": 1.341777041198502,
+          "samples": 801
+        },
+        {
+          "window": "window_011_1.450nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 1.18573,
+          "max_nm": 1.67882,
+          "mean_nm": 1.4497214606741573,
+          "samples": 801
+        },
+        {
+          "window": "window_012_1.550nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 1.29217,
+          "max_nm": 1.73433,
+          "mean_nm": 1.534999675405743,
+          "samples": 801
+        },
+        {
+          "window": "window_013_1.650nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 1.42111,
+          "max_nm": 1.83219,
+          "mean_nm": 1.6503946192259673,
+          "samples": 801
+        },
+        {
+          "window": "window_014_1.750nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 1.52131,
+          "max_nm": 1.96331,
+          "mean_nm": 1.7384787141073654,
+          "samples": 801
+        },
+        {
+          "window": "window_015_1.850nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 1.62294,
+          "max_nm": 2.09677,
+          "mean_nm": 1.85641709113608,
+          "samples": 801
+        },
+        {
+          "window": "window_016_1.950nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 1.7173,
+          "max_nm": 2.1715,
+          "mean_nm": 1.9432343445692883,
+          "samples": 801
+        },
+        {
+          "window": "window_017_2.050nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 1.8011,
+          "max_nm": 2.23732,
+          "mean_nm": 2.0157601747815233,
+          "samples": 801
+        },
+        {
+          "window": "window_018_2.150nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 1.88885,
+          "max_nm": 2.32366,
+          "mean_nm": 2.124035468164794,
+          "samples": 801
+        },
+        {
+          "window": "window_019_2.250nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 2.01689,
+          "max_nm": 2.41019,
+          "mean_nm": 2.2213210736579274,
+          "samples": 801
+        },
+        {
+          "window": "window_020_2.350nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 2.12695,
+          "max_nm": 2.59296,
+          "mean_nm": 2.3397598751560547,
+          "samples": 801
+        },
+        {
+          "window": "window_021_2.450nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 2.18526,
+          "max_nm": 2.64672,
+          "mean_nm": 2.4101547066167295,
+          "samples": 801
+        },
+        {
+          "window": "window_022_2.550nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 2.30478,
+          "max_nm": 2.68824,
+          "mean_nm": 2.4983983146067414,
+          "samples": 801
+        },
+        {
+          "window": "window_023_2.650nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 2.36583,
+          "max_nm": 2.79736,
+          "mean_nm": 2.567512646691635,
+          "samples": 801
+        },
+        {
+          "window": "window_024_2.750nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 2.49312,
+          "max_nm": 2.91636,
+          "mean_nm": 2.70396429463171,
+          "samples": 801
+        }
+      ],
+      "completed_windows": 25,
+      "common24_dg_kj_mol": {
+        "full": 8.302546887969998,
+        "first": 8.814130821071078,
+        "second": 7.626867153254886
+      },
+      "half_difference_kj_mol": 1.1872636678161923,
+      "neighbour_histogram_overlaps": [
+        0.6254681647940075,
+        0.5705368289637953,
+        0.4644194756554306,
+        0.30836454431960053,
+        0.5780274656679151,
+        0.41947565543071164,
+        0.5318352059925093,
+        0.5405742821473158,
+        0.4269662921348315,
+        0.5230961298377028,
+        0.4169787765293383,
+        0.5405742821473158,
+        0.42571785268414475,
+        0.5455680399500624,
+        0.3945068664169788,
+        0.5318352059925093,
+        0.5955056179775281,
+        0.4556803995006242,
+        0.4993757802746567,
+        0.41198501872659177,
+        0.6004993757802747,
+        0.4694132334581773,
+        0.5742821473158553
+      ],
+      "minimum_neighbour_overlap": 0.30836454431960053,
+      "unsampled_metric_boundary_bins": [],
+      "full25_dg_kj_mol": 8.302543241729017,
+      "terminal_window_sensitivity_kj_mol": -3.646240980259563e-06
+    },
+    {
+      "pathway": "A4_p_C6_2_adjacent_cis_V3_V4_same",
+      "source_path": "/Users/arcadio/Molecular_dynamics_project/results/a4p_bohrium_recovery/20713127/umbrella/a4_p_c6_c8_selectivity/A4_p_C6_2_adjacent_cis_V3_V4_same",
+      "metadata": {
+        "state": "A4_p_C6_2_adjacent_cis",
+        "replica": 3,
+        "left": 3,
+        "right": 4,
+        "route_class": "",
+        "topology_class": "same",
+        "maximum_nm": 2.75,
+        "initial_distance_nm": 1.4497690333291027,
+        "half_box_limit_nm": 3.124985,
+        "window_count": 25,
+        "source_manifest_row": {
+          "system": "A4_p_C6",
+          "state": "A4_p_C6_2_adjacent_cis",
+          "stage": "q2",
+          "branch": "adjacent",
+          "lineage_q1_pair": "V6-V7",
+          "lineage_q1_arm_edge": "A3-A4",
+          "lineage_q2_pair": "V2-V8",
+          "pair": "V3-V4",
+          "left": "3",
+          "right": "4",
+          "topology_class": "same",
+          "route_class": "",
+          "allowed_by_neighbour_model": "True",
+          "q0_mean_soft_contact": ""
+        }
+      },
+      "windows": [
+        {
+          "window": "window_000_0.350nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 0.317318,
+          "max_nm": 0.662129,
+          "mean_nm": 0.4500874494382022,
+          "samples": 801
+        },
+        {
+          "window": "window_001_0.450nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 0.373082,
+          "max_nm": 0.801624,
+          "mean_nm": 0.5008154069912609,
+          "samples": 801
+        },
+        {
+          "window": "window_002_0.550nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 0.402698,
+          "max_nm": 0.849275,
+          "mean_nm": 0.5961933820224719,
+          "samples": 801
+        },
+        {
+          "window": "window_003_0.650nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 0.45879,
+          "max_nm": 0.90791,
+          "mean_nm": 0.7062759600499375,
+          "samples": 801
+        },
+        {
+          "window": "window_004_0.750nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 0.556213,
+          "max_nm": 1.0277,
+          "mean_nm": 0.8142119413233458,
+          "samples": 801
+        },
+        {
+          "window": "window_005_0.850nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 0.706226,
+          "max_nm": 1.08728,
+          "mean_nm": 0.8904377265917602,
+          "samples": 801
+        },
+        {
+          "window": "window_006_0.950nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 0.781028,
+          "max_nm": 1.23424,
+          "mean_nm": 0.9755515817727841,
+          "samples": 801
+        },
+        {
+          "window": "window_007_1.050nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 0.869527,
+          "max_nm": 1.29147,
+          "mean_nm": 1.0816796554307115,
+          "samples": 801
+        },
+        {
+          "window": "window_008_1.150nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 0.911725,
+          "max_nm": 1.40417,
+          "mean_nm": 1.1835874082397004,
+          "samples": 801
+        },
+        {
+          "window": "window_009_1.250nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 1.08296,
+          "max_nm": 1.50555,
+          "mean_nm": 1.2769042072409487,
+          "samples": 801
+        },
+        {
+          "window": "window_010_1.350nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 1.13858,
+          "max_nm": 1.62602,
+          "mean_nm": 1.371277240948814,
+          "samples": 801
+        },
+        {
+          "window": "window_011_1.450nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 1.21503,
+          "max_nm": 1.65459,
+          "mean_nm": 1.4559654431960052,
+          "samples": 801
+        },
+        {
+          "window": "window_012_1.550nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 1.32964,
+          "max_nm": 1.79902,
+          "mean_nm": 1.5736122721598003,
+          "samples": 801
+        },
+        {
+          "window": "window_013_1.650nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 1.44985,
+          "max_nm": 1.93602,
+          "mean_nm": 1.6532550561797756,
+          "samples": 801
+        },
+        {
+          "window": "window_014_1.750nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 1.57896,
+          "max_nm": 1.9559,
+          "mean_nm": 1.7491534456928841,
+          "samples": 801
+        },
+        {
+          "window": "window_015_1.850nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 1.6255,
+          "max_nm": 2.03394,
+          "mean_nm": 1.844540599250936,
+          "samples": 801
+        },
+        {
+          "window": "window_016_1.950nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 1.70604,
+          "max_nm": 2.14811,
+          "mean_nm": 1.9502737702871409,
+          "samples": 801
+        },
+        {
+          "window": "window_017_2.050nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 1.79158,
+          "max_nm": 2.17824,
+          "mean_nm": 1.9941016978776527,
+          "samples": 801
+        },
+        {
+          "window": "window_018_2.150nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 1.8624,
+          "max_nm": 2.24887,
+          "mean_nm": 2.075813470661673,
+          "samples": 801
+        },
+        {
+          "window": "window_019_2.250nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 1.99735,
+          "max_nm": 2.27488,
+          "mean_nm": 2.1435724968789014,
+          "samples": 801
+        },
+        {
+          "window": "window_020_2.350nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 2.03042,
+          "max_nm": 2.33496,
+          "mean_nm": 2.1956110112359553,
+          "samples": 801
+        },
+        {
+          "window": "window_021_2.450nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 2.06687,
+          "max_nm": 2.37049,
+          "mean_nm": 2.24920481897628,
+          "samples": 801
+        },
+        {
+          "window": "window_022_2.550nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 2.12081,
+          "max_nm": 2.39312,
+          "mean_nm": 2.2810237578027466,
+          "samples": 801
+        },
+        {
+          "window": "window_023_2.650nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 2.15633,
+          "max_nm": 2.43048,
+          "mean_nm": 2.3197720973782774,
+          "samples": 801
+        },
+        {
+          "window": "window_024_2.750nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 2.21272,
+          "max_nm": 2.43166,
+          "mean_nm": 2.340375268414482,
+          "samples": 801
+        }
+      ],
+      "completed_windows": 25,
+      "common24_dg_kj_mol": {
+        "full": 20.873335753265398,
+        "first": 24.431397119321662,
+        "second": 18.17205181759623
+      },
+      "half_difference_kj_mol": 6.259345301725432,
+      "neighbour_histogram_overlaps": [
+        0.6317103620474407,
+        0.4856429463171036,
+        0.4918851435705368,
+        0.46441947565543074,
+        0.5430711610486891,
+        0.5393258426966292,
+        0.4581772784019975,
+        0.4606741573033708,
+        0.4993757802746567,
+        0.4881398252184769,
+        0.5380774032459424,
+        0.42821473158551815,
+        0.5667915106117354,
+        0.47440699126092384,
+        0.49063670411985016,
+        0.42197253433208487,
+        0.6966292134831461,
+        0.5181023720349563,
+        0.5755305867665418,
+        0.5955056179775281,
+        0.5867665418227216,
+        0.7116104868913857,
+        0.6054931335830213
+      ],
+      "minimum_neighbour_overlap": 0.42197253433208487,
+      "unsampled_metric_boundary_bins": [
+        0.345
+      ],
+      "full25_dg_kj_mol": 20.87333743616434,
+      "terminal_window_sensitivity_kj_mol": 1.6828989437556174e-06
+    },
+    {
+      "pathway": "A4_p_C6_2_opposite_cis_V2_V3_reuse",
+      "source_path": "/Users/arcadio/Molecular_dynamics_project/results/a4p_bohrium_recovery/20713128/umbrella/a4_p_c6_c8_selectivity/A4_p_C6_2_opposite_cis_V2_V3_reuse",
+      "metadata": {
+        "state": "A4_p_C6_2_opposite_cis",
+        "replica": 1,
+        "left": 2,
+        "right": 3,
+        "route_class": "reuse",
+        "topology_class": "cross",
+        "maximum_nm": 2.75,
+        "initial_distance_nm": 2.506661375216046,
+        "half_box_limit_nm": 2.994085,
+        "window_count": 25,
+        "source_manifest_row": {
+          "system": "A4_p_C6",
+          "state": "A4_p_C6_2_opposite_cis",
+          "stage": "q2",
+          "branch": "opposite",
+          "lineage_q1_pair": "V6-V7",
+          "lineage_q1_arm_edge": "A3-A4",
+          "lineage_q2_pair": "V1-V4",
+          "pair": "V2-V3",
+          "left": "2",
+          "right": "3",
+          "topology_class": "cross",
+          "route_class": "reuse",
+          "allowed_by_neighbour_model": "True",
+          "q0_mean_soft_contact": "8.367732905837177e-06"
+        }
+      },
+      "windows": [
+        {
+          "window": "window_000_0.350nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 0.321283,
+          "max_nm": 0.607713,
+          "mean_nm": 0.43072386891385767,
+          "samples": 801
+        },
+        {
+          "window": "window_001_0.450nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 0.330828,
+          "max_nm": 0.6884,
+          "mean_nm": 0.48002223970037455,
+          "samples": 801
+        },
+        {
+          "window": "window_002_0.550nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 0.371533,
+          "max_nm": 0.790134,
+          "mean_nm": 0.5673603458177279,
+          "samples": 801
+        },
+        {
+          "window": "window_003_0.650nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 0.429026,
+          "max_nm": 0.906076,
+          "mean_nm": 0.6409100736579276,
+          "samples": 801
+        },
+        {
+          "window": "window_004_0.750nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 0.532325,
+          "max_nm": 0.969874,
+          "mean_nm": 0.7704128339575531,
+          "samples": 801
+        },
+        {
+          "window": "window_005_0.850nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 0.635528,
+          "max_nm": 1.07431,
+          "mean_nm": 0.8646602534332086,
+          "samples": 801
+        },
+        {
+          "window": "window_006_0.950nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 0.78212,
+          "max_nm": 1.19069,
+          "mean_nm": 0.9747882197253434,
+          "samples": 801
+        },
+        {
+          "window": "window_007_1.050nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 0.882914,
+          "max_nm": 1.30348,
+          "mean_nm": 1.0634633707865166,
+          "samples": 801
+        },
+        {
+          "window": "window_008_1.150nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 0.935408,
+          "max_nm": 1.34914,
+          "mean_nm": 1.1594122122347064,
+          "samples": 801
+        },
+        {
+          "window": "window_009_1.250nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 1.07677,
+          "max_nm": 1.46932,
+          "mean_nm": 1.2535742696629213,
+          "samples": 801
+        },
+        {
+          "window": "window_010_1.350nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 1.13429,
+          "max_nm": 1.56988,
+          "mean_nm": 1.3412018976279652,
+          "samples": 801
+        },
+        {
+          "window": "window_011_1.450nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 1.2151,
+          "max_nm": 1.66018,
+          "mean_nm": 1.445072858926342,
+          "samples": 801
+        },
+        {
+          "window": "window_012_1.550nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 1.30318,
+          "max_nm": 1.78524,
+          "mean_nm": 1.5462327965043696,
+          "samples": 801
+        },
+        {
+          "window": "window_013_1.650nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 1.45347,
+          "max_nm": 1.85811,
+          "mean_nm": 1.6550287141073656,
+          "samples": 801
+        },
+        {
+          "window": "window_014_1.750nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 1.58485,
+          "max_nm": 1.9739,
+          "mean_nm": 1.7616069787765294,
+          "samples": 801
+        },
+        {
+          "window": "window_015_1.850nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 1.63562,
+          "max_nm": 2.10663,
+          "mean_nm": 1.8476609737827714,
+          "samples": 801
+        },
+        {
+          "window": "window_016_1.950nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 1.75306,
+          "max_nm": 2.16159,
+          "mean_nm": 1.9472377777777776,
+          "samples": 801
+        },
+        {
+          "window": "window_017_2.050nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 1.81552,
+          "max_nm": 2.25589,
+          "mean_nm": 2.039027740324594,
+          "samples": 801
+        },
+        {
+          "window": "window_018_2.150nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 1.94421,
+          "max_nm": 2.38845,
+          "mean_nm": 2.1424995880149815,
+          "samples": 801
+        },
+        {
+          "window": "window_019_2.250nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 2.01457,
+          "max_nm": 2.44244,
+          "mean_nm": 2.2422307615480648,
+          "samples": 801
+        },
+        {
+          "window": "window_020_2.350nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 2.12039,
+          "max_nm": 2.53909,
+          "mean_nm": 2.3397133458177275,
+          "samples": 801
+        },
+        {
+          "window": "window_021_2.450nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 2.22214,
+          "max_nm": 2.72,
+          "mean_nm": 2.4433728339575533,
+          "samples": 801
+        },
+        {
+          "window": "window_022_2.550nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 2.31872,
+          "max_nm": 2.75726,
+          "mean_nm": 2.5238166791510617,
+          "samples": 801
+        },
+        {
+          "window": "window_023_2.650nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 2.43932,
+          "max_nm": 2.85233,
+          "mean_nm": 2.6335410237203494,
+          "samples": 801
+        },
+        {
+          "window": "window_024_2.750nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 2.64525,
+          "max_nm": 2.8436,
+          "mean_nm": 2.7430503870162295,
+          "samples": 801
+        }
+      ],
+      "completed_windows": 25,
+      "common24_dg_kj_mol": {
+        "full": 8.533211073167276,
+        "first": 8.826918012550513,
+        "second": 7.452857128932387
+      },
+      "half_difference_kj_mol": 1.3740608836181254,
+      "neighbour_histogram_overlaps": [
+        0.6317103620474407,
+        0.5268414481897628,
+        0.6179775280898876,
+        0.3308364544319601,
+        0.4656679151061174,
+        0.42322097378277157,
+        0.49812734082397003,
+        0.4581772784019975,
+        0.5131086142322097,
+        0.533083645443196,
+        0.4369538077403246,
+        0.4631710362047441,
+        0.4544319600499376,
+        0.4556803995006242,
+        0.5393258426966292,
+        0.4856429463171036,
+        0.5031210986267166,
+        0.4731585518102372,
+        0.49188514357053686,
+        0.4918851435705368,
+        0.48314606741573035,
+        0.5642946317103621,
+        0.41947565543071164
+      ],
+      "minimum_neighbour_overlap": 0.3308364544319601,
+      "unsampled_metric_boundary_bins": [],
+      "full25_dg_kj_mol": 8.533204036203395,
+      "terminal_window_sensitivity_kj_mol": -7.036963880935332e-06
+    },
+    {
+      "pathway": "A4_p_C6_2_opposite_cis_V2_V8_switch",
+      "source_path": "/Users/arcadio/Molecular_dynamics_project/results/a4p_bohrium_recovery/20713129/umbrella/a4_p_c6_c8_selectivity/A4_p_C6_2_opposite_cis_V2_V8_switch",
+      "metadata": {
+        "state": "A4_p_C6_2_opposite_cis",
+        "replica": 1,
+        "left": 2,
+        "right": 8,
+        "route_class": "switch",
+        "topology_class": "cross",
+        "maximum_nm": 2.75,
+        "initial_distance_nm": 1.997219379537461,
+        "half_box_limit_nm": 2.994085,
+        "window_count": 25,
+        "source_manifest_row": {
+          "system": "A4_p_C6",
+          "state": "A4_p_C6_2_opposite_cis",
+          "stage": "q2",
+          "branch": "opposite",
+          "lineage_q1_pair": "V6-V7",
+          "lineage_q1_arm_edge": "A3-A4",
+          "lineage_q2_pair": "V1-V4",
+          "pair": "V2-V8",
+          "left": "2",
+          "right": "8",
+          "topology_class": "cross",
+          "route_class": "switch",
+          "allowed_by_neighbour_model": "True",
+          "q0_mean_soft_contact": ""
+        }
+      },
+      "windows": [
+        {
+          "window": "window_000_0.350nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 0.323912,
+          "max_nm": 0.592803,
+          "mean_nm": 0.43252076529338324,
+          "samples": 801
+        },
+        {
+          "window": "window_001_0.450nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 0.350706,
+          "max_nm": 0.688543,
+          "mean_nm": 0.4802912609238452,
+          "samples": 801
+        },
+        {
+          "window": "window_002_0.550nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 0.399083,
+          "max_nm": 0.850801,
+          "mean_nm": 0.567218797752809,
+          "samples": 801
+        },
+        {
+          "window": "window_003_0.650nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 0.458066,
+          "max_nm": 0.926297,
+          "mean_nm": 0.6761822309612985,
+          "samples": 801
+        },
+        {
+          "window": "window_004_0.750nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 0.560681,
+          "max_nm": 1.04806,
+          "mean_nm": 0.814457277153558,
+          "samples": 801
+        },
+        {
+          "window": "window_005_0.850nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 0.680848,
+          "max_nm": 1.0978,
+          "mean_nm": 0.8788807315855182,
+          "samples": 801
+        },
+        {
+          "window": "window_006_0.950nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 0.761299,
+          "max_nm": 1.15209,
+          "mean_nm": 0.951150365792759,
+          "samples": 801
+        },
+        {
+          "window": "window_007_1.050nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 0.797371,
+          "max_nm": 1.29334,
+          "mean_nm": 1.0367454294631713,
+          "samples": 801
+        },
+        {
+          "window": "window_008_1.150nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 0.893138,
+          "max_nm": 1.31532,
+          "mean_nm": 1.133895554307116,
+          "samples": 801
+        },
+        {
+          "window": "window_009_1.250nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 1.05368,
+          "max_nm": 1.48397,
+          "mean_nm": 1.2644621972534331,
+          "samples": 801
+        },
+        {
+          "window": "window_010_1.350nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 1.1181,
+          "max_nm": 1.56651,
+          "mean_nm": 1.350732434456929,
+          "samples": 801
+        },
+        {
+          "window": "window_011_1.450nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 1.25448,
+          "max_nm": 1.65341,
+          "mean_nm": 1.4390989013732833,
+          "samples": 801
+        },
+        {
+          "window": "window_012_1.550nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 1.34369,
+          "max_nm": 1.75869,
+          "mean_nm": 1.5573483770287142,
+          "samples": 801
+        },
+        {
+          "window": "window_013_1.650nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 1.41628,
+          "max_nm": 1.83236,
+          "mean_nm": 1.6341769662921348,
+          "samples": 801
+        },
+        {
+          "window": "window_014_1.750nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 1.54712,
+          "max_nm": 2.00625,
+          "mean_nm": 1.7340249563046193,
+          "samples": 801
+        },
+        {
+          "window": "window_015_1.850nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 1.62298,
+          "max_nm": 2.06388,
+          "mean_nm": 1.8299458302122347,
+          "samples": 801
+        },
+        {
+          "window": "window_016_1.950nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 1.6954,
+          "max_nm": 2.14041,
+          "mean_nm": 1.9080867041198502,
+          "samples": 801
+        },
+        {
+          "window": "window_017_2.050nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 1.82988,
+          "max_nm": 2.29345,
+          "mean_nm": 2.0774041073657927,
+          "samples": 801
+        },
+        {
+          "window": "window_018_2.150nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 1.96009,
+          "max_nm": 2.37663,
+          "mean_nm": 2.157930411985019,
+          "samples": 801
+        },
+        {
+          "window": "window_019_2.250nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 2.01656,
+          "max_nm": 2.4508,
+          "mean_nm": 2.268459625468165,
+          "samples": 801
+        },
+        {
+          "window": "window_020_2.350nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 2.17583,
+          "max_nm": 2.61143,
+          "mean_nm": 2.363236529338327,
+          "samples": 801
+        },
+        {
+          "window": "window_021_2.450nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 2.19551,
+          "max_nm": 2.6567,
+          "mean_nm": 2.4444758052434454,
+          "samples": 801
+        },
+        {
+          "window": "window_022_2.550nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 2.35971,
+          "max_nm": 2.79409,
+          "mean_nm": 2.5568804119850186,
+          "samples": 801
+        },
+        {
+          "window": "window_023_2.650nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 2.41571,
+          "max_nm": 2.834,
+          "mean_nm": 2.6499349563046195,
+          "samples": 801
+        },
+        {
+          "window": "window_024_2.750nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 2.62311,
+          "max_nm": 2.865,
+          "mean_nm": 2.7453826217228467,
+          "samples": 801
+        }
+      ],
+      "completed_windows": 25,
+      "common24_dg_kj_mol": {
+        "full": 10.24976004197218,
+        "first": 9.600322371344044,
+        "second": 11.201882142267323
+      },
+      "half_difference_kj_mol": 1.601559770923279,
+      "neighbour_histogram_overlaps": [
+        0.6329588014981273,
+        0.4993757802746567,
+        0.44818976279650435,
+        0.35330836454431963,
+        0.6591760299625469,
+        0.5555555555555556,
+        0.5118601747815231,
+        0.47191011235955055,
+        0.3545568039950062,
+        0.5405742821473158,
+        0.5418227215980025,
+        0.4019975031210986,
+        0.5617977528089887,
+        0.4207240948813983,
+        0.4581772784019975,
+        0.5705368289637953,
+        0.23220973782771537,
+        0.5518102372034955,
+        0.41697877652933835,
+        0.4968789013732834,
+        0.5543071161048689,
+        0.44569288389513106,
+        0.5081148564294632
+      ],
+      "minimum_neighbour_overlap": 0.23220973782771537,
+      "unsampled_metric_boundary_bins": [],
+      "full25_dg_kj_mol": 10.249764923137525,
+      "terminal_window_sensitivity_kj_mol": 4.88116534391736e-06
+    },
+    {
+      "pathway": "A4_p_C8_1_cis_V5_V8_cross",
+      "source_path": "/Users/arcadio/Molecular_dynamics_project/results/a4p_bohrium_recovery/20713130/umbrella/a4_p_c6_c8_selectivity/A4_p_C8_1_cis_V5_V8_cross",
+      "metadata": {
+        "state": "A4_p_C8_1_cis",
+        "replica": 2,
+        "left": 5,
+        "right": 8,
+        "route_class": "",
+        "topology_class": "cross",
+        "maximum_nm": 2.75,
+        "initial_distance_nm": 1.8033913191539996,
+        "half_box_limit_nm": 3.085745,
+        "window_count": 25,
+        "source_manifest_row": {
+          "system": "A4_p_C8",
+          "state": "A4_p_C8_1_cis",
+          "stage": "q1",
+          "branch": "cross",
+          "lineage_q1_pair": "V2-V4",
+          "lineage_q1_arm_edge": "A1-A3",
+          "lineage_q2_pair": "",
+          "pair": "V5-V8",
+          "left": "5",
+          "right": "8",
+          "topology_class": "cross",
+          "route_class": "",
+          "allowed_by_neighbour_model": "True",
+          "q0_mean_soft_contact": ""
+        }
+      },
+      "windows": [
+        {
+          "window": "window_000_0.350nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 0.318961,
+          "max_nm": 0.594148,
+          "mean_nm": 0.43195131960049943,
+          "samples": 801
+        },
+        {
+          "window": "window_001_0.450nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 0.347041,
+          "max_nm": 0.636001,
+          "mean_nm": 0.4801668951310861,
+          "samples": 801
+        },
+        {
+          "window": "window_002_0.550nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 0.380576,
+          "max_nm": 0.779379,
+          "mean_nm": 0.5547056966292134,
+          "samples": 801
+        },
+        {
+          "window": "window_003_0.650nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 0.472138,
+          "max_nm": 0.872331,
+          "mean_nm": 0.6604365230961299,
+          "samples": 801
+        },
+        {
+          "window": "window_004_0.750nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 0.522928,
+          "max_nm": 0.991449,
+          "mean_nm": 0.7620729026217228,
+          "samples": 801
+        },
+        {
+          "window": "window_005_0.850nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 0.618017,
+          "max_nm": 1.0547,
+          "mean_nm": 0.8577233220973783,
+          "samples": 801
+        },
+        {
+          "window": "window_006_0.950nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 0.721884,
+          "max_nm": 1.12101,
+          "mean_nm": 0.9540193008739077,
+          "samples": 801
+        },
+        {
+          "window": "window_007_1.050nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 0.798172,
+          "max_nm": 1.31618,
+          "mean_nm": 1.045799656679151,
+          "samples": 801
+        },
+        {
+          "window": "window_008_1.150nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 0.93226,
+          "max_nm": 1.39051,
+          "mean_nm": 1.143377897627965,
+          "samples": 801
+        },
+        {
+          "window": "window_009_1.250nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 1.0308,
+          "max_nm": 1.4616,
+          "mean_nm": 1.2563234831460675,
+          "samples": 801
+        },
+        {
+          "window": "window_010_1.350nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 1.123,
+          "max_nm": 1.56205,
+          "mean_nm": 1.3552431210986267,
+          "samples": 801
+        },
+        {
+          "window": "window_011_1.450nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 1.2622,
+          "max_nm": 1.63595,
+          "mean_nm": 1.4424060549313362,
+          "samples": 801
+        },
+        {
+          "window": "window_012_1.550nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 1.32975,
+          "max_nm": 1.79746,
+          "mean_nm": 1.5499533832709111,
+          "samples": 801
+        },
+        {
+          "window": "window_013_1.650nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 1.41855,
+          "max_nm": 1.86472,
+          "mean_nm": 1.6371316853932583,
+          "samples": 801
+        },
+        {
+          "window": "window_014_1.750nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 1.54515,
+          "max_nm": 2.03474,
+          "mean_nm": 1.7559060299625469,
+          "samples": 801
+        },
+        {
+          "window": "window_015_1.850nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 1.61209,
+          "max_nm": 2.03619,
+          "mean_nm": 1.8371393008739079,
+          "samples": 801
+        },
+        {
+          "window": "window_016_1.950nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 1.68249,
+          "max_nm": 2.16783,
+          "mean_nm": 1.9498088264669164,
+          "samples": 801
+        },
+        {
+          "window": "window_017_2.050nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 1.78658,
+          "max_nm": 2.2322,
+          "mean_nm": 2.0344973158551807,
+          "samples": 801
+        },
+        {
+          "window": "window_018_2.150nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 1.92535,
+          "max_nm": 2.36536,
+          "mean_nm": 2.142142247191011,
+          "samples": 801
+        },
+        {
+          "window": "window_019_2.250nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 2.02773,
+          "max_nm": 2.44215,
+          "mean_nm": 2.237984344569288,
+          "samples": 801
+        },
+        {
+          "window": "window_020_2.350nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 2.12785,
+          "max_nm": 2.60274,
+          "mean_nm": 2.3563715106117353,
+          "samples": 801
+        },
+        {
+          "window": "window_021_2.450nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 2.21441,
+          "max_nm": 2.68162,
+          "mean_nm": 2.4451250936329587,
+          "samples": 801
+        },
+        {
+          "window": "window_022_2.550nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 2.3059,
+          "max_nm": 2.74197,
+          "mean_nm": 2.5389076029962543,
+          "samples": 801
+        },
+        {
+          "window": "window_023_2.650nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 2.39545,
+          "max_nm": 2.83474,
+          "mean_nm": 2.627236329588015,
+          "samples": 801
+        },
+        {
+          "window": "window_024_2.750nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 2.54591,
+          "max_nm": 2.94722,
+          "mean_nm": 2.7205823096129835,
+          "samples": 801
+        }
+      ],
+      "completed_windows": 25,
+      "common24_dg_kj_mol": {
+        "full": 6.162619136324748,
+        "first": 6.316023002793699,
+        "second": 5.941830358661683
+      },
+      "half_difference_kj_mol": 0.37419264413201603,
+      "neighbour_histogram_overlaps": [
+        0.6154806491885143,
+        0.5355805243445693,
+        0.4431960049937578,
+        0.45318352059925093,
+        0.4569288389513108,
+        0.45068664169787764,
+        0.5280898876404495,
+        0.5081148564294633,
+        0.44694132334581776,
+        0.48189762796504365,
+        0.5642946317103621,
+        0.4431960049937578,
+        0.540574282147316,
+        0.41947565543071164,
+        0.5593008739076155,
+        0.41697877652933835,
+        0.533083645443196,
+        0.42571785268414486,
+        0.49563046192259674,
+        0.400749063670412,
+        0.5255930087390761,
+        0.48689138576779023,
+        0.5418227215980025
+      ],
+      "minimum_neighbour_overlap": 0.400749063670412,
+      "unsampled_metric_boundary_bins": [],
+      "full25_dg_kj_mol": 6.16262200821261,
+      "terminal_window_sensitivity_kj_mol": 2.8718878617439714e-06
+    },
+    {
+      "pathway": "A4_p_C8_1_cis_V6_V7_same",
+      "source_path": "/Users/arcadio/Molecular_dynamics_project/results/a4p_bohrium_recovery/20713131/umbrella/a4_p_c6_c8_selectivity/A4_p_C8_1_cis_V6_V7_same",
+      "metadata": {
+        "state": "A4_p_C8_1_cis",
+        "replica": 1,
+        "left": 6,
+        "right": 7,
+        "route_class": "",
+        "topology_class": "same",
+        "maximum_nm": 2.75,
+        "initial_distance_nm": 1.4566731788565341,
+        "half_box_limit_nm": 3.09206,
+        "window_count": 25,
+        "source_manifest_row": {
+          "system": "A4_p_C8",
+          "state": "A4_p_C8_1_cis",
+          "stage": "q1",
+          "branch": "cross",
+          "lineage_q1_pair": "V2-V4",
+          "lineage_q1_arm_edge": "A1-A3",
+          "lineage_q2_pair": "",
+          "pair": "V6-V7",
+          "left": "6",
+          "right": "7",
+          "topology_class": "same",
+          "route_class": "",
+          "allowed_by_neighbour_model": "True",
+          "q0_mean_soft_contact": ""
+        }
+      },
+      "windows": [
+        {
+          "window": "window_000_0.350nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 0.31716,
+          "max_nm": 0.672246,
+          "mean_nm": 0.44127154057428225,
+          "samples": 801
+        },
+        {
+          "window": "window_001_0.450nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 0.3389,
+          "max_nm": 0.68745,
+          "mean_nm": 0.48857394382022473,
+          "samples": 801
+        },
+        {
+          "window": "window_002_0.550nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 0.385256,
+          "max_nm": 0.783381,
+          "mean_nm": 0.5626757141073658,
+          "samples": 801
+        },
+        {
+          "window": "window_003_0.650nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 0.411439,
+          "max_nm": 0.87185,
+          "mean_nm": 0.6688510237203497,
+          "samples": 801
+        },
+        {
+          "window": "window_004_0.750nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 0.558575,
+          "max_nm": 1.03295,
+          "mean_nm": 0.7767986491885143,
+          "samples": 801
+        },
+        {
+          "window": "window_005_0.850nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 0.684846,
+          "max_nm": 1.0673,
+          "mean_nm": 0.8833556978776529,
+          "samples": 801
+        },
+        {
+          "window": "window_006_0.950nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 0.707366,
+          "max_nm": 1.20574,
+          "mean_nm": 0.965184986267166,
+          "samples": 801
+        },
+        {
+          "window": "window_007_1.050nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 0.852933,
+          "max_nm": 1.34396,
+          "mean_nm": 1.0788019288389514,
+          "samples": 801
+        },
+        {
+          "window": "window_008_1.150nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 0.897691,
+          "max_nm": 1.39035,
+          "mean_nm": 1.1670773508114856,
+          "samples": 801
+        },
+        {
+          "window": "window_009_1.250nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 0.982036,
+          "max_nm": 1.46173,
+          "mean_nm": 1.2715939151061173,
+          "samples": 801
+        },
+        {
+          "window": "window_010_1.350nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 1.16159,
+          "max_nm": 1.60376,
+          "mean_nm": 1.3783747066167291,
+          "samples": 801
+        },
+        {
+          "window": "window_011_1.450nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 1.21633,
+          "max_nm": 1.71387,
+          "mean_nm": 1.4744465667915105,
+          "samples": 801
+        },
+        {
+          "window": "window_012_1.550nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 1.3993,
+          "max_nm": 1.81333,
+          "mean_nm": 1.5716529463171036,
+          "samples": 801
+        },
+        {
+          "window": "window_013_1.650nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 1.39189,
+          "max_nm": 1.892,
+          "mean_nm": 1.6513785268414483,
+          "samples": 801
+        },
+        {
+          "window": "window_014_1.750nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 1.55493,
+          "max_nm": 1.96173,
+          "mean_nm": 1.7635777403245945,
+          "samples": 801
+        },
+        {
+          "window": "window_015_1.850nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 1.61467,
+          "max_nm": 2.07155,
+          "mean_nm": 1.862110786516854,
+          "samples": 801
+        },
+        {
+          "window": "window_016_1.950nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 1.73815,
+          "max_nm": 2.13009,
+          "mean_nm": 1.9595988014981276,
+          "samples": 801
+        },
+        {
+          "window": "window_017_2.050nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 1.81551,
+          "max_nm": 2.23513,
+          "mean_nm": 2.042897702871411,
+          "samples": 801
+        },
+        {
+          "window": "window_018_2.150nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 1.91086,
+          "max_nm": 2.36081,
+          "mean_nm": 2.150094057428215,
+          "samples": 801
+        },
+        {
+          "window": "window_019_2.250nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 2.01382,
+          "max_nm": 2.41656,
+          "mean_nm": 2.23516936329588,
+          "samples": 801
+        },
+        {
+          "window": "window_020_2.350nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 2.12938,
+          "max_nm": 2.49633,
+          "mean_nm": 2.3329305742821473,
+          "samples": 801
+        },
+        {
+          "window": "window_021_2.450nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 2.20288,
+          "max_nm": 2.60244,
+          "mean_nm": 2.4010335830212237,
+          "samples": 801
+        },
+        {
+          "window": "window_022_2.550nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 2.34971,
+          "max_nm": 2.67936,
+          "mean_nm": 2.5141825842696632,
+          "samples": 801
+        },
+        {
+          "window": "window_023_2.650nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 2.39729,
+          "max_nm": 2.74258,
+          "mean_nm": 2.573792584269663,
+          "samples": 801
+        },
+        {
+          "window": "window_024_2.750nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 2.4491,
+          "max_nm": 2.79323,
+          "mean_nm": 2.6337365667915105,
+          "samples": 801
+        }
+      ],
+      "completed_windows": 25,
+      "common24_dg_kj_mol": {
+        "full": 13.320651449336763,
+        "first": 12.849872838884512,
+        "second": 14.501281126844281
+      },
+      "half_difference_kj_mol": 1.6514082879597698,
+      "neighbour_histogram_overlaps": [
+        0.6441947565543071,
+        0.5430711610486891,
+        0.4394506866416979,
+        0.4544319600499376,
+        0.449438202247191,
+        0.5230961298377029,
+        0.3995006242197253,
+        0.5405742821473158,
+        0.44319600499375783,
+        0.4406991260923845,
+        0.48439450686641694,
+        0.47066167290886396,
+        0.550561797752809,
+        0.42571785268414486,
+        0.4893882646691635,
+        0.48314606741573035,
+        0.5368289637952559,
+        0.418227215980025,
+        0.5305867665418227,
+        0.46441947565543074,
+        0.6079900124843944,
+        0.3570536828963795,
+        0.5767790262172284
+      ],
+      "minimum_neighbour_overlap": 0.3570536828963795,
+      "unsampled_metric_boundary_bins": [],
+      "full25_dg_kj_mol": 13.320647714511951,
+      "terminal_window_sensitivity_kj_mol": -3.7348248120849803e-06
+    },
+    {
+      "pathway": "A4_p_C8_2_adjacent_cis_V5_V8_switch",
+      "source_path": "/Users/arcadio/Molecular_dynamics_project/results/a4p_bohrium_recovery/20713132/umbrella/a4_p_c6_c8_selectivity/A4_p_C8_2_adjacent_cis_V5_V8_switch",
+      "metadata": {
+        "state": "A4_p_C8_2_adjacent_cis",
+        "replica": 2,
+        "left": 5,
+        "right": 8,
+        "route_class": "switch",
+        "topology_class": "cross",
+        "maximum_nm": 2.75,
+        "initial_distance_nm": 1.8868325972380278,
+        "half_box_limit_nm": 3.142695,
+        "window_count": 25,
+        "source_manifest_row": {
+          "system": "A4_p_C8",
+          "state": "A4_p_C8_2_adjacent_cis",
+          "stage": "q2",
+          "branch": "adjacent",
+          "lineage_q1_pair": "V2-V4",
+          "lineage_q1_arm_edge": "A1-A3",
+          "lineage_q2_pair": "V1-V3",
+          "pair": "V5-V8",
+          "left": "5",
+          "right": "8",
+          "topology_class": "cross",
+          "route_class": "switch",
+          "allowed_by_neighbour_model": "True",
+          "q0_mean_soft_contact": "0.0006708768085235791"
+        }
+      },
+      "windows": [
+        {
+          "window": "window_000_0.350nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 0.30703,
+          "max_nm": 0.567979,
+          "mean_nm": 0.4296131885143571,
+          "samples": 801
+        },
+        {
+          "window": "window_001_0.450nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 0.332749,
+          "max_nm": 0.66814,
+          "mean_nm": 0.4859434431960049,
+          "samples": 801
+        },
+        {
+          "window": "window_002_0.550nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 0.36461,
+          "max_nm": 0.801905,
+          "mean_nm": 0.5577910574282148,
+          "samples": 801
+        },
+        {
+          "window": "window_003_0.650nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 0.406398,
+          "max_nm": 0.857662,
+          "mean_nm": 0.6409215692883896,
+          "samples": 801
+        },
+        {
+          "window": "window_004_0.750nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 0.513665,
+          "max_nm": 0.93666,
+          "mean_nm": 0.7447225118601748,
+          "samples": 801
+        },
+        {
+          "window": "window_005_0.850nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 0.628588,
+          "max_nm": 1.04772,
+          "mean_nm": 0.8638416604244694,
+          "samples": 801
+        },
+        {
+          "window": "window_006_0.950nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 0.722019,
+          "max_nm": 1.1484,
+          "mean_nm": 0.9376110436953807,
+          "samples": 801
+        },
+        {
+          "window": "window_007_1.050nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 0.822318,
+          "max_nm": 1.24534,
+          "mean_nm": 1.0485293208489388,
+          "samples": 801
+        },
+        {
+          "window": "window_008_1.150nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 0.940226,
+          "max_nm": 1.38712,
+          "mean_nm": 1.1475632197253434,
+          "samples": 801
+        },
+        {
+          "window": "window_009_1.250nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 1.05344,
+          "max_nm": 1.54165,
+          "mean_nm": 1.24856177278402,
+          "samples": 801
+        },
+        {
+          "window": "window_010_1.350nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 1.15063,
+          "max_nm": 1.57235,
+          "mean_nm": 1.347417752808989,
+          "samples": 801
+        },
+        {
+          "window": "window_011_1.450nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 1.21676,
+          "max_nm": 1.63883,
+          "mean_nm": 1.440621722846442,
+          "samples": 801
+        },
+        {
+          "window": "window_012_1.550nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 1.31559,
+          "max_nm": 1.75423,
+          "mean_nm": 1.5542011360799,
+          "samples": 801
+        },
+        {
+          "window": "window_013_1.650nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 1.42513,
+          "max_nm": 1.84651,
+          "mean_nm": 1.630511622971286,
+          "samples": 801
+        },
+        {
+          "window": "window_014_1.750nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 1.50856,
+          "max_nm": 1.96601,
+          "mean_nm": 1.7481116853932588,
+          "samples": 801
+        },
+        {
+          "window": "window_015_1.850nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 1.60952,
+          "max_nm": 2.05461,
+          "mean_nm": 1.8382664169787764,
+          "samples": 801
+        },
+        {
+          "window": "window_016_1.950nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 1.73558,
+          "max_nm": 2.16437,
+          "mean_nm": 1.9492038451935083,
+          "samples": 801
+        },
+        {
+          "window": "window_017_2.050nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 1.8652,
+          "max_nm": 2.29623,
+          "mean_nm": 2.0636202996254682,
+          "samples": 801
+        },
+        {
+          "window": "window_018_2.150nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 1.93692,
+          "max_nm": 2.36472,
+          "mean_nm": 2.1535402122347067,
+          "samples": 801
+        },
+        {
+          "window": "window_019_2.250nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 2.05302,
+          "max_nm": 2.47507,
+          "mean_nm": 2.2574637827715356,
+          "samples": 801
+        },
+        {
+          "window": "window_020_2.350nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 2.13903,
+          "max_nm": 2.52088,
+          "mean_nm": 2.3427614232209737,
+          "samples": 801
+        },
+        {
+          "window": "window_021_2.450nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 2.24291,
+          "max_nm": 2.65707,
+          "mean_nm": 2.465592821473159,
+          "samples": 801
+        },
+        {
+          "window": "window_022_2.550nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 2.36414,
+          "max_nm": 2.76494,
+          "mean_nm": 2.5678821972534336,
+          "samples": 801
+        },
+        {
+          "window": "window_023_2.650nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 2.42328,
+          "max_nm": 2.88475,
+          "mean_nm": 2.6544650436953803,
+          "samples": 801
+        },
+        {
+          "window": "window_024_2.750nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 2.57472,
+          "max_nm": 2.93147,
+          "mean_nm": 2.7609205992509365,
+          "samples": 801
+        }
+      ],
+      "completed_windows": 25,
+      "common24_dg_kj_mol": {
+        "full": 4.6259212981730995,
+        "first": 4.914844094551226,
+        "second": 4.649202600479806
+      },
+      "half_difference_kj_mol": 0.2656414940714198,
+      "neighbour_histogram_overlaps": [
+        0.6017478152309613,
+        0.6054931335830211,
+        0.5393258426966292,
+        0.4769038701622971,
+        0.3882646691635456,
+        0.5842696629213483,
+        0.44194756554307113,
+        0.4544319600499376,
+        0.49313358302122345,
+        0.484394506866417,
+        0.4881398252184768,
+        0.43445692883895126,
+        0.6042446941323346,
+        0.39825218476903873,
+        0.5131086142322097,
+        0.4294631710362048,
+        0.4244694132334582,
+        0.5393258426966292,
+        0.4556803995006242,
+        0.5405742821473158,
+        0.3770287141073658,
+        0.4856429463171036,
+        0.5780274656679152
+      ],
+      "minimum_neighbour_overlap": 0.3770287141073658,
+      "unsampled_metric_boundary_bins": [],
+      "full25_dg_kj_mol": 4.625922673298251,
+      "terminal_window_sensitivity_kj_mol": 1.3751251515259355e-06
+    },
+    {
+      "pathway": "A4_p_C8_2_adjacent_cis_V6_V7_same",
+      "source_path": "/Users/arcadio/Molecular_dynamics_project/results/a4p_bohrium_recovery/20713133/umbrella/a4_p_c6_c8_selectivity/A4_p_C8_2_adjacent_cis_V6_V7_same",
+      "metadata": {
+        "state": "A4_p_C8_2_adjacent_cis",
+        "replica": 3,
+        "left": 6,
+        "right": 7,
+        "route_class": "",
+        "topology_class": "same",
+        "maximum_nm": 2.75,
+        "initial_distance_nm": 2.0234002322822837,
+        "half_box_limit_nm": 3.13628,
+        "window_count": 25,
+        "source_manifest_row": {
+          "system": "A4_p_C8",
+          "state": "A4_p_C8_2_adjacent_cis",
+          "stage": "q2",
+          "branch": "adjacent",
+          "lineage_q1_pair": "V2-V4",
+          "lineage_q1_arm_edge": "A1-A3",
+          "lineage_q2_pair": "V1-V3",
+          "pair": "V6-V7",
+          "left": "6",
+          "right": "7",
+          "topology_class": "same",
+          "route_class": "",
+          "allowed_by_neighbour_model": "True",
+          "q0_mean_soft_contact": ""
+        }
+      },
+      "windows": [
+        {
+          "window": "window_000_0.350nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 0.323139,
+          "max_nm": 0.621949,
+          "mean_nm": 0.44240304244694134,
+          "samples": 801
+        },
+        {
+          "window": "window_001_0.450nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 0.311688,
+          "max_nm": 0.717044,
+          "mean_nm": 0.49428560674157307,
+          "samples": 801
+        },
+        {
+          "window": "window_002_0.550nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 0.370961,
+          "max_nm": 0.809317,
+          "mean_nm": 0.5739370187265919,
+          "samples": 801
+        },
+        {
+          "window": "window_003_0.650nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 0.466361,
+          "max_nm": 0.864863,
+          "mean_nm": 0.6712978776529339,
+          "samples": 801
+        },
+        {
+          "window": "window_004_0.750nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 0.561529,
+          "max_nm": 0.986222,
+          "mean_nm": 0.7819605505617977,
+          "samples": 801
+        },
+        {
+          "window": "window_005_0.850nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 0.685117,
+          "max_nm": 1.10217,
+          "mean_nm": 0.8716083083645444,
+          "samples": 801
+        },
+        {
+          "window": "window_006_0.950nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 0.700849,
+          "max_nm": 1.22205,
+          "mean_nm": 0.9646782222222222,
+          "samples": 801
+        },
+        {
+          "window": "window_007_1.050nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 0.883371,
+          "max_nm": 1.28233,
+          "mean_nm": 1.0826231011235954,
+          "samples": 801
+        },
+        {
+          "window": "window_008_1.150nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 0.930429,
+          "max_nm": 1.36114,
+          "mean_nm": 1.1677435830212235,
+          "samples": 801
+        },
+        {
+          "window": "window_009_1.250nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 1.03809,
+          "max_nm": 1.52413,
+          "mean_nm": 1.271314257178527,
+          "samples": 801
+        },
+        {
+          "window": "window_010_1.350nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 1.13895,
+          "max_nm": 1.55683,
+          "mean_nm": 1.359801672908864,
+          "samples": 801
+        },
+        {
+          "window": "window_011_1.450nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 1.16971,
+          "max_nm": 1.68766,
+          "mean_nm": 1.4530911985018726,
+          "samples": 801
+        },
+        {
+          "window": "window_012_1.550nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 1.25717,
+          "max_nm": 1.77142,
+          "mean_nm": 1.5571904993757801,
+          "samples": 801
+        },
+        {
+          "window": "window_013_1.650nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 1.44564,
+          "max_nm": 1.86217,
+          "mean_nm": 1.6544567665418226,
+          "samples": 801
+        },
+        {
+          "window": "window_014_1.750nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 1.4996,
+          "max_nm": 1.97375,
+          "mean_nm": 1.7523620724094882,
+          "samples": 801
+        },
+        {
+          "window": "window_015_1.850nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 1.58704,
+          "max_nm": 2.09083,
+          "mean_nm": 1.8345820973782772,
+          "samples": 801
+        },
+        {
+          "window": "window_016_1.950nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 1.68919,
+          "max_nm": 2.21117,
+          "mean_nm": 1.9582649438202249,
+          "samples": 801
+        },
+        {
+          "window": "window_017_2.050nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 1.79968,
+          "max_nm": 2.25771,
+          "mean_nm": 2.0446240324594256,
+          "samples": 801
+        },
+        {
+          "window": "window_018_2.150nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 1.91659,
+          "max_nm": 2.3565,
+          "mean_nm": 2.1500111485642948,
+          "samples": 801
+        },
+        {
+          "window": "window_019_2.250nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 2.04317,
+          "max_nm": 2.43557,
+          "mean_nm": 2.2521709737827713,
+          "samples": 801
+        },
+        {
+          "window": "window_020_2.350nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 2.10387,
+          "max_nm": 2.5604,
+          "mean_nm": 2.3457879400749064,
+          "samples": 801
+        },
+        {
+          "window": "window_021_2.450nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 2.20047,
+          "max_nm": 2.61384,
+          "mean_nm": 2.4138053807740323,
+          "samples": 801
+        },
+        {
+          "window": "window_022_2.550nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 2.30772,
+          "max_nm": 2.69425,
+          "mean_nm": 2.482466229712859,
+          "samples": 801
+        },
+        {
+          "window": "window_023_2.650nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 2.3719,
+          "max_nm": 2.72566,
+          "mean_nm": 2.5432621098626718,
+          "samples": 801
+        },
+        {
+          "window": "window_024_2.750nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 2.37237,
+          "max_nm": 2.79683,
+          "mean_nm": 2.6055657428214727,
+          "samples": 801
+        }
+      ],
+      "completed_windows": 25,
+      "common24_dg_kj_mol": {
+        "full": 13.515096153771818,
+        "first": 14.488594816774118,
+        "second": 12.967461856136143
+      },
+      "half_difference_kj_mol": 1.5211329606379742,
+      "neighbour_histogram_overlaps": [
+        0.616729088639201,
+        0.5493133583021224,
+        0.5168539325842696,
+        0.43196004993757803,
+        0.5068664169787764,
+        0.5056179775280899,
+        0.41697877652933835,
+        0.5343320848938826,
+        0.4794007490636704,
+        0.533083645443196,
+        0.5068664169787765,
+        0.4219725343320849,
+        0.46691635455680397,
+        0.49063670411985016,
+        0.5642946317103621,
+        0.365792759051186,
+        0.5268414481897628,
+        0.4444444444444444,
+        0.44569288389513106,
+        0.48439450686641694,
+        0.6079900124843944,
+        0.5630461922596754,
+        0.6092384519350811
+      ],
+      "minimum_neighbour_overlap": 0.365792759051186,
+      "unsampled_metric_boundary_bins": [],
+      "full25_dg_kj_mol": 13.515096490685101,
+      "terminal_window_sensitivity_kj_mol": 3.369132830499666e-07
+    },
+    {
+      "pathway": "A4_p_C8_2_opposite_cis_V1_V3_switch",
+      "source_path": "/Users/arcadio/Molecular_dynamics_project/results/a4p_bohrium_recovery/20713134/umbrella/a4_p_c6_c8_selectivity/A4_p_C8_2_opposite_cis_V1_V3_switch",
+      "metadata": {
+        "state": "A4_p_C8_2_opposite_cis",
+        "replica": 3,
+        "left": 1,
+        "right": 3,
+        "route_class": "switch",
+        "topology_class": "cross",
+        "maximum_nm": 2.75,
+        "initial_distance_nm": 1.1531620657999466,
+        "half_box_limit_nm": 3.1699,
+        "window_count": 25,
+        "source_manifest_row": {
+          "system": "A4_p_C8",
+          "state": "A4_p_C8_2_opposite_cis",
+          "stage": "q2",
+          "branch": "opposite",
+          "lineage_q1_pair": "V2-V4",
+          "lineage_q1_arm_edge": "A1-A3",
+          "lineage_q2_pair": "V7-V8",
+          "pair": "V1-V3",
+          "left": "1",
+          "right": "3",
+          "topology_class": "cross",
+          "route_class": "switch",
+          "allowed_by_neighbour_model": "True",
+          "q0_mean_soft_contact": ""
+        }
+      },
+      "windows": [
+        {
+          "window": "window_000_0.350nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 0.323842,
+          "max_nm": 0.610159,
+          "mean_nm": 0.43265759425717853,
+          "samples": 801
+        },
+        {
+          "window": "window_001_0.450nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 0.350723,
+          "max_nm": 0.656412,
+          "mean_nm": 0.4839029662921348,
+          "samples": 801
+        },
+        {
+          "window": "window_002_0.550nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 0.381798,
+          "max_nm": 0.812996,
+          "mean_nm": 0.5467033071161049,
+          "samples": 801
+        },
+        {
+          "window": "window_003_0.650nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 0.434814,
+          "max_nm": 0.853118,
+          "mean_nm": 0.6594335468164794,
+          "samples": 801
+        },
+        {
+          "window": "window_004_0.750nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 0.532474,
+          "max_nm": 0.970262,
+          "mean_nm": 0.7814475343320849,
+          "samples": 801
+        },
+        {
+          "window": "window_005_0.850nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 0.657176,
+          "max_nm": 1.1308,
+          "mean_nm": 0.8751773383270912,
+          "samples": 801
+        },
+        {
+          "window": "window_006_0.950nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 0.619879,
+          "max_nm": 1.16763,
+          "mean_nm": 0.9545994868913859,
+          "samples": 801
+        },
+        {
+          "window": "window_007_1.050nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 0.827736,
+          "max_nm": 1.2905,
+          "mean_nm": 1.0530653483146066,
+          "samples": 801
+        },
+        {
+          "window": "window_008_1.150nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 0.945497,
+          "max_nm": 1.38533,
+          "mean_nm": 1.1447124344569288,
+          "samples": 801
+        },
+        {
+          "window": "window_009_1.250nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 1.01148,
+          "max_nm": 1.4567,
+          "mean_nm": 1.2546821972534332,
+          "samples": 801
+        },
+        {
+          "window": "window_010_1.350nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 1.13599,
+          "max_nm": 1.62165,
+          "mean_nm": 1.3636448189762798,
+          "samples": 801
+        },
+        {
+          "window": "window_011_1.450nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 1.25244,
+          "max_nm": 1.65443,
+          "mean_nm": 1.4559413483146064,
+          "samples": 801
+        },
+        {
+          "window": "window_012_1.550nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 1.34108,
+          "max_nm": 1.78016,
+          "mean_nm": 1.5560531335830214,
+          "samples": 801
+        },
+        {
+          "window": "window_013_1.650nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 1.45112,
+          "max_nm": 1.87434,
+          "mean_nm": 1.6417835081148562,
+          "samples": 801
+        },
+        {
+          "window": "window_014_1.750nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 1.50412,
+          "max_nm": 1.99896,
+          "mean_nm": 1.7524906866416976,
+          "samples": 801
+        },
+        {
+          "window": "window_015_1.850nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 1.60506,
+          "max_nm": 2.06267,
+          "mean_nm": 1.8390911985018725,
+          "samples": 801
+        },
+        {
+          "window": "window_016_1.950nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 1.71589,
+          "max_nm": 2.18573,
+          "mean_nm": 1.943584481897628,
+          "samples": 801
+        },
+        {
+          "window": "window_017_2.050nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 1.82615,
+          "max_nm": 2.28536,
+          "mean_nm": 2.041073096129838,
+          "samples": 801
+        },
+        {
+          "window": "window_018_2.150nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 1.94306,
+          "max_nm": 2.3704,
+          "mean_nm": 2.1389430212234704,
+          "samples": 801
+        },
+        {
+          "window": "window_019_2.250nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 2.06306,
+          "max_nm": 2.49097,
+          "mean_nm": 2.245704057428215,
+          "samples": 801
+        },
+        {
+          "window": "window_020_2.350nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 2.06118,
+          "max_nm": 2.56477,
+          "mean_nm": 2.340884282147316,
+          "samples": 801
+        },
+        {
+          "window": "window_021_2.450nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 2.19167,
+          "max_nm": 2.69345,
+          "mean_nm": 2.439605867665418,
+          "samples": 801
+        },
+        {
+          "window": "window_022_2.550nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 2.34355,
+          "max_nm": 2.73219,
+          "mean_nm": 2.5300310986267163,
+          "samples": 801
+        },
+        {
+          "window": "window_023_2.650nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 2.40095,
+          "max_nm": 2.86641,
+          "mean_nm": 2.6387134332084896,
+          "samples": 801
+        },
+        {
+          "window": "window_024_2.750nm_production",
+          "complete": true,
+          "last_ps": 500.0,
+          "min_nm": 2.52898,
+          "max_nm": 2.97559,
+          "mean_nm": 2.7292398876404493,
+          "samples": 801
+        }
+      ],
+      "completed_windows": 25,
+      "common24_dg_kj_mol": {
+        "full": 8.465934718870653,
+        "first": 8.592827693374549,
+        "second": 8.425507588943344
+      },
+      "half_difference_kj_mol": 0.16732010443120515,
+      "neighbour_histogram_overlaps": [
+        0.6179775280898876,
+        0.5967540574282147,
+        0.4094881398252185,
+        0.38451935081148564,
+        0.48314606741573035,
+        0.5605493133583022,
+        0.45692883895131087,
+        0.49937578027465673,
+        0.4406991260923845,
+        0.4332084893882647,
+        0.5106117353308365,
+        0.48439450686641694,
+        0.5181023720349562,
+        0.41448189762796506,
+        0.5280898876404494,
+        0.49812734082397,
+        0.5056179775280898,
+        0.4756554307116104,
+        0.4556803995006242,
+        0.49812734082397,
+        0.4893882646691635,
+        0.5081148564294632,
+        0.41198501872659177
+      ],
+      "minimum_neighbour_overlap": 0.38451935081148564,
+      "unsampled_metric_boundary_bins": [],
+      "full25_dg_kj_mol": 8.465926299359685,
+      "terminal_window_sensitivity_kj_mol": -8.419510967527799e-06
+    }
+  ],
+  "contrasts": [
+    {
+      "state": "A4_p_C6_1_cis",
+      "alternative": "cross",
+      "reference": "same",
+      "ddg_kj_mol": {
+        "full": -12.568431710220032,
+        "first": -16.975758145845603,
+        "second": -8.557959795197235
+      },
+      "contact_reference_odds_ratio": {
+        "full": 124.85974431056201,
+        "first": 678.5272709597416,
+        "second": 26.759202302966138
+      },
+      "half_difference_kj_mol": 8.417798350648368
+    },
+    {
+      "state": "A4_p_C6_2_adjacent_cis",
+      "alternative": "switch",
+      "reference": "same",
+      "ddg_kj_mol": {
+        "full": -12.5707888652954,
+        "first": -15.617266298250584,
+        "second": -10.545184664341345
+      },
+      "contact_reference_odds_ratio": {
+        "full": 124.97283337150134,
+        "first": 402.6892155710109,
+        "second": 57.40418309887541
+      },
+      "half_difference_kj_mol": 5.072081633909239
+    },
+    {
+      "state": "A4_p_C6_2_opposite_cis",
+      "alternative": "switch",
+      "reference": "reuse",
+      "ddg_kj_mol": {
+        "full": 1.7165489688049043,
+        "first": 0.7734043587935311,
+        "second": 3.7490250133349354
+      },
+      "contact_reference_odds_ratio": {
+        "full": 0.517223840899749,
+        "first": 0.7430117105594596,
+        "second": 0.23695191990534742
+      },
+      "half_difference_kj_mol": 2.9756206545414043
+    },
+    {
+      "state": "A4_p_C8_1_cis",
+      "alternative": "cross",
+      "reference": "same",
+      "ddg_kj_mol": {
+        "full": -7.158032313012015,
+        "first": -6.533849836090813,
+        "second": -8.559450768182598
+      },
+      "contact_reference_odds_ratio": {
+        "full": 15.630193847363909,
+        "first": 12.298448537514403,
+        "second": 26.774530133493876
+      },
+      "half_difference_kj_mol": 2.025600932091786
+    },
+    {
+      "state": "A4_p_C8_2_adjacent_cis",
+      "alternative": "switch",
+      "reference": "same",
+      "ddg_kj_mol": {
+        "full": -8.889174855598718,
+        "first": -9.573750722222892,
+        "second": -8.318259255656336
+      },
+      "contact_reference_odds_ratio": {
+        "full": 30.389254527782047,
+        "first": 39.52826374720133,
+        "second": 24.40568264538612
+      },
+      "half_difference_kj_mol": 1.2554914665665553
+    }
+  ],
+  "limitations": [
+    "One trajectory per window; bootstrap does not resolve hidden-basin sampling bias.",
+    "C8 opposite reuse is absent from the original 11-path set; no C8 opposite switch/reuse ratio.",
+    "No common kinetic alpha is fitted from these preliminary PMFs."
+  ]
+}

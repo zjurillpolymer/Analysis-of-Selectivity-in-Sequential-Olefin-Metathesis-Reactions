@@ -1,0 +1,9 @@
+system,outcome,mass_fraction_contribution
+C5,R2_direct_full_reuse,0.3904755597354543
+C5,R2_full_switch_q2_reuse,0.31153688934527946
+C5,R4_partial_reuse,0.2032644850327871
+C5,R4_full_switch_q2_switch,0.09472306588647929
+C8,R2_direct_full_reuse,0.032597044160689745
+C8,R2_full_switch_q2_reuse,0.0002335103684629503
+C8,R4_partial_reuse,0.6595595108205432
+C8,R4_full_switch_q2_switch,0.307609934650304

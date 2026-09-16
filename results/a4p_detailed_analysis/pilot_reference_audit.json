@@ -1,0 +1,2762 @@
+{
+  "begin_ps": 200,
+  "end_ps": 2000,
+  "n_replicas": 3,
+  "warning": "Pilot diagnostics only; sparse events and initial-state memory may dominate. No new trajectory or reaction is generated.",
+  "pairs": [
+    {
+      "state": "A4_p_C6_1_cis",
+      "replica": 1,
+      "pair": "V1-V2",
+      "edge": [
+        "A1",
+        "A1"
+      ],
+      "history_class": "same",
+      "kept_by_numbered_cycle_filter": true,
+      "n_frames": 3601,
+      "Pcontact_035_050": 0.0,
+      "Pcontact_le050": 0.0,
+      "Preference_090_150": 0.13218550402665927,
+      "distance_min_nm": 0.8185613751411438,
+      "distance_median_nm": 1.7815730571746826
+    },
+    {
+      "state": "A4_p_C6_1_cis",
+      "replica": 1,
+      "pair": "V1-V3",
+      "edge": [
+        "A1",
+        "A2"
+      ],
+      "history_class": "switch",
+      "kept_by_numbered_cycle_filter": true,
+      "n_frames": 3601,
+      "Pcontact_035_050": 0.00027770063871146905,
+      "Pcontact_le050": 0.00027770063871146905,
+      "Preference_090_150": 0.44987503471257984,
+      "distance_min_nm": 0.46368318796157837,
+      "distance_median_nm": 1.5078309774398804
+    },
+    {
+      "state": "A4_p_C6_1_cis",
+      "replica": 1,
+      "pair": "V1-V4",
+      "edge": [
+        "A1",
+        "A2"
+      ],
+      "history_class": "switch",
+      "kept_by_numbered_cycle_filter": true,
+      "n_frames": 3601,
+      "Pcontact_035_050": 0.028047764509858374,
+      "Pcontact_le050": 0.028047764509858374,
+      "Preference_090_150": 0.26936961955012495,
+      "distance_min_nm": 0.3666954040527344,
+      "distance_median_nm": 1.2778680324554443
+    },
+    {
+      "state": "A4_p_C6_1_cis",
+      "replica": 1,
+      "pair": "V1-V5",
+      "edge": [
+        "A1",
+        "A3"
+      ],
+      "history_class": "switch",
+      "kept_by_numbered_cycle_filter": false,
+      "n_frames": 3601,
+      "Pcontact_035_050": 0.04165509580672035,
+      "Pcontact_le050": 0.041932796445431825,
+      "Preference_090_150": 0.30880311024715357,
+      "distance_min_nm": 0.33156970143318176,
+      "distance_median_nm": 1.6604186296463013
+    },
+    {
+      "state": "A4_p_C6_1_cis",
+      "replica": 1,
+      "pair": "V1-V8",
+      "edge": [
+        "A1",
+        "A4"
+      ],
+      "history_class": "switch",
+      "kept_by_numbered_cycle_filter": true,
+      "n_frames": 3601,
+      "Pcontact_035_050": 0.0,
+      "Pcontact_le050": 0.0,
+      "Preference_090_150": 0.012496528742016106,
+      "distance_min_nm": 1.173588752746582,
+      "distance_median_nm": 2.5057647228240967
+    },
+    {
+      "state": "A4_p_C6_1_cis",
+      "replica": 1,
+      "pair": "V2-V3",
+      "edge": [
+        "A1",
+        "A2"
+      ],
+      "history_class": "switch",
+      "kept_by_numbered_cycle_filter": true,
+      "n_frames": 3601,
+      "Pcontact_035_050": 0.051096917522910304,
+      "Pcontact_le050": 0.052207720077756176,
+      "Preference_090_150": 0.44071091363510134,
+      "distance_min_nm": 0.3267313241958618,
+      "distance_median_nm": 1.3015363216400146
+    },
+    {
+      "state": "A4_p_C6_1_cis",
+      "replica": 1,
+      "pair": "V2-V4",
+      "edge": [
+        "A1",
+        "A2"
+      ],
+      "history_class": "switch",
+      "kept_by_numbered_cycle_filter": true,
+      "n_frames": 3601,
+      "Pcontact_035_050": 0.007497917245209664,
+      "Pcontact_le050": 0.007497917245209664,
+      "Preference_090_150": 0.17356289919466814,
+      "distance_min_nm": 0.35399898886680603,
+      "distance_median_nm": 2.004631757736206
+    },
+    {
+      "state": "A4_p_C6_1_cis",
+      "replica": 1,
+      "pair": "V2-V5",
+      "edge": [
+        "A1",
+        "A3"
+      ],
+      "history_class": "switch",
+      "kept_by_numbered_cycle_filter": false,
+      "n_frames": 3601,
+      "Pcontact_035_050": 0.0,
+      "Pcontact_le050": 0.0,
+      "Preference_090_150": 0.15912246598167176,
+      "distance_min_nm": 0.660893440246582,
+      "distance_median_nm": 1.9244390726089478
+    },
+    {
+      "state": "A4_p_C6_1_cis",
+      "replica": 1,
+      "pair": "V2-V8",
+      "edge": [
+        "A1",
+        "A4"
+      ],
+      "history_class": "switch",
+      "kept_by_numbered_cycle_filter": true,
+      "n_frames": 3601,
+      "Pcontact_035_050": 0.0,
+      "Pcontact_le050": 0.0,
+      "Preference_090_150": 0.0027770063871146904,
+      "distance_min_nm": 1.3989473581314087,
+      "distance_median_nm": 2.4963929653167725
+    },
+    {
+      "state": "A4_p_C6_1_cis",
+      "replica": 1,
+      "pair": "V3-V4",
+      "edge": [
+        "A2",
+        "A2"
+      ],
+      "history_class": "same",
+      "kept_by_numbered_cycle_filter": true,
+      "n_frames": 3601,
+      "Pcontact_035_050": 0.0,
+      "Pcontact_le050": 0.0,
+      "Preference_090_150": 0.1721743960011108,
+      "distance_min_nm": 0.5864214301109314,
+      "distance_median_nm": 1.7274399995803833
+    },
+    {
+      "state": "A4_p_C6_1_cis",
+      "replica": 1,
+      "pair": "V3-V5",
+      "edge": [
+        "A2",
+        "A3"
+      ],
+      "history_class": "switch",
+      "kept_by_numbered_cycle_filter": true,
+      "n_frames": 3601,
+      "Pcontact_035_050": 0.026659261316301027,
+      "Pcontact_le050": 0.026936961955012495,
+      "Preference_090_150": 0.34129408497639546,
+      "distance_min_nm": 0.3427918255329132,
+      "distance_median_nm": 1.2858082056045532
+    },
+    {
+      "state": "A4_p_C6_1_cis",
+      "replica": 1,
+      "pair": "V3-V8",
+      "edge": [
+        "A2",
+        "A4"
+      ],
+      "history_class": "switch",
+      "kept_by_numbered_cycle_filter": false,
+      "n_frames": 3601,
+      "Pcontact_035_050": 0.0,
+      "Pcontact_le050": 0.0,
+      "Preference_090_150": 0.0860871980005554,
+      "distance_min_nm": 0.7043195962905884,
+      "distance_median_nm": 2.9538023471832275
+    },
+    {
+      "state": "A4_p_C6_1_cis",
+      "replica": 1,
+      "pair": "V4-V5",
+      "edge": [
+        "A2",
+        "A3"
+      ],
+      "history_class": "switch",
+      "kept_by_numbered_cycle_filter": true,
+      "n_frames": 3601,
+      "Pcontact_035_050": 0.053596223271313526,
+      "Pcontact_le050": 0.05387392391002499,
+      "Preference_090_150": 0.26770341571785616,
+      "distance_min_nm": 0.32652032375335693,
+      "distance_median_nm": 1.2781528234481812
+    },
+    {
+      "state": "A4_p_C6_1_cis",
+      "replica": 1,
+      "pair": "V4-V8",
+      "edge": [
+        "A2",
+        "A4"
+      ],
+      "history_class": "switch",
+      "kept_by_numbered_cycle_filter": false,
+      "n_frames": 3601,
+      "Pcontact_035_050": 0.0,
+      "Pcontact_le050": 0.0,
+      "Preference_090_150": 0.0030547070258261596,
+      "distance_min_nm": 1.2620221376419067,
+      "distance_median_nm": 2.549398422241211
+    },
+    {
+      "state": "A4_p_C6_1_cis",
+      "replica": 1,
+      "pair": "V5-V8",
+      "edge": [
+        "A3",
+        "A4"
+      ],
+      "history_class": "reuse",
+      "kept_by_numbered_cycle_filter": true,
+      "n_frames": 3601,
+      "Pcontact_035_050": 0.0,
+      "Pcontact_le050": 0.0,
+      "Preference_090_150": 0.0,
+      "distance_min_nm": 2.270280599594116,
+      "distance_median_nm": 3.011225938796997
+    },
+    {
+      "state": "A4_p_C6_1_cis",
+      "replica": 2,
+      "pair": "V1-V2",
+      "edge": [
+        "A1",
+        "A1"
+      ],
+      "history_class": "same",
+      "kept_by_numbered_cycle_filter": true,
+      "n_frames": 3601,
+      "Pcontact_035_050": 0.0,
+      "Pcontact_le050": 0.0,
+      "Preference_090_150": 0.1677311857817273,
+      "distance_min_nm": 1.0900769233703613,
+      "distance_median_nm": 1.6923178434371948
+    },
+    {
+      "state": "A4_p_C6_1_cis",
+      "replica": 2,
+      "pair": "V1-V3",
+      "edge": [
+        "A1",
+        "A2"
+      ],
+      "history_class": "switch",
+      "kept_by_numbered_cycle_filter": true,
+      "n_frames": 3601,
+      "Pcontact_035_050": 0.0008331019161344071,
+      "Pcontact_le050": 0.0008331019161344071,
+      "Preference_090_150": 0.2971396834212719,
+      "distance_min_nm": 0.46201759576797485,
+      "distance_median_nm": 1.859673023223877
+    },
+    {
+      "state": "A4_p_C6_1_cis",
+      "replica": 2,
+      "pair": "V1-V4",
+      "edge": [
+        "A1",
+        "A2"
+      ],
+      "history_class": "switch",
+      "kept_by_numbered_cycle_filter": true,
+      "n_frames": 3601,
+      "Pcontact_035_050": 0.0,
+      "Pcontact_le050": 0.0,
+      "Preference_090_150": 0.00583171341294085,
+      "distance_min_nm": 1.278140902519226,
+      "distance_median_nm": 2.4354944229125977
+    },
+    {
+      "state": "A4_p_C6_1_cis",
+      "replica": 2,
+      "pair": "V1-V5",
+      "edge": [
+        "A1",
+        "A3"
+      ],
+      "history_class": "switch",
+      "kept_by_numbered_cycle_filter": false,
+      "n_frames": 3601,
+      "Pcontact_035_050": 0.010830324909747292,
+      "Pcontact_le050": 0.011108025548458762,
+      "Preference_090_150": 0.09136351013607331,
+      "distance_min_nm": 0.3462117314338684,
+      "distance_median_nm": 2.330669641494751
+    },
+    {
+      "state": "A4_p_C6_1_cis",
+      "replica": 2,
+      "pair": "V1-V8",
+      "edge": [
+        "A1",
+        "A4"
+      ],
+      "history_class": "switch",
+      "kept_by_numbered_cycle_filter": true,
+      "n_frames": 3601,
+      "Pcontact_035_050": 0.0,
+      "Pcontact_le050": 0.0,
+      "Preference_090_150": 0.018605942793668426,
+      "distance_min_nm": 1.0471885204315186,
+      "distance_median_nm": 2.5762054920196533
+    },
+    {
+      "state": "A4_p_C6_1_cis",
+      "replica": 2,
+      "pair": "V2-V3",
+      "edge": [
+        "A1",
+        "A2"
+      ],
+      "history_class": "switch",
+      "kept_by_numbered_cycle_filter": true,
+      "n_frames": 3601,
+      "Pcontact_035_050": 0.026936961955012495,
+      "Pcontact_le050": 0.027770063871146902,
+      "Preference_090_150": 0.6339905581782838,
+      "distance_min_nm": 0.3362235724925995,
+      "distance_median_nm": 1.0986367464065552
+    },
+    {
+      "state": "A4_p_C6_1_cis",
+      "replica": 2,
+      "pair": "V2-V4",
+      "edge": [
+        "A1",
+        "A2"
+      ],
+      "history_class": "switch",
+      "kept_by_numbered_cycle_filter": true,
+      "n_frames": 3601,
+      "Pcontact_035_050": 0.036101083032490974,
+      "Pcontact_le050": 0.03665648430991391,
+      "Preference_090_150": 0.35267981116356567,
+      "distance_min_nm": 0.3372150957584381,
+      "distance_median_nm": 1.351219892501831
+    },
+    {
+      "state": "A4_p_C6_1_cis",
+      "replica": 2,
+      "pair": "V2-V5",
+      "edge": [
+        "A1",
+        "A3"
+      ],
+      "history_class": "switch",
+      "kept_by_numbered_cycle_filter": false,
+      "n_frames": 3601,
+      "Pcontact_035_050": 0.0,
+      "Pcontact_le050": 0.0,
+      "Preference_090_150": 0.06998056095529019,
+      "distance_min_nm": 0.9998278021812439,
+      "distance_median_nm": 2.4127368927001953
+    },
+    {
+      "state": "A4_p_C6_1_cis",
+      "replica": 2,
+      "pair": "V2-V8",
+      "edge": [
+        "A1",
+        "A4"
+      ],
+      "history_class": "switch",
+      "kept_by_numbered_cycle_filter": true,
+      "n_frames": 3601,
+      "Pcontact_035_050": 0.0,
+      "Pcontact_le050": 0.0,
+      "Preference_090_150": 0.05748403221327409,
+      "distance_min_nm": 0.9928682446479797,
+      "distance_median_nm": 2.3093199729919434
+    },
+    {
+      "state": "A4_p_C6_1_cis",
+      "replica": 2,
+      "pair": "V3-V4",
+      "edge": [
+        "A2",
+        "A2"
+      ],
+      "history_class": "same",
+      "kept_by_numbered_cycle_filter": true,
+      "n_frames": 3601,
+      "Pcontact_035_050": 0.0005554012774229381,
+      "Pcontact_le050": 0.0005554012774229381,
+      "Preference_090_150": 0.2449319633435157,
+      "distance_min_nm": 0.4909362494945526,
+      "distance_median_nm": 1.735967755317688
+    },
+    {
+      "state": "A4_p_C6_1_cis",
+      "replica": 2,
+      "pair": "V3-V5",
+      "edge": [
+        "A2",
+        "A3"
+      ],
+      "history_class": "switch",
+      "kept_by_numbered_cycle_filter": true,
+      "n_frames": 3601,
+      "Pcontact_035_050": 0.0,
+      "Pcontact_le050": 0.0,
+      "Preference_090_150": 0.0,
+      "distance_min_nm": 1.7494233846664429,
+      "distance_median_nm": 2.8112449645996094
+    },
+    {
+      "state": "A4_p_C6_1_cis",
+      "replica": 2,
+      "pair": "V3-V8",
+      "edge": [
+        "A2",
+        "A4"
+      ],
+      "history_class": "switch",
+      "kept_by_numbered_cycle_filter": false,
+      "n_frames": 3601,
+      "Pcontact_035_050": 0.00027770063871146905,
+      "Pcontact_le050": 0.00027770063871146905,
+      "Preference_090_150": 0.3021382949180783,
+      "distance_min_nm": 0.4799513518810272,
+      "distance_median_nm": 1.6936063766479492
+    },
+    {
+      "state": "A4_p_C6_1_cis",
+      "replica": 2,
+      "pair": "V4-V5",
+      "edge": [
+        "A2",
+        "A3"
+      ],
+      "history_class": "switch",
+      "kept_by_numbered_cycle_filter": true,
+      "n_frames": 3601,
+      "Pcontact_035_050": 0.0005554012774229381,
+      "Pcontact_le050": 0.0005554012774229381,
+      "Preference_090_150": 0.1316301027492363,
+      "distance_min_nm": 0.48542287945747375,
+      "distance_median_nm": 1.9980823993682861
+    },
+    {
+      "state": "A4_p_C6_1_cis",
+      "replica": 2,
+      "pair": "V4-V8",
+      "edge": [
+        "A2",
+        "A4"
+      ],
+      "history_class": "switch",
+      "kept_by_numbered_cycle_filter": false,
+      "n_frames": 3601,
+      "Pcontact_035_050": 0.0,
+      "Pcontact_le050": 0.0,
+      "Preference_090_150": 0.0069425159677867256,
+      "distance_min_nm": 1.1316988468170166,
+      "distance_median_nm": 2.4450607299804688
+    },
+    {
+      "state": "A4_p_C6_1_cis",
+      "replica": 2,
+      "pair": "V5-V8",
+      "edge": [
+        "A3",
+        "A4"
+      ],
+      "history_class": "reuse",
+      "kept_by_numbered_cycle_filter": true,
+      "n_frames": 3601,
+      "Pcontact_035_050": 0.0,
+      "Pcontact_le050": 0.0,
+      "Preference_090_150": 0.0,
+      "distance_min_nm": 1.595827341079712,
+      "distance_median_nm": 3.14227557182312
+    },
+    {
+      "state": "A4_p_C6_1_cis",
+      "replica": 3,
+      "pair": "V1-V2",
+      "edge": [
+        "A1",
+        "A1"
+      ],
+      "history_class": "same",
+      "kept_by_numbered_cycle_filter": true,
+      "n_frames": 3601,
+      "Pcontact_035_050": 0.0,
+      "Pcontact_le050": 0.0,
+      "Preference_090_150": 0.2968619827825604,
+      "distance_min_nm": 0.6749135851860046,
+      "distance_median_nm": 1.6420540809631348
+    },
+    {
+      "state": "A4_p_C6_1_cis",
+      "replica": 3,
+      "pair": "V1-V3",
+      "edge": [
+        "A1",
+        "A2"
+      ],
+      "history_class": "switch",
+      "kept_by_numbered_cycle_filter": true,
+      "n_frames": 3601,
+      "Pcontact_035_050": 0.12052207720077757,
+      "Pcontact_le050": 0.12163287975562344,
+      "Preference_090_150": 0.3121355179116912,
+      "distance_min_nm": 0.32856687903404236,
+      "distance_median_nm": 0.7860207557678223
+    },
+    {
+      "state": "A4_p_C6_1_cis",
+      "replica": 3,
+      "pair": "V1-V4",
+      "edge": [
+        "A1",
+        "A2"
+      ],
+      "history_class": "switch",
+      "kept_by_numbered_cycle_filter": true,
+      "n_frames": 3601,
+      "Pcontact_035_050": 0.0,
+      "Pcontact_le050": 0.0,
+      "Preference_090_150": 0.01999444598722577,
+      "distance_min_nm": 1.1752375364303589,
+      "distance_median_nm": 1.989368200302124
+    },
+    {
+      "state": "A4_p_C6_1_cis",
+      "replica": 3,
+      "pair": "V1-V5",
+      "edge": [
+        "A1",
+        "A3"
+      ],
+      "history_class": "switch",
+      "kept_by_numbered_cycle_filter": false,
+      "n_frames": 3601,
+      "Pcontact_035_050": 0.0,
+      "Pcontact_le050": 0.0,
+      "Preference_090_150": 0.056928630935851154,
+      "distance_min_nm": 1.038947582244873,
+      "distance_median_nm": 2.388000965118408
+    },
+    {
+      "state": "A4_p_C6_1_cis",
+      "replica": 3,
+      "pair": "V1-V8",
+      "edge": [
+        "A1",
+        "A4"
+      ],
+      "history_class": "switch",
+      "kept_by_numbered_cycle_filter": true,
+      "n_frames": 3601,
+      "Pcontact_035_050": 0.0,
+      "Pcontact_le050": 0.0,
+      "Preference_090_150": 0.009997222993612885,
+      "distance_min_nm": 1.276126742362976,
+      "distance_median_nm": 2.456197500228882
+    },
+    {
+      "state": "A4_p_C6_1_cis",
+      "replica": 3,
+      "pair": "V2-V3",
+      "edge": [
+        "A1",
+        "A2"
+      ],
+      "history_class": "switch",
+      "kept_by_numbered_cycle_filter": true,
+      "n_frames": 3601,
+      "Pcontact_035_050": 0.004998611496806442,
+      "Pcontact_le050": 0.004998611496806442,
+      "Preference_090_150": 0.30824770896973064,
+      "distance_min_nm": 0.4227452576160431,
+      "distance_median_nm": 1.666000485420227
+    },
+    {
+      "state": "A4_p_C6_1_cis",
+      "replica": 3,
+      "pair": "V2-V4",
+      "edge": [
+        "A1",
+        "A2"
+      ],
+      "history_class": "switch",
+      "kept_by_numbered_cycle_filter": true,
+      "n_frames": 3601,
+      "Pcontact_035_050": 0.08358789225215218,
+      "Pcontact_le050": 0.08358789225215218,
+      "Preference_090_150": 0.1974451541238545,
+      "distance_min_nm": 0.3509443402290344,
+      "distance_median_nm": 1.248690128326416
+    },
+    {
+      "state": "A4_p_C6_1_cis",
+      "replica": 3,
+      "pair": "V2-V5",
+      "edge": [
+        "A1",
+        "A3"
+      ],
+      "history_class": "switch",
+      "kept_by_numbered_cycle_filter": false,
+      "n_frames": 3601,
+      "Pcontact_035_050": 0.00027770063871146905,
+      "Pcontact_le050": 0.00027770063871146905,
+      "Preference_090_150": 0.5143015828936407,
+      "distance_min_nm": 0.4893380105495453,
+      "distance_median_nm": 1.4355826377868652
+    },
+    {
+      "state": "A4_p_C6_1_cis",
+      "replica": 3,
+      "pair": "V2-V8",
+      "edge": [
+        "A1",
+        "A4"
+      ],
+      "history_class": "switch",
+      "kept_by_numbered_cycle_filter": true,
+      "n_frames": 3601,
+      "Pcontact_035_050": 0.0,
+      "Pcontact_le050": 0.0,
+      "Preference_090_150": 0.005276312135517912,
+      "distance_min_nm": 1.3905189037322998,
+      "distance_median_nm": 2.664567708969116
+    },
+    {
+      "state": "A4_p_C6_1_cis",
+      "replica": 3,
+      "pair": "V3-V4",
+      "edge": [
+        "A2",
+        "A2"
+      ],
+      "history_class": "same",
+      "kept_by_numbered_cycle_filter": true,
+      "n_frames": 3601,
+      "Pcontact_035_050": 0.0,
+      "Pcontact_le050": 0.0,
+      "Preference_090_150": 0.22882532629825048,
+      "distance_min_nm": 0.76587975025177,
+      "distance_median_nm": 1.716084361076355
+    },
+    {
+      "state": "A4_p_C6_1_cis",
+      "replica": 3,
+      "pair": "V3-V5",
+      "edge": [
+        "A2",
+        "A3"
+      ],
+      "history_class": "switch",
+      "kept_by_numbered_cycle_filter": true,
+      "n_frames": 3601,
+      "Pcontact_035_050": 0.0,
+      "Pcontact_le050": 0.0,
+      "Preference_090_150": 0.013607331296861983,
+      "distance_min_nm": 1.2431700229644775,
+      "distance_median_nm": 2.3339736461639404
+    },
+    {
+      "state": "A4_p_C6_1_cis",
+      "replica": 3,
+      "pair": "V3-V8",
+      "edge": [
+        "A2",
+        "A4"
+      ],
+      "history_class": "switch",
+      "kept_by_numbered_cycle_filter": false,
+      "n_frames": 3601,
+      "Pcontact_035_050": 0.0,
+      "Pcontact_le050": 0.0,
+      "Preference_090_150": 0.02249375173562899,
+      "distance_min_nm": 1.1464593410491943,
+      "distance_median_nm": 2.2376184463500977
+    },
+    {
+      "state": "A4_p_C6_1_cis",
+      "replica": 3,
+      "pair": "V4-V5",
+      "edge": [
+        "A2",
+        "A3"
+      ],
+      "history_class": "switch",
+      "kept_by_numbered_cycle_filter": true,
+      "n_frames": 3601,
+      "Pcontact_035_050": 0.013051930019439044,
+      "Pcontact_le050": 0.013329630658150514,
+      "Preference_090_150": 0.18383782282699251,
+      "distance_min_nm": 0.3236025273799896,
+      "distance_median_nm": 2.0340850353240967
+    },
+    {
+      "state": "A4_p_C6_1_cis",
+      "replica": 3,
+      "pair": "V4-V8",
+      "edge": [
+        "A2",
+        "A4"
+      ],
+      "history_class": "switch",
+      "kept_by_numbered_cycle_filter": false,
+      "n_frames": 3601,
+      "Pcontact_035_050": 0.036101083032490974,
+      "Pcontact_le050": 0.03721188558733685,
+      "Preference_090_150": 0.20299916689808387,
+      "distance_min_nm": 0.31815865635871887,
+      "distance_median_nm": 2.0478527545928955
+    },
+    {
+      "state": "A4_p_C6_1_cis",
+      "replica": 3,
+      "pair": "V5-V8",
+      "edge": [
+        "A3",
+        "A4"
+      ],
+      "history_class": "reuse",
+      "kept_by_numbered_cycle_filter": true,
+      "n_frames": 3601,
+      "Pcontact_035_050": 0.0,
+      "Pcontact_le050": 0.0,
+      "Preference_090_150": 0.0,
+      "distance_min_nm": 2.135936975479126,
+      "distance_median_nm": 2.976529598236084
+    },
+    {
+      "state": "A4_p_C6_2_adjacent_cis",
+      "replica": 1,
+      "pair": "V1-V3",
+      "edge": [
+        "A1",
+        "A2"
+      ],
+      "history_class": "switch",
+      "kept_by_numbered_cycle_filter": true,
+      "n_frames": 3601,
+      "Pcontact_035_050": 0.0,
+      "Pcontact_le050": 0.0,
+      "Preference_090_150": 0.010274923632324354,
+      "distance_min_nm": 1.1783984899520874,
+      "distance_median_nm": 2.4291892051696777
+    },
+    {
+      "state": "A4_p_C6_2_adjacent_cis",
+      "replica": 1,
+      "pair": "V1-V4",
+      "edge": [
+        "A1",
+        "A2"
+      ],
+      "history_class": "switch",
+      "kept_by_numbered_cycle_filter": true,
+      "n_frames": 3601,
+      "Pcontact_035_050": 0.0,
+      "Pcontact_le050": 0.0,
+      "Preference_090_150": 0.10469314079422383,
+      "distance_min_nm": 1.015133023262024,
+      "distance_median_nm": 2.0209147930145264
+    },
+    {
+      "state": "A4_p_C6_2_adjacent_cis",
+      "replica": 1,
+      "pair": "V1-V5",
+      "edge": [
+        "A1",
+        "A3"
+      ],
+      "history_class": "switch",
+      "kept_by_numbered_cycle_filter": false,
+      "n_frames": 3601,
+      "Pcontact_035_050": 0.0,
+      "Pcontact_le050": 0.0,
+      "Preference_090_150": 0.0,
+      "distance_min_nm": 1.670040249824524,
+      "distance_median_nm": 2.415376663208008
+    },
+    {
+      "state": "A4_p_C6_2_adjacent_cis",
+      "replica": 1,
+      "pair": "V3-V4",
+      "edge": [
+        "A2",
+        "A2"
+      ],
+      "history_class": "same",
+      "kept_by_numbered_cycle_filter": true,
+      "n_frames": 3601,
+      "Pcontact_035_050": 0.0,
+      "Pcontact_le050": 0.0,
+      "Preference_090_150": 0.19688975284643154,
+      "distance_min_nm": 0.7609962224960327,
+      "distance_median_nm": 1.7104867696762085
+    },
+    {
+      "state": "A4_p_C6_2_adjacent_cis",
+      "replica": 1,
+      "pair": "V3-V5",
+      "edge": [
+        "A2",
+        "A3"
+      ],
+      "history_class": "switch",
+      "kept_by_numbered_cycle_filter": true,
+      "n_frames": 3601,
+      "Pcontact_035_050": 0.0,
+      "Pcontact_le050": 0.0,
+      "Preference_090_150": 0.0030547070258261596,
+      "distance_min_nm": 1.4167879819869995,
+      "distance_median_nm": 2.504634380340576
+    },
+    {
+      "state": "A4_p_C6_2_adjacent_cis",
+      "replica": 1,
+      "pair": "V4-V5",
+      "edge": [
+        "A2",
+        "A3"
+      ],
+      "history_class": "switch",
+      "kept_by_numbered_cycle_filter": true,
+      "n_frames": 3601,
+      "Pcontact_035_050": 0.0,
+      "Pcontact_le050": 0.0,
+      "Preference_090_150": 0.0013885031935573452,
+      "distance_min_nm": 1.4364253282546997,
+      "distance_median_nm": 2.7617952823638916
+    },
+    {
+      "state": "A4_p_C6_2_adjacent_cis",
+      "replica": 2,
+      "pair": "V1-V3",
+      "edge": [
+        "A1",
+        "A2"
+      ],
+      "history_class": "switch",
+      "kept_by_numbered_cycle_filter": true,
+      "n_frames": 3601,
+      "Pcontact_035_050": 0.0,
+      "Pcontact_le050": 0.0,
+      "Preference_090_150": 0.0,
+      "distance_min_nm": 1.5053285360336304,
+      "distance_median_nm": 2.6022279262542725
+    },
+    {
+      "state": "A4_p_C6_2_adjacent_cis",
+      "replica": 2,
+      "pair": "V1-V4",
+      "edge": [
+        "A1",
+        "A2"
+      ],
+      "history_class": "switch",
+      "kept_by_numbered_cycle_filter": true,
+      "n_frames": 3601,
+      "Pcontact_035_050": 0.0,
+      "Pcontact_le050": 0.0,
+      "Preference_090_150": 0.09219661205220772,
+      "distance_min_nm": 0.6802792549133301,
+      "distance_median_nm": 2.0891950130462646
+    },
+    {
+      "state": "A4_p_C6_2_adjacent_cis",
+      "replica": 2,
+      "pair": "V1-V5",
+      "edge": [
+        "A1",
+        "A3"
+      ],
+      "history_class": "switch",
+      "kept_by_numbered_cycle_filter": false,
+      "n_frames": 3601,
+      "Pcontact_035_050": 0.0,
+      "Pcontact_le050": 0.0,
+      "Preference_090_150": 0.0016662038322688142,
+      "distance_min_nm": 1.3916614055633545,
+      "distance_median_nm": 2.3191304206848145
+    },
+    {
+      "state": "A4_p_C6_2_adjacent_cis",
+      "replica": 2,
+      "pair": "V3-V4",
+      "edge": [
+        "A2",
+        "A2"
+      ],
+      "history_class": "same",
+      "kept_by_numbered_cycle_filter": true,
+      "n_frames": 3601,
+      "Pcontact_035_050": 0.0,
+      "Pcontact_le050": 0.0,
+      "Preference_090_150": 0.25326298250485973,
+      "distance_min_nm": 0.6316391825675964,
+      "distance_median_nm": 1.663150429725647
+    },
+    {
+      "state": "A4_p_C6_2_adjacent_cis",
+      "replica": 2,
+      "pair": "V3-V5",
+      "edge": [
+        "A2",
+        "A3"
+      ],
+      "history_class": "switch",
+      "kept_by_numbered_cycle_filter": true,
+      "n_frames": 3601,
+      "Pcontact_035_050": 0.0,
+      "Pcontact_le050": 0.0,
+      "Preference_090_150": 0.0,
+      "distance_min_nm": 1.5325173139572144,
+      "distance_median_nm": 2.578951597213745
+    },
+    {
+      "state": "A4_p_C6_2_adjacent_cis",
+      "replica": 2,
+      "pair": "V4-V5",
+      "edge": [
+        "A2",
+        "A3"
+      ],
+      "history_class": "switch",
+      "kept_by_numbered_cycle_filter": true,
+      "n_frames": 3601,
+      "Pcontact_035_050": 0.0,
+      "Pcontact_le050": 0.0,
+      "Preference_090_150": 0.0,
+      "distance_min_nm": 1.6263388395309448,
+      "distance_median_nm": 2.767686605453491
+    },
+    {
+      "state": "A4_p_C6_2_adjacent_cis",
+      "replica": 3,
+      "pair": "V1-V3",
+      "edge": [
+        "A1",
+        "A2"
+      ],
+      "history_class": "switch",
+      "kept_by_numbered_cycle_filter": true,
+      "n_frames": 3601,
+      "Pcontact_035_050": 0.0,
+      "Pcontact_le050": 0.0,
+      "Preference_090_150": 0.006664815329075257,
+      "distance_min_nm": 1.2333834171295166,
+      "distance_median_nm": 2.4232406616210938
+    },
+    {
+      "state": "A4_p_C6_2_adjacent_cis",
+      "replica": 3,
+      "pair": "V1-V4",
+      "edge": [
+        "A1",
+        "A2"
+      ],
+      "history_class": "switch",
+      "kept_by_numbered_cycle_filter": true,
+      "n_frames": 3601,
+      "Pcontact_035_050": 0.008053318522632602,
+      "Pcontact_le050": 0.008053318522632602,
+      "Preference_090_150": 0.39516800888642045,
+      "distance_min_nm": 0.36109840869903564,
+      "distance_median_nm": 1.518297791481018
+    },
+    {
+      "state": "A4_p_C6_2_adjacent_cis",
+      "replica": 3,
+      "pair": "V1-V5",
+      "edge": [
+        "A1",
+        "A3"
+      ],
+      "history_class": "switch",
+      "kept_by_numbered_cycle_filter": false,
+      "n_frames": 3601,
+      "Pcontact_035_050": 0.0,
+      "Pcontact_le050": 0.0,
+      "Preference_090_150": 0.0,
+      "distance_min_nm": 1.5050052404403687,
+      "distance_median_nm": 2.3629562854766846
+    },
+    {
+      "state": "A4_p_C6_2_adjacent_cis",
+      "replica": 3,
+      "pair": "V3-V4",
+      "edge": [
+        "A2",
+        "A2"
+      ],
+      "history_class": "same",
+      "kept_by_numbered_cycle_filter": true,
+      "n_frames": 3601,
+      "Pcontact_035_050": 0.00027770063871146905,
+      "Pcontact_le050": 0.00027770063871146905,
+      "Preference_090_150": 0.3262982504859761,
+      "distance_min_nm": 0.49891871213912964,
+      "distance_median_nm": 1.6070791482925415
+    },
+    {
+      "state": "A4_p_C6_2_adjacent_cis",
+      "replica": 3,
+      "pair": "V3-V5",
+      "edge": [
+        "A2",
+        "A3"
+      ],
+      "history_class": "switch",
+      "kept_by_numbered_cycle_filter": true,
+      "n_frames": 3601,
+      "Pcontact_035_050": 0.0,
+      "Pcontact_le050": 0.0,
+      "Preference_090_150": 0.00027770063871146905,
+      "distance_min_nm": 1.4709967374801636,
+      "distance_median_nm": 2.7633540630340576
+    },
+    {
+      "state": "A4_p_C6_2_adjacent_cis",
+      "replica": 3,
+      "pair": "V4-V5",
+      "edge": [
+        "A2",
+        "A3"
+      ],
+      "history_class": "switch",
+      "kept_by_numbered_cycle_filter": true,
+      "n_frames": 3601,
+      "Pcontact_035_050": 0.0,
+      "Pcontact_le050": 0.0,
+      "Preference_090_150": 0.00027770063871146905,
+      "distance_min_nm": 1.4589828252792358,
+      "distance_median_nm": 2.877800703048706
+    },
+    {
+      "state": "A4_p_C6_2_opposite_cis",
+      "replica": 1,
+      "pair": "V2-V3",
+      "edge": [
+        "A1",
+        "A2"
+      ],
+      "history_class": "reuse",
+      "kept_by_numbered_cycle_filter": true,
+      "n_frames": 3601,
+      "Pcontact_035_050": 0.0,
+      "Pcontact_le050": 0.0,
+      "Preference_090_150": 0.0833101916134407,
+      "distance_min_nm": 0.9358575344085693,
+      "distance_median_nm": 2.117753744125366
+    },
+    {
+      "state": "A4_p_C6_2_opposite_cis",
+      "replica": 1,
+      "pair": "V2-V5",
+      "edge": [
+        "A1",
+        "A3"
+      ],
+      "history_class": "switch",
+      "kept_by_numbered_cycle_filter": false,
+      "n_frames": 3601,
+      "Pcontact_035_050": 0.0,
+      "Pcontact_le050": 0.0,
+      "Preference_090_150": 0.018883643432379894,
+      "distance_min_nm": 1.2510113716125488,
+      "distance_median_nm": 2.198052167892456
+    },
+    {
+      "state": "A4_p_C6_2_opposite_cis",
+      "replica": 1,
+      "pair": "V2-V8",
+      "edge": [
+        "A1",
+        "A4"
+      ],
+      "history_class": "switch",
+      "kept_by_numbered_cycle_filter": true,
+      "n_frames": 3601,
+      "Pcontact_035_050": 0.0,
+      "Pcontact_le050": 0.0,
+      "Preference_090_150": 0.41099694529297415,
+      "distance_min_nm": 0.6068083643913269,
+      "distance_median_nm": 1.5571893453598022
+    },
+    {
+      "state": "A4_p_C6_2_opposite_cis",
+      "replica": 1,
+      "pair": "V3-V5",
+      "edge": [
+        "A2",
+        "A3"
+      ],
+      "history_class": "switch",
+      "kept_by_numbered_cycle_filter": true,
+      "n_frames": 3601,
+      "Pcontact_035_050": 0.0,
+      "Pcontact_le050": 0.0,
+      "Preference_090_150": 0.0,
+      "distance_min_nm": 2.0804121494293213,
+      "distance_median_nm": 2.8003761768341064
+    },
+    {
+      "state": "A4_p_C6_2_opposite_cis",
+      "replica": 1,
+      "pair": "V3-V8",
+      "edge": [
+        "A2",
+        "A4"
+      ],
+      "history_class": "switch",
+      "kept_by_numbered_cycle_filter": false,
+      "n_frames": 3601,
+      "Pcontact_035_050": 0.02860316578728131,
+      "Pcontact_le050": 0.02860316578728131,
+      "Preference_090_150": 0.5826159400166621,
+      "distance_min_nm": 0.3500351309776306,
+      "distance_median_nm": 1.0932508707046509
+    },
+    {
+      "state": "A4_p_C6_2_opposite_cis",
+      "replica": 1,
+      "pair": "V5-V8",
+      "edge": [
+        "A3",
+        "A4"
+      ],
+      "history_class": "reuse",
+      "kept_by_numbered_cycle_filter": true,
+      "n_frames": 3601,
+      "Pcontact_035_050": 0.0,
+      "Pcontact_le050": 0.0,
+      "Preference_090_150": 0.0,
+      "distance_min_nm": 1.7981514930725098,
+      "distance_median_nm": 2.9912614822387695
+    },
+    {
+      "state": "A4_p_C6_2_opposite_cis",
+      "replica": 2,
+      "pair": "V2-V3",
+      "edge": [
+        "A1",
+        "A2"
+      ],
+      "history_class": "reuse",
+      "kept_by_numbered_cycle_filter": true,
+      "n_frames": 3601,
+      "Pcontact_035_050": 0.0,
+      "Pcontact_le050": 0.0,
+      "Preference_090_150": 0.019161344071091362,
+      "distance_min_nm": 1.2543423175811768,
+      "distance_median_nm": 2.30727219581604
+    },
+    {
+      "state": "A4_p_C6_2_opposite_cis",
+      "replica": 2,
+      "pair": "V2-V5",
+      "edge": [
+        "A1",
+        "A3"
+      ],
+      "history_class": "switch",
+      "kept_by_numbered_cycle_filter": false,
+      "n_frames": 3601,
+      "Pcontact_035_050": 0.0,
+      "Pcontact_le050": 0.0,
+      "Preference_090_150": 0.0,
+      "distance_min_nm": 2.1365420818328857,
+      "distance_median_nm": 2.861501693725586
+    },
+    {
+      "state": "A4_p_C6_2_opposite_cis",
+      "replica": 2,
+      "pair": "V2-V8",
+      "edge": [
+        "A1",
+        "A4"
+      ],
+      "history_class": "switch",
+      "kept_by_numbered_cycle_filter": true,
+      "n_frames": 3601,
+      "Pcontact_035_050": 0.0,
+      "Pcontact_le050": 0.0,
+      "Preference_090_150": 0.1299638989169675,
+      "distance_min_nm": 0.7794592976570129,
+      "distance_median_nm": 1.8597546815872192
+    },
+    {
+      "state": "A4_p_C6_2_opposite_cis",
+      "replica": 2,
+      "pair": "V3-V5",
+      "edge": [
+        "A2",
+        "A3"
+      ],
+      "history_class": "switch",
+      "kept_by_numbered_cycle_filter": true,
+      "n_frames": 3601,
+      "Pcontact_035_050": 0.0,
+      "Pcontact_le050": 0.0,
+      "Preference_090_150": 0.061371841155234655,
+      "distance_min_nm": 1.110288381576538,
+      "distance_median_nm": 2.0951132774353027
+    },
+    {
+      "state": "A4_p_C6_2_opposite_cis",
+      "replica": 2,
+      "pair": "V3-V8",
+      "edge": [
+        "A2",
+        "A4"
+      ],
+      "history_class": "switch",
+      "kept_by_numbered_cycle_filter": false,
+      "n_frames": 3601,
+      "Pcontact_035_050": 0.029436267703415717,
+      "Pcontact_le050": 0.029991668980838656,
+      "Preference_090_150": 0.4976395445709525,
+      "distance_min_nm": 0.3198663592338562,
+      "distance_median_nm": 1.16485595703125
+    },
+    {
+      "state": "A4_p_C6_2_opposite_cis",
+      "replica": 2,
+      "pair": "V5-V8",
+      "edge": [
+        "A3",
+        "A4"
+      ],
+      "history_class": "reuse",
+      "kept_by_numbered_cycle_filter": true,
+      "n_frames": 3601,
+      "Pcontact_035_050": 0.0,
+      "Pcontact_le050": 0.0,
+      "Preference_090_150": 0.0,
+      "distance_min_nm": 1.620517373085022,
+      "distance_median_nm": 2.572077989578247
+    },
+    {
+      "state": "A4_p_C6_2_opposite_cis",
+      "replica": 3,
+      "pair": "V2-V3",
+      "edge": [
+        "A1",
+        "A2"
+      ],
+      "history_class": "reuse",
+      "kept_by_numbered_cycle_filter": true,
+      "n_frames": 3601,
+      "Pcontact_035_050": 0.0,
+      "Pcontact_le050": 0.0,
+      "Preference_090_150": 0.022771452374340462,
+      "distance_min_nm": 1.0155023336410522,
+      "distance_median_nm": 2.2571139335632324
+    },
+    {
+      "state": "A4_p_C6_2_opposite_cis",
+      "replica": 3,
+      "pair": "V2-V5",
+      "edge": [
+        "A1",
+        "A3"
+      ],
+      "history_class": "switch",
+      "kept_by_numbered_cycle_filter": false,
+      "n_frames": 3601,
+      "Pcontact_035_050": 0.0,
+      "Pcontact_le050": 0.0,
+      "Preference_090_150": 0.0,
+      "distance_min_nm": 2.1626594066619873,
+      "distance_median_nm": 2.9015636444091797
+    },
+    {
+      "state": "A4_p_C6_2_opposite_cis",
+      "replica": 3,
+      "pair": "V2-V8",
+      "edge": [
+        "A1",
+        "A4"
+      ],
+      "history_class": "switch",
+      "kept_by_numbered_cycle_filter": true,
+      "n_frames": 3601,
+      "Pcontact_035_050": 0.0,
+      "Pcontact_le050": 0.0,
+      "Preference_090_150": 0.20383226881421826,
+      "distance_min_nm": 0.8157949447631836,
+      "distance_median_nm": 1.8458439111709595
+    },
+    {
+      "state": "A4_p_C6_2_opposite_cis",
+      "replica": 3,
+      "pair": "V3-V5",
+      "edge": [
+        "A2",
+        "A3"
+      ],
+      "history_class": "switch",
+      "kept_by_numbered_cycle_filter": true,
+      "n_frames": 3601,
+      "Pcontact_035_050": 0.0,
+      "Pcontact_le050": 0.0,
+      "Preference_090_150": 0.2807553457372952,
+      "distance_min_nm": 0.6370025277137756,
+      "distance_median_nm": 1.7975472211837769
+    },
+    {
+      "state": "A4_p_C6_2_opposite_cis",
+      "replica": 3,
+      "pair": "V3-V8",
+      "edge": [
+        "A2",
+        "A4"
+      ],
+      "history_class": "switch",
+      "kept_by_numbered_cycle_filter": false,
+      "n_frames": 3601,
+      "Pcontact_035_050": 0.039711191335740074,
+      "Pcontact_le050": 0.04026659261316301,
+      "Preference_090_150": 0.32518744793113025,
+      "distance_min_nm": 0.33459892868995667,
+      "distance_median_nm": 1.4327421188354492
+    },
+    {
+      "state": "A4_p_C6_2_opposite_cis",
+      "replica": 3,
+      "pair": "V5-V8",
+      "edge": [
+        "A3",
+        "A4"
+      ],
+      "history_class": "reuse",
+      "kept_by_numbered_cycle_filter": true,
+      "n_frames": 3601,
+      "Pcontact_035_050": 0.0,
+      "Pcontact_le050": 0.0,
+      "Preference_090_150": 0.0,
+      "distance_min_nm": 1.8280922174453735,
+      "distance_median_nm": 2.6670029163360596
+    },
+    {
+      "state": "A4_p_C8_1_cis",
+      "replica": 1,
+      "pair": "V1-V3",
+      "edge": [
+        "A1",
+        "A2"
+      ],
+      "history_class": "switch",
+      "kept_by_numbered_cycle_filter": true,
+      "n_frames": 3601,
+      "Pcontact_035_050": 0.006109414051652319,
+      "Pcontact_le050": 0.006109414051652319,
+      "Preference_090_150": 0.09386281588447654,
+      "distance_min_nm": 0.3957044780254364,
+      "distance_median_nm": 2.16521954536438
+    },
+    {
+      "state": "A4_p_C8_1_cis",
+      "replica": 1,
+      "pair": "V1-V5",
+      "edge": [
+        "A1",
+        "A3"
+      ],
+      "history_class": "reuse",
+      "kept_by_numbered_cycle_filter": false,
+      "n_frames": 3601,
+      "Pcontact_035_050": 0.0,
+      "Pcontact_le050": 0.0,
+      "Preference_090_150": 0.0,
+      "distance_min_nm": 2.4535555839538574,
+      "distance_median_nm": 3.1078953742980957
+    },
+    {
+      "state": "A4_p_C8_1_cis",
+      "replica": 1,
+      "pair": "V1-V6",
+      "edge": [
+        "A1",
+        "A4"
+      ],
+      "history_class": "switch",
+      "kept_by_numbered_cycle_filter": true,
+      "n_frames": 3601,
+      "Pcontact_035_050": 0.0,
+      "Pcontact_le050": 0.0,
+      "Preference_090_150": 0.13107470147181338,
+      "distance_min_nm": 0.8512035012245178,
+      "distance_median_nm": 2.1784005165100098
+    },
+    {
+      "state": "A4_p_C8_1_cis",
+      "replica": 1,
+      "pair": "V1-V7",
+      "edge": [
+        "A1",
+        "A4"
+      ],
+      "history_class": "switch",
+      "kept_by_numbered_cycle_filter": true,
+      "n_frames": 3601,
+      "Pcontact_035_050": 0.0,
+      "Pcontact_le050": 0.0,
+      "Preference_090_150": 0.055817828381005276,
+      "distance_min_nm": 0.6449689865112305,
+      "distance_median_nm": 2.3226094245910645
+    },
+    {
+      "state": "A4_p_C8_1_cis",
+      "replica": 1,
+      "pair": "V1-V8",
+      "edge": [
+        "A1",
+        "A2"
+      ],
+      "history_class": "switch",
+      "kept_by_numbered_cycle_filter": true,
+      "n_frames": 3601,
+      "Pcontact_035_050": 0.0,
+      "Pcontact_le050": 0.0,
+      "Preference_090_150": 0.0,
+      "distance_min_nm": 1.9552515745162964,
+      "distance_median_nm": 3.0996298789978027
+    },
+    {
+      "state": "A4_p_C8_1_cis",
+      "replica": 1,
+      "pair": "V3-V5",
+      "edge": [
+        "A2",
+        "A3"
+      ],
+      "history_class": "switch",
+      "kept_by_numbered_cycle_filter": true,
+      "n_frames": 3601,
+      "Pcontact_035_050": 0.0,
+      "Pcontact_le050": 0.0,
+      "Preference_090_150": 0.03360177728408775,
+      "distance_min_nm": 1.017234444618225,
+      "distance_median_nm": 2.5291635990142822
+    },
+    {
+      "state": "A4_p_C8_1_cis",
+      "replica": 1,
+      "pair": "V3-V6",
+      "edge": [
+        "A2",
+        "A4"
+      ],
+      "history_class": "switch",
+      "kept_by_numbered_cycle_filter": false,
+      "n_frames": 3601,
+      "Pcontact_035_050": 0.0,
+      "Pcontact_le050": 0.0,
+      "Preference_090_150": 0.12496528742016107,
+      "distance_min_nm": 0.8459734320640564,
+      "distance_median_nm": 2.0515100955963135
+    },
+    {
+      "state": "A4_p_C8_1_cis",
+      "replica": 1,
+      "pair": "V3-V7",
+      "edge": [
+        "A2",
+        "A4"
+      ],
+      "history_class": "switch",
+      "kept_by_numbered_cycle_filter": false,
+      "n_frames": 3601,
+      "Pcontact_035_050": 0.029713968342127188,
+      "Pcontact_le050": 0.030547070258261595,
+      "Preference_090_150": 0.3918356012218828,
+      "distance_min_nm": 0.33345872163772583,
+      "distance_median_nm": 1.2525690793991089
+    },
+    {
+      "state": "A4_p_C8_1_cis",
+      "replica": 1,
+      "pair": "V3-V8",
+      "edge": [
+        "A2",
+        "A2"
+      ],
+      "history_class": "same",
+      "kept_by_numbered_cycle_filter": true,
+      "n_frames": 3601,
+      "Pcontact_035_050": 0.0,
+      "Pcontact_le050": 0.0,
+      "Preference_090_150": 0.12440988614273812,
+      "distance_min_nm": 0.9768362641334534,
+      "distance_median_nm": 2.1696319580078125
+    },
+    {
+      "state": "A4_p_C8_1_cis",
+      "replica": 1,
+      "pair": "V5-V6",
+      "edge": [
+        "A3",
+        "A4"
+      ],
+      "history_class": "switch",
+      "kept_by_numbered_cycle_filter": true,
+      "n_frames": 3601,
+      "Pcontact_035_050": 0.0,
+      "Pcontact_le050": 0.0,
+      "Preference_090_150": 0.038600388780894196,
+      "distance_min_nm": 0.9130971431732178,
+      "distance_median_nm": 2.302429676055908
+    },
+    {
+      "state": "A4_p_C8_1_cis",
+      "replica": 1,
+      "pair": "V5-V7",
+      "edge": [
+        "A3",
+        "A4"
+      ],
+      "history_class": "switch",
+      "kept_by_numbered_cycle_filter": true,
+      "n_frames": 3601,
+      "Pcontact_035_050": 0.0,
+      "Pcontact_le050": 0.0,
+      "Preference_090_150": 0.004998611496806442,
+      "distance_min_nm": 1.2219223976135254,
+      "distance_median_nm": 2.929759979248047
+    },
+    {
+      "state": "A4_p_C8_1_cis",
+      "replica": 1,
+      "pair": "V5-V8",
+      "edge": [
+        "A2",
+        "A3"
+      ],
+      "history_class": "switch",
+      "kept_by_numbered_cycle_filter": true,
+      "n_frames": 3601,
+      "Pcontact_035_050": 0.023882254929186338,
+      "Pcontact_le050": 0.024159955567897805,
+      "Preference_090_150": 0.4401555123576784,
+      "distance_min_nm": 0.34135109186172485,
+      "distance_median_nm": 1.2802746295928955
+    },
+    {
+      "state": "A4_p_C8_1_cis",
+      "replica": 1,
+      "pair": "V6-V7",
+      "edge": [
+        "A4",
+        "A4"
+      ],
+      "history_class": "same",
+      "kept_by_numbered_cycle_filter": true,
+      "n_frames": 3601,
+      "Pcontact_035_050": 0.0008331019161344071,
+      "Pcontact_le050": 0.0008331019161344071,
+      "Preference_090_150": 0.12607608997500694,
+      "distance_min_nm": 0.45726603269577026,
+      "distance_median_nm": 2.0754451751708984
+    },
+    {
+      "state": "A4_p_C8_1_cis",
+      "replica": 1,
+      "pair": "V6-V8",
+      "edge": [
+        "A2",
+        "A4"
+      ],
+      "history_class": "switch",
+      "kept_by_numbered_cycle_filter": false,
+      "n_frames": 3601,
+      "Pcontact_035_050": 0.0,
+      "Pcontact_le050": 0.0,
+      "Preference_090_150": 0.04054429325187448,
+      "distance_min_nm": 1.1447772979736328,
+      "distance_median_nm": 2.1231369972229004
+    },
+    {
+      "state": "A4_p_C8_1_cis",
+      "replica": 1,
+      "pair": "V7-V8",
+      "edge": [
+        "A2",
+        "A4"
+      ],
+      "history_class": "switch",
+      "kept_by_numbered_cycle_filter": false,
+      "n_frames": 3601,
+      "Pcontact_035_050": 0.0,
+      "Pcontact_le050": 0.0,
+      "Preference_090_150": 0.188281033046376,
+      "distance_min_nm": 0.7167462110519409,
+      "distance_median_nm": 2.0892117023468018
+    },
+    {
+      "state": "A4_p_C8_1_cis",
+      "replica": 2,
+      "pair": "V1-V3",
+      "edge": [
+        "A1",
+        "A2"
+      ],
+      "history_class": "switch",
+      "kept_by_numbered_cycle_filter": true,
+      "n_frames": 3601,
+      "Pcontact_035_050": 0.03693418494862538,
+      "Pcontact_le050": 0.03721188558733685,
+      "Preference_090_150": 0.4423771174673702,
+      "distance_min_nm": 0.3306056261062622,
+      "distance_median_nm": 1.1853653192520142
+    },
+    {
+      "state": "A4_p_C8_1_cis",
+      "replica": 2,
+      "pair": "V1-V5",
+      "edge": [
+        "A1",
+        "A3"
+      ],
+      "history_class": "reuse",
+      "kept_by_numbered_cycle_filter": false,
+      "n_frames": 3601,
+      "Pcontact_035_050": 0.0,
+      "Pcontact_le050": 0.0,
+      "Preference_090_150": 0.06053873923910025,
+      "distance_min_nm": 0.8074644207954407,
+      "distance_median_nm": 2.5531997680664062
+    },
+    {
+      "state": "A4_p_C8_1_cis",
+      "replica": 2,
+      "pair": "V1-V6",
+      "edge": [
+        "A1",
+        "A4"
+      ],
+      "history_class": "switch",
+      "kept_by_numbered_cycle_filter": true,
+      "n_frames": 3601,
+      "Pcontact_035_050": 0.009164121077478478,
+      "Pcontact_le050": 0.009164121077478478,
+      "Preference_090_150": 0.053318522632602054,
+      "distance_min_nm": 0.3627825677394867,
+      "distance_median_nm": 2.444347620010376
+    },
+    {
+      "state": "A4_p_C8_1_cis",
+      "replica": 2,
+      "pair": "V1-V7",
+      "edge": [
+        "A1",
+        "A4"
+      ],
+      "history_class": "switch",
+      "kept_by_numbered_cycle_filter": true,
+      "n_frames": 3601,
+      "Pcontact_035_050": 0.0,
+      "Pcontact_le050": 0.0,
+      "Preference_090_150": 0.008053318522632602,
+      "distance_min_nm": 1.2573273181915283,
+      "distance_median_nm": 2.2926058769226074
+    },
+    {
+      "state": "A4_p_C8_1_cis",
+      "replica": 2,
+      "pair": "V1-V8",
+      "edge": [
+        "A1",
+        "A2"
+      ],
+      "history_class": "switch",
+      "kept_by_numbered_cycle_filter": true,
+      "n_frames": 3601,
+      "Pcontact_035_050": 0.0,
+      "Pcontact_le050": 0.0,
+      "Preference_090_150": 0.09247431269091919,
+      "distance_min_nm": 0.7123738527297974,
+      "distance_median_nm": 2.275676965713501
+    },
+    {
+      "state": "A4_p_C8_1_cis",
+      "replica": 2,
+      "pair": "V3-V5",
+      "edge": [
+        "A2",
+        "A3"
+      ],
+      "history_class": "switch",
+      "kept_by_numbered_cycle_filter": true,
+      "n_frames": 3601,
+      "Pcontact_035_050": 0.0,
+      "Pcontact_le050": 0.0,
+      "Preference_090_150": 0.055817828381005276,
+      "distance_min_nm": 0.7364630699157715,
+      "distance_median_nm": 2.388594150543213
+    },
+    {
+      "state": "A4_p_C8_1_cis",
+      "replica": 2,
+      "pair": "V3-V6",
+      "edge": [
+        "A2",
+        "A4"
+      ],
+      "history_class": "switch",
+      "kept_by_numbered_cycle_filter": false,
+      "n_frames": 3601,
+      "Pcontact_035_050": 0.0,
+      "Pcontact_le050": 0.0,
+      "Preference_090_150": 0.006387114690363788,
+      "distance_min_nm": 1.3466194868087769,
+      "distance_median_nm": 2.3839468955993652
+    },
+    {
+      "state": "A4_p_C8_1_cis",
+      "replica": 2,
+      "pair": "V3-V7",
+      "edge": [
+        "A2",
+        "A4"
+      ],
+      "history_class": "switch",
+      "kept_by_numbered_cycle_filter": false,
+      "n_frames": 3601,
+      "Pcontact_035_050": 0.0,
+      "Pcontact_le050": 0.0,
+      "Preference_090_150": 0.07331296861982782,
+      "distance_min_nm": 0.7949314117431641,
+      "distance_median_nm": 1.9418665170669556
+    },
+    {
+      "state": "A4_p_C8_1_cis",
+      "replica": 2,
+      "pair": "V3-V8",
+      "edge": [
+        "A2",
+        "A2"
+      ],
+      "history_class": "same",
+      "kept_by_numbered_cycle_filter": true,
+      "n_frames": 3601,
+      "Pcontact_035_050": 0.0,
+      "Pcontact_le050": 0.0,
+      "Preference_090_150": 0.12801999444598722,
+      "distance_min_nm": 0.8120932579040527,
+      "distance_median_nm": 1.9585248231887817
+    },
+    {
+      "state": "A4_p_C8_1_cis",
+      "replica": 2,
+      "pair": "V5-V6",
+      "edge": [
+        "A3",
+        "A4"
+      ],
+      "history_class": "switch",
+      "kept_by_numbered_cycle_filter": true,
+      "n_frames": 3601,
+      "Pcontact_035_050": 0.0,
+      "Pcontact_le050": 0.0,
+      "Preference_090_150": 0.18550402665926133,
+      "distance_min_nm": 0.5074664354324341,
+      "distance_median_nm": 1.8729687929153442
+    },
+    {
+      "state": "A4_p_C8_1_cis",
+      "replica": 2,
+      "pair": "V5-V7",
+      "edge": [
+        "A3",
+        "A4"
+      ],
+      "history_class": "switch",
+      "kept_by_numbered_cycle_filter": true,
+      "n_frames": 3601,
+      "Pcontact_035_050": 0.0,
+      "Pcontact_le050": 0.0,
+      "Preference_090_150": 0.24715356845320743,
+      "distance_min_nm": 0.540151059627533,
+      "distance_median_nm": 1.955318570137024
+    },
+    {
+      "state": "A4_p_C8_1_cis",
+      "replica": 2,
+      "pair": "V5-V8",
+      "edge": [
+        "A2",
+        "A3"
+      ],
+      "history_class": "switch",
+      "kept_by_numbered_cycle_filter": true,
+      "n_frames": 3601,
+      "Pcontact_035_050": 0.06664815329075256,
+      "Pcontact_le050": 0.06803665648430991,
+      "Preference_090_150": 0.510969175229103,
+      "distance_min_nm": 0.3352198004722595,
+      "distance_median_nm": 1.048235535621643
+    },
+    {
+      "state": "A4_p_C8_1_cis",
+      "replica": 2,
+      "pair": "V6-V7",
+      "edge": [
+        "A4",
+        "A4"
+      ],
+      "history_class": "same",
+      "kept_by_numbered_cycle_filter": true,
+      "n_frames": 3601,
+      "Pcontact_035_050": 0.0,
+      "Pcontact_le050": 0.0,
+      "Preference_090_150": 0.22382671480144403,
+      "distance_min_nm": 0.7307712435722351,
+      "distance_median_nm": 1.8081092834472656
+    },
+    {
+      "state": "A4_p_C8_1_cis",
+      "replica": 2,
+      "pair": "V6-V8",
+      "edge": [
+        "A2",
+        "A4"
+      ],
+      "history_class": "switch",
+      "kept_by_numbered_cycle_filter": false,
+      "n_frames": 3601,
+      "Pcontact_035_050": 0.0,
+      "Pcontact_le050": 0.0,
+      "Preference_090_150": 0.06387114690363788,
+      "distance_min_nm": 1.0904732942581177,
+      "distance_median_nm": 2.1777849197387695
+    },
+    {
+      "state": "A4_p_C8_1_cis",
+      "replica": 2,
+      "pair": "V7-V8",
+      "edge": [
+        "A2",
+        "A4"
+      ],
+      "history_class": "switch",
+      "kept_by_numbered_cycle_filter": false,
+      "n_frames": 3601,
+      "Pcontact_035_050": 0.0030547070258261596,
+      "Pcontact_le050": 0.0030547070258261596,
+      "Preference_090_150": 0.3504582060538739,
+      "distance_min_nm": 0.36380764842033386,
+      "distance_median_nm": 1.6184625625610352
+    },
+    {
+      "state": "A4_p_C8_1_cis",
+      "replica": 3,
+      "pair": "V1-V3",
+      "edge": [
+        "A1",
+        "A2"
+      ],
+      "history_class": "switch",
+      "kept_by_numbered_cycle_filter": true,
+      "n_frames": 3601,
+      "Pcontact_035_050": 0.0,
+      "Pcontact_le050": 0.0,
+      "Preference_090_150": 0.0,
+      "distance_min_nm": 1.583785057067871,
+      "distance_median_nm": 2.948241710662842
+    },
+    {
+      "state": "A4_p_C8_1_cis",
+      "replica": 3,
+      "pair": "V1-V5",
+      "edge": [
+        "A1",
+        "A3"
+      ],
+      "history_class": "reuse",
+      "kept_by_numbered_cycle_filter": false,
+      "n_frames": 3601,
+      "Pcontact_035_050": 0.0,
+      "Pcontact_le050": 0.0,
+      "Preference_090_150": 0.0013885031935573452,
+      "distance_min_nm": 1.3807597160339355,
+      "distance_median_nm": 2.9138240814208984
+    },
+    {
+      "state": "A4_p_C8_1_cis",
+      "replica": 3,
+      "pair": "V1-V6",
+      "edge": [
+        "A1",
+        "A4"
+      ],
+      "history_class": "switch",
+      "kept_by_numbered_cycle_filter": true,
+      "n_frames": 3601,
+      "Pcontact_035_050": 0.021938350458206055,
+      "Pcontact_le050": 0.022216051096917523,
+      "Preference_090_150": 0.31185781727297973,
+      "distance_min_nm": 0.3431411683559418,
+      "distance_median_nm": 1.6554421186447144
+    },
+    {
+      "state": "A4_p_C8_1_cis",
+      "replica": 3,
+      "pair": "V1-V7",
+      "edge": [
+        "A1",
+        "A4"
+      ],
+      "history_class": "switch",
+      "kept_by_numbered_cycle_filter": true,
+      "n_frames": 3601,
+      "Pcontact_035_050": 0.02915856706470425,
+      "Pcontact_le050": 0.02915856706470425,
+      "Preference_090_150": 0.3218550402665926,
+      "distance_min_nm": 0.36394044756889343,
+      "distance_median_nm": 1.3071519136428833
+    },
+    {
+      "state": "A4_p_C8_1_cis",
+      "replica": 3,
+      "pair": "V1-V8",
+      "edge": [
+        "A1",
+        "A2"
+      ],
+      "history_class": "switch",
+      "kept_by_numbered_cycle_filter": true,
+      "n_frames": 3601,
+      "Pcontact_035_050": 0.0,
+      "Pcontact_le050": 0.0,
+      "Preference_090_150": 0.0,
+      "distance_min_nm": 1.8818292617797852,
+      "distance_median_nm": 3.0278851985931396
+    },
+    {
+      "state": "A4_p_C8_1_cis",
+      "replica": 3,
+      "pair": "V3-V5",
+      "edge": [
+        "A2",
+        "A3"
+      ],
+      "history_class": "switch",
+      "kept_by_numbered_cycle_filter": true,
+      "n_frames": 3601,
+      "Pcontact_035_050": 0.00027770063871146905,
+      "Pcontact_le050": 0.00027770063871146905,
+      "Preference_090_150": 0.2341016384337684,
+      "distance_min_nm": 0.4998989403247833,
+      "distance_median_nm": 1.8252084255218506
+    },
+    {
+      "state": "A4_p_C8_1_cis",
+      "replica": 3,
+      "pair": "V3-V6",
+      "edge": [
+        "A2",
+        "A4"
+      ],
+      "history_class": "switch",
+      "kept_by_numbered_cycle_filter": false,
+      "n_frames": 3601,
+      "Pcontact_035_050": 0.0,
+      "Pcontact_le050": 0.0,
+      "Preference_090_150": 0.0,
+      "distance_min_nm": 1.8182907104492188,
+      "distance_median_nm": 2.6904728412628174
+    },
+    {
+      "state": "A4_p_C8_1_cis",
+      "replica": 3,
+      "pair": "V3-V7",
+      "edge": [
+        "A2",
+        "A4"
+      ],
+      "history_class": "switch",
+      "kept_by_numbered_cycle_filter": false,
+      "n_frames": 3601,
+      "Pcontact_035_050": 0.0,
+      "Pcontact_le050": 0.0,
+      "Preference_090_150": 0.0,
+      "distance_min_nm": 1.6949070692062378,
+      "distance_median_nm": 2.911195993423462
+    },
+    {
+      "state": "A4_p_C8_1_cis",
+      "replica": 3,
+      "pair": "V3-V8",
+      "edge": [
+        "A2",
+        "A2"
+      ],
+      "history_class": "same",
+      "kept_by_numbered_cycle_filter": true,
+      "n_frames": 3601,
+      "Pcontact_035_050": 0.0,
+      "Pcontact_le050": 0.0,
+      "Preference_090_150": 0.17967231324632046,
+      "distance_min_nm": 0.8853524923324585,
+      "distance_median_nm": 1.8883061408996582
+    },
+    {
+      "state": "A4_p_C8_1_cis",
+      "replica": 3,
+      "pair": "V5-V6",
+      "edge": [
+        "A3",
+        "A4"
+      ],
+      "history_class": "switch",
+      "kept_by_numbered_cycle_filter": true,
+      "n_frames": 3601,
+      "Pcontact_035_050": 0.007775617883921133,
+      "Pcontact_le050": 0.008053318522632602,
+      "Preference_090_150": 0.08469869480699806,
+      "distance_min_nm": 0.34807702898979187,
+      "distance_median_nm": 2.323657989501953
+    },
+    {
+      "state": "A4_p_C8_1_cis",
+      "replica": 3,
+      "pair": "V5-V7",
+      "edge": [
+        "A3",
+        "A4"
+      ],
+      "history_class": "switch",
+      "kept_by_numbered_cycle_filter": true,
+      "n_frames": 3601,
+      "Pcontact_035_050": 0.0,
+      "Pcontact_le050": 0.0,
+      "Preference_090_150": 0.0,
+      "distance_min_nm": 1.9172974824905396,
+      "distance_median_nm": 3.3116843700408936
+    },
+    {
+      "state": "A4_p_C8_1_cis",
+      "replica": 3,
+      "pair": "V5-V8",
+      "edge": [
+        "A2",
+        "A3"
+      ],
+      "history_class": "switch",
+      "kept_by_numbered_cycle_filter": true,
+      "n_frames": 3601,
+      "Pcontact_035_050": 0.00860871980005554,
+      "Pcontact_le050": 0.00860871980005554,
+      "Preference_090_150": 0.2879755623437934,
+      "distance_min_nm": 0.37360790371894836,
+      "distance_median_nm": 1.7158617973327637
+    },
+    {
+      "state": "A4_p_C8_1_cis",
+      "replica": 3,
+      "pair": "V6-V7",
+      "edge": [
+        "A4",
+        "A4"
+      ],
+      "history_class": "same",
+      "kept_by_numbered_cycle_filter": true,
+      "n_frames": 3601,
+      "Pcontact_035_050": 0.0,
+      "Pcontact_le050": 0.0,
+      "Preference_090_150": 0.19966675923354624,
+      "distance_min_nm": 0.7167381644248962,
+      "distance_median_nm": 1.810640811920166
+    },
+    {
+      "state": "A4_p_C8_1_cis",
+      "replica": 3,
+      "pair": "V6-V8",
+      "edge": [
+        "A2",
+        "A4"
+      ],
+      "history_class": "switch",
+      "kept_by_numbered_cycle_filter": false,
+      "n_frames": 3601,
+      "Pcontact_035_050": 0.0,
+      "Pcontact_le050": 0.0,
+      "Preference_090_150": 0.09469591780061094,
+      "distance_min_nm": 0.8133241534233093,
+      "distance_median_nm": 2.131293773651123
+    },
+    {
+      "state": "A4_p_C8_1_cis",
+      "replica": 3,
+      "pair": "V7-V8",
+      "edge": [
+        "A2",
+        "A4"
+      ],
+      "history_class": "switch",
+      "kept_by_numbered_cycle_filter": false,
+      "n_frames": 3601,
+      "Pcontact_035_050": 0.0,
+      "Pcontact_le050": 0.0,
+      "Preference_090_150": 0.0,
+      "distance_min_nm": 1.8672657012939453,
+      "distance_median_nm": 3.059422492980957
+    },
+    {
+      "state": "A4_p_C8_2_adjacent_cis",
+      "replica": 1,
+      "pair": "V5-V6",
+      "edge": [
+        "A3",
+        "A4"
+      ],
+      "history_class": "switch",
+      "kept_by_numbered_cycle_filter": true,
+      "n_frames": 3601,
+      "Pcontact_035_050": 0.0,
+      "Pcontact_le050": 0.0,
+      "Preference_090_150": 0.009997222993612885,
+      "distance_min_nm": 1.2910692691802979,
+      "distance_median_nm": 3.065549373626709
+    },
+    {
+      "state": "A4_p_C8_2_adjacent_cis",
+      "replica": 1,
+      "pair": "V5-V7",
+      "edge": [
+        "A3",
+        "A4"
+      ],
+      "history_class": "switch",
+      "kept_by_numbered_cycle_filter": true,
+      "n_frames": 3601,
+      "Pcontact_035_050": 0.0,
+      "Pcontact_le050": 0.0,
+      "Preference_090_150": 0.0,
+      "distance_min_nm": 1.602975606918335,
+      "distance_median_nm": 2.542173385620117
+    },
+    {
+      "state": "A4_p_C8_2_adjacent_cis",
+      "replica": 1,
+      "pair": "V5-V8",
+      "edge": [
+        "A2",
+        "A3"
+      ],
+      "history_class": "switch",
+      "kept_by_numbered_cycle_filter": true,
+      "n_frames": 3601,
+      "Pcontact_035_050": 0.0,
+      "Pcontact_le050": 0.0,
+      "Preference_090_150": 0.06803665648430991,
+      "distance_min_nm": 1.0732253789901733,
+      "distance_median_nm": 2.3135733604431152
+    },
+    {
+      "state": "A4_p_C8_2_adjacent_cis",
+      "replica": 1,
+      "pair": "V6-V7",
+      "edge": [
+        "A4",
+        "A4"
+      ],
+      "history_class": "same",
+      "kept_by_numbered_cycle_filter": true,
+      "n_frames": 3601,
+      "Pcontact_035_050": 0.0,
+      "Pcontact_le050": 0.0,
+      "Preference_090_150": 0.10191613440710913,
+      "distance_min_nm": 0.7898104190826416,
+      "distance_median_nm": 1.9465670585632324
+    },
+    {
+      "state": "A4_p_C8_2_adjacent_cis",
+      "replica": 1,
+      "pair": "V6-V8",
+      "edge": [
+        "A2",
+        "A4"
+      ],
+      "history_class": "switch",
+      "kept_by_numbered_cycle_filter": false,
+      "n_frames": 3601,
+      "Pcontact_035_050": 0.0,
+      "Pcontact_le050": 0.0,
+      "Preference_090_150": 0.02888086642599278,
+      "distance_min_nm": 0.6807953119277954,
+      "distance_median_nm": 2.2393479347229004
+    },
+    {
+      "state": "A4_p_C8_2_adjacent_cis",
+      "replica": 1,
+      "pair": "V7-V8",
+      "edge": [
+        "A2",
+        "A4"
+      ],
+      "history_class": "switch",
+      "kept_by_numbered_cycle_filter": false,
+      "n_frames": 3601,
+      "Pcontact_035_050": 0.0,
+      "Pcontact_le050": 0.0,
+      "Preference_090_150": 0.1274645931685643,
+      "distance_min_nm": 0.9507309794425964,
+      "distance_median_nm": 1.9973642826080322
+    },
+    {
+      "state": "A4_p_C8_2_adjacent_cis",
+      "replica": 2,
+      "pair": "V5-V6",
+      "edge": [
+        "A3",
+        "A4"
+      ],
+      "history_class": "switch",
+      "kept_by_numbered_cycle_filter": true,
+      "n_frames": 3601,
+      "Pcontact_035_050": 0.0,
+      "Pcontact_le050": 0.0,
+      "Preference_090_150": 0.0,
+      "distance_min_nm": 1.9183262586593628,
+      "distance_median_nm": 2.9522366523742676
+    },
+    {
+      "state": "A4_p_C8_2_adjacent_cis",
+      "replica": 2,
+      "pair": "V5-V7",
+      "edge": [
+        "A3",
+        "A4"
+      ],
+      "history_class": "switch",
+      "kept_by_numbered_cycle_filter": true,
+      "n_frames": 3601,
+      "Pcontact_035_050": 0.0,
+      "Pcontact_le050": 0.0,
+      "Preference_090_150": 0.0011108025548458762,
+      "distance_min_nm": 1.436301589012146,
+      "distance_median_nm": 2.6178550720214844
+    },
+    {
+      "state": "A4_p_C8_2_adjacent_cis",
+      "replica": 2,
+      "pair": "V5-V8",
+      "edge": [
+        "A2",
+        "A3"
+      ],
+      "history_class": "switch",
+      "kept_by_numbered_cycle_filter": true,
+      "n_frames": 3601,
+      "Pcontact_035_050": 0.0,
+      "Pcontact_le050": 0.0,
+      "Preference_090_150": 0.014995834490419328,
+      "distance_min_nm": 1.0262349843978882,
+      "distance_median_nm": 2.8589086532592773
+    },
+    {
+      "state": "A4_p_C8_2_adjacent_cis",
+      "replica": 2,
+      "pair": "V6-V7",
+      "edge": [
+        "A4",
+        "A4"
+      ],
+      "history_class": "same",
+      "kept_by_numbered_cycle_filter": true,
+      "n_frames": 3601,
+      "Pcontact_035_050": 0.0,
+      "Pcontact_le050": 0.0,
+      "Preference_090_150": 0.1552346570397112,
+      "distance_min_nm": 0.6184021234512329,
+      "distance_median_nm": 1.9940481185913086
+    },
+    {
+      "state": "A4_p_C8_2_adjacent_cis",
+      "replica": 2,
+      "pair": "V6-V8",
+      "edge": [
+        "A2",
+        "A4"
+      ],
+      "history_class": "switch",
+      "kept_by_numbered_cycle_filter": false,
+      "n_frames": 3601,
+      "Pcontact_035_050": 0.0,
+      "Pcontact_le050": 0.0,
+      "Preference_090_150": 0.1416273257428492,
+      "distance_min_nm": 0.6617522835731506,
+      "distance_median_nm": 2.2203269004821777
+    },
+    {
+      "state": "A4_p_C8_2_adjacent_cis",
+      "replica": 2,
+      "pair": "V7-V8",
+      "edge": [
+        "A2",
+        "A4"
+      ],
+      "history_class": "switch",
+      "kept_by_numbered_cycle_filter": false,
+      "n_frames": 3601,
+      "Pcontact_035_050": 0.0013885031935573452,
+      "Pcontact_le050": 0.0013885031935573452,
+      "Preference_090_150": 0.15940016662038323,
+      "distance_min_nm": 0.42353391647338867,
+      "distance_median_nm": 2.7940120697021484
+    },
+    {
+      "state": "A4_p_C8_2_adjacent_cis",
+      "replica": 3,
+      "pair": "V5-V6",
+      "edge": [
+        "A3",
+        "A4"
+      ],
+      "history_class": "switch",
+      "kept_by_numbered_cycle_filter": true,
+      "n_frames": 3601,
+      "Pcontact_035_050": 0.0,
+      "Pcontact_le050": 0.0,
+      "Preference_090_150": 0.0,
+      "distance_min_nm": 2.2575020790100098,
+      "distance_median_nm": 3.1061434745788574
+    },
+    {
+      "state": "A4_p_C8_2_adjacent_cis",
+      "replica": 3,
+      "pair": "V5-V7",
+      "edge": [
+        "A3",
+        "A4"
+      ],
+      "history_class": "switch",
+      "kept_by_numbered_cycle_filter": true,
+      "n_frames": 3601,
+      "Pcontact_035_050": 0.0,
+      "Pcontact_le050": 0.0,
+      "Preference_090_150": 0.010552624271035824,
+      "distance_min_nm": 1.0984314680099487,
+      "distance_median_nm": 2.676454782485962
+    },
+    {
+      "state": "A4_p_C8_2_adjacent_cis",
+      "replica": 3,
+      "pair": "V5-V8",
+      "edge": [
+        "A2",
+        "A3"
+      ],
+      "history_class": "switch",
+      "kept_by_numbered_cycle_filter": true,
+      "n_frames": 3601,
+      "Pcontact_035_050": 0.0,
+      "Pcontact_le050": 0.0,
+      "Preference_090_150": 0.0,
+      "distance_min_nm": 1.532345175743103,
+      "distance_median_nm": 2.839210271835327
+    },
+    {
+      "state": "A4_p_C8_2_adjacent_cis",
+      "replica": 3,
+      "pair": "V6-V7",
+      "edge": [
+        "A4",
+        "A4"
+      ],
+      "history_class": "same",
+      "kept_by_numbered_cycle_filter": true,
+      "n_frames": 3601,
+      "Pcontact_035_050": 0.0011108025548458762,
+      "Pcontact_le050": 0.0011108025548458762,
+      "Preference_090_150": 0.25520688697584004,
+      "distance_min_nm": 0.4489528238773346,
+      "distance_median_nm": 1.736482858657837
+    },
+    {
+      "state": "A4_p_C8_2_adjacent_cis",
+      "replica": 3,
+      "pair": "V6-V8",
+      "edge": [
+        "A2",
+        "A4"
+      ],
+      "history_class": "switch",
+      "kept_by_numbered_cycle_filter": false,
+      "n_frames": 3601,
+      "Pcontact_035_050": 0.0016662038322688142,
+      "Pcontact_le050": 0.0016662038322688142,
+      "Preference_090_150": 0.0619272424326576,
+      "distance_min_nm": 0.44243621826171875,
+      "distance_median_nm": 2.550442695617676
+    },
+    {
+      "state": "A4_p_C8_2_adjacent_cis",
+      "replica": 3,
+      "pair": "V7-V8",
+      "edge": [
+        "A2",
+        "A4"
+      ],
+      "history_class": "switch",
+      "kept_by_numbered_cycle_filter": false,
+      "n_frames": 3601,
+      "Pcontact_035_050": 0.0,
+      "Pcontact_le050": 0.0,
+      "Preference_090_150": 0.17606220494307137,
+      "distance_min_nm": 0.6805037260055542,
+      "distance_median_nm": 2.061760187149048
+    },
+    {
+      "state": "A4_p_C8_2_opposite_cis",
+      "replica": 1,
+      "pair": "V1-V3",
+      "edge": [
+        "A1",
+        "A2"
+      ],
+      "history_class": "switch",
+      "kept_by_numbered_cycle_filter": true,
+      "n_frames": 3601,
+      "Pcontact_035_050": 0.0,
+      "Pcontact_le050": 0.0,
+      "Preference_090_150": 0.13773951680088864,
+      "distance_min_nm": 0.7581802606582642,
+      "distance_median_nm": 1.8961431980133057
+    },
+    {
+      "state": "A4_p_C8_2_opposite_cis",
+      "replica": 1,
+      "pair": "V1-V5",
+      "edge": [
+        "A1",
+        "A3"
+      ],
+      "history_class": "reuse",
+      "kept_by_numbered_cycle_filter": false,
+      "n_frames": 3601,
+      "Pcontact_035_050": 0.0,
+      "Pcontact_le050": 0.0,
+      "Preference_090_150": 0.17161899472368786,
+      "distance_min_nm": 0.6679368019104004,
+      "distance_median_nm": 1.8968439102172852
+    },
+    {
+      "state": "A4_p_C8_2_opposite_cis",
+      "replica": 1,
+      "pair": "V1-V6",
+      "edge": [
+        "A1",
+        "A4"
+      ],
+      "history_class": "switch",
+      "kept_by_numbered_cycle_filter": true,
+      "n_frames": 3601,
+      "Pcontact_035_050": 0.0,
+      "Pcontact_le050": 0.0,
+      "Preference_090_150": 0.027770063871146902,
+      "distance_min_nm": 1.1133280992507935,
+      "distance_median_nm": 2.416269063949585
+    },
+    {
+      "state": "A4_p_C8_2_opposite_cis",
+      "replica": 1,
+      "pair": "V3-V5",
+      "edge": [
+        "A2",
+        "A3"
+      ],
+      "history_class": "switch",
+      "kept_by_numbered_cycle_filter": true,
+      "n_frames": 3601,
+      "Pcontact_035_050": 0.0,
+      "Pcontact_le050": 0.0,
+      "Preference_090_150": 0.00027770063871146905,
+      "distance_min_nm": 1.4988704919815063,
+      "distance_median_nm": 2.824772357940674
+    },
+    {
+      "state": "A4_p_C8_2_opposite_cis",
+      "replica": 1,
+      "pair": "V3-V6",
+      "edge": [
+        "A2",
+        "A4"
+      ],
+      "history_class": "reuse",
+      "kept_by_numbered_cycle_filter": false,
+      "n_frames": 3601,
+      "Pcontact_035_050": 0.0019439044709802832,
+      "Pcontact_le050": 0.0019439044709802832,
+      "Preference_090_150": 0.16800888642043876,
+      "distance_min_nm": 0.3984084129333496,
+      "distance_median_nm": 2.1236066818237305
+    },
+    {
+      "state": "A4_p_C8_2_opposite_cis",
+      "replica": 1,
+      "pair": "V5-V6",
+      "edge": [
+        "A3",
+        "A4"
+      ],
+      "history_class": "switch",
+      "kept_by_numbered_cycle_filter": true,
+      "n_frames": 3601,
+      "Pcontact_035_050": 0.0,
+      "Pcontact_le050": 0.0,
+      "Preference_090_150": 0.00027770063871146905,
+      "distance_min_nm": 1.480766773223877,
+      "distance_median_nm": 2.508894920349121
+    },
+    {
+      "state": "A4_p_C8_2_opposite_cis",
+      "replica": 2,
+      "pair": "V1-V3",
+      "edge": [
+        "A1",
+        "A2"
+      ],
+      "history_class": "switch",
+      "kept_by_numbered_cycle_filter": true,
+      "n_frames": 3601,
+      "Pcontact_035_050": 0.0,
+      "Pcontact_le050": 0.0,
+      "Preference_090_150": 0.2168841988336573,
+      "distance_min_nm": 0.6997045278549194,
+      "distance_median_nm": 1.983176827430725
+    },
+    {
+      "state": "A4_p_C8_2_opposite_cis",
+      "replica": 2,
+      "pair": "V1-V5",
+      "edge": [
+        "A1",
+        "A3"
+      ],
+      "history_class": "reuse",
+      "kept_by_numbered_cycle_filter": false,
+      "n_frames": 3601,
+      "Pcontact_035_050": 0.0,
+      "Pcontact_le050": 0.0,
+      "Preference_090_150": 0.06748125520688697,
+      "distance_min_nm": 0.6188133358955383,
+      "distance_median_nm": 2.1051442623138428
+    },
+    {
+      "state": "A4_p_C8_2_opposite_cis",
+      "replica": 2,
+      "pair": "V1-V6",
+      "edge": [
+        "A1",
+        "A4"
+      ],
+      "history_class": "switch",
+      "kept_by_numbered_cycle_filter": true,
+      "n_frames": 3601,
+      "Pcontact_035_050": 0.0,
+      "Pcontact_le050": 0.0,
+      "Preference_090_150": 0.0,
+      "distance_min_nm": 1.5968385934829712,
+      "distance_median_nm": 2.4712538719177246
+    },
+    {
+      "state": "A4_p_C8_2_opposite_cis",
+      "replica": 2,
+      "pair": "V3-V5",
+      "edge": [
+        "A2",
+        "A3"
+      ],
+      "history_class": "switch",
+      "kept_by_numbered_cycle_filter": true,
+      "n_frames": 3601,
+      "Pcontact_035_050": 0.0,
+      "Pcontact_le050": 0.0,
+      "Preference_090_150": 0.0,
+      "distance_min_nm": 2.431715726852417,
+      "distance_median_nm": 3.260920286178589
+    },
+    {
+      "state": "A4_p_C8_2_opposite_cis",
+      "replica": 2,
+      "pair": "V3-V6",
+      "edge": [
+        "A2",
+        "A4"
+      ],
+      "history_class": "reuse",
+      "kept_by_numbered_cycle_filter": false,
+      "n_frames": 3601,
+      "Pcontact_035_050": 0.0,
+      "Pcontact_le050": 0.0,
+      "Preference_090_150": 0.0,
+      "distance_min_nm": 1.5321260690689087,
+      "distance_median_nm": 3.0921952724456787
+    },
+    {
+      "state": "A4_p_C8_2_opposite_cis",
+      "replica": 2,
+      "pair": "V5-V6",
+      "edge": [
+        "A3",
+        "A4"
+      ],
+      "history_class": "switch",
+      "kept_by_numbered_cycle_filter": true,
+      "n_frames": 3601,
+      "Pcontact_035_050": 0.0,
+      "Pcontact_le050": 0.0,
+      "Preference_090_150": 0.14912524298805888,
+      "distance_min_nm": 1.0096216201782227,
+      "distance_median_nm": 1.8603699207305908
+    },
+    {
+      "state": "A4_p_C8_2_opposite_cis",
+      "replica": 3,
+      "pair": "V1-V3",
+      "edge": [
+        "A1",
+        "A2"
+      ],
+      "history_class": "switch",
+      "kept_by_numbered_cycle_filter": true,
+      "n_frames": 3601,
+      "Pcontact_035_050": 0.00888642043876701,
+      "Pcontact_le050": 0.00888642043876701,
+      "Preference_090_150": 0.26714801444043323,
+      "distance_min_nm": 0.35084134340286255,
+      "distance_median_nm": 1.80237877368927
+    },
+    {
+      "state": "A4_p_C8_2_opposite_cis",
+      "replica": 3,
+      "pair": "V1-V5",
+      "edge": [
+        "A1",
+        "A3"
+      ],
+      "history_class": "reuse",
+      "kept_by_numbered_cycle_filter": false,
+      "n_frames": 3601,
+      "Pcontact_035_050": 0.0,
+      "Pcontact_le050": 0.0,
+      "Preference_090_150": 0.0,
+      "distance_min_nm": 2.1497244834899902,
+      "distance_median_nm": 3.0526952743530273
+    },
+    {
+      "state": "A4_p_C8_2_opposite_cis",
+      "replica": 3,
+      "pair": "V1-V6",
+      "edge": [
+        "A1",
+        "A4"
+      ],
+      "history_class": "switch",
+      "kept_by_numbered_cycle_filter": true,
+      "n_frames": 3601,
+      "Pcontact_035_050": 0.0,
+      "Pcontact_le050": 0.0,
+      "Preference_090_150": 0.02054984726464871,
+      "distance_min_nm": 1.338598608970642,
+      "distance_median_nm": 2.3210697174072266
+    },
+    {
+      "state": "A4_p_C8_2_opposite_cis",
+      "replica": 3,
+      "pair": "V3-V5",
+      "edge": [
+        "A2",
+        "A3"
+      ],
+      "history_class": "switch",
+      "kept_by_numbered_cycle_filter": true,
+      "n_frames": 3601,
+      "Pcontact_035_050": 0.0,
+      "Pcontact_le050": 0.0,
+      "Preference_090_150": 0.005276312135517912,
+      "distance_min_nm": 1.2925571203231812,
+      "distance_median_nm": 2.807708978652954
+    },
+    {
+      "state": "A4_p_C8_2_opposite_cis",
+      "replica": 3,
+      "pair": "V3-V6",
+      "edge": [
+        "A2",
+        "A4"
+      ],
+      "history_class": "reuse",
+      "kept_by_numbered_cycle_filter": false,
+      "n_frames": 3601,
+      "Pcontact_035_050": 0.0,
+      "Pcontact_le050": 0.0,
+      "Preference_090_150": 0.0,
+      "distance_min_nm": 1.7530876398086548,
+      "distance_median_nm": 2.829697370529175
+    },
+    {
+      "state": "A4_p_C8_2_opposite_cis",
+      "replica": 3,
+      "pair": "V5-V6",
+      "edge": [
+        "A3",
+        "A4"
+      ],
+      "history_class": "switch",
+      "kept_by_numbered_cycle_filter": true,
+      "n_frames": 3601,
+      "Pcontact_035_050": 0.0,
+      "Pcontact_le050": 0.0,
+      "Preference_090_150": 0.0,
+      "distance_min_nm": 1.7598899602890015,
+      "distance_median_nm": 2.7335493564605713
+    }
+  ]
+}

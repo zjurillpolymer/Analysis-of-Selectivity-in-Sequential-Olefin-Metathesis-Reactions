@@ -1,0 +1,28 @@
+{
+  "state": "A4_p_C8_2_adjacent_cis",
+  "replica": 2,
+  "left": 5,
+  "right": 8,
+  "route_class": "switch",
+  "topology_class": "cross",
+  "maximum_nm": 2.75,
+  "initial_distance_nm": 1.8868325972380278,
+  "half_box_limit_nm": 3.142695,
+  "window_count": 25,
+  "source_manifest_row": {
+    "system": "A4_p_C8",
+    "state": "A4_p_C8_2_adjacent_cis",
+    "stage": "q2",
+    "branch": "adjacent",
+    "lineage_q1_pair": "V2-V4",
+    "lineage_q1_arm_edge": "A1-A3",
+    "lineage_q2_pair": "V1-V3",
+    "pair": "V5-V8",
+    "left": "5",
+    "right": "8",
+    "topology_class": "cross",
+    "route_class": "switch",
+    "allowed_by_neighbour_model": "True",
+    "q0_mean_soft_contact": "0.0006708768085235791"
+  }
+}

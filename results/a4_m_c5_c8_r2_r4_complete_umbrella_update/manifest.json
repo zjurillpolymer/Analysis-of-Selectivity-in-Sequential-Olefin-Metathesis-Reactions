@@ -1,0 +1,31 @@
+{
+  "systems": [
+    "C5",
+    "C6",
+    "C7",
+    "C8"
+  ],
+  "primary_nac_setting": "d5_axis45_side45",
+  "q0": "cross fixed",
+  "target_products": [
+    "R2",
+    "R4"
+  ],
+  "q1_candidate_multiplicity": {
+    "full_reuse": 1,
+    "partial_reuse": 8,
+    "full_switch": 4
+  },
+  "q2_opposite_candidate_multiplicity": {
+    "R2x2": 2,
+    "R4": 4
+  },
+  "bootstrap_samples": 20000,
+  "files": [
+    "branch_probabilities.csv",
+    "source_combination_predictions.csv",
+    "yield_pathway_decomposition.csv",
+    "unbiased_bootstrap.csv",
+    "REPORT.md"
+  ]
+}

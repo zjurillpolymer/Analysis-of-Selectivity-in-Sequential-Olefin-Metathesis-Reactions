@@ -1,0 +1,280 @@
+{
+  "temperature_K": 313.15,
+  "contact_split_nm": 0.5,
+  "minimum_histogram_count": 5.0,
+  "scope": "four prescreened representative q1 paths; A4 has no opposite-arm exclusion",
+  "pathways": [
+    {
+      "pathway": "c6_q1_reuse_v1_v7",
+      "system": "A4_m_C6",
+      "stage": "q1",
+      "route_family": "reuse",
+      "topology": "cross_arm",
+      "pair": "V1-V7",
+      "source_replica": 1,
+      "contact_dG_kcal_mol": 2.8394020695957707,
+      "bootstrap_median_kcal_mol": 2.8325054930442657,
+      "bootstrap_ci_low_kcal_mol": 2.3383826837930117,
+      "bootstrap_ci_high_kcal_mol": 3.48447489083442,
+      "first_half_contact_dG_kcal_mol": 2.7002624531352963,
+      "second_half_contact_dG_kcal_mol": 3.2450325909107605,
+      "support_min_nm": 0.3359718,
+      "support_max_nm": 2.734091,
+      "minimum_neighbor_overlap": 0.36755755383678557,
+      "maximum_mean_center_error_nm": 0.12390476903869807,
+      "window_count": 25
+    },
+    {
+      "pathway": "c6_q1_switch_v3_v4",
+      "system": "A4_m_C6",
+      "stage": "q1",
+      "route_family": "switch",
+      "topology": "cross_arm",
+      "pair": "V3-V4",
+      "source_replica": 1,
+      "contact_dG_kcal_mol": 2.783948142874177,
+      "bootstrap_median_kcal_mol": 2.774054803824071,
+      "bootstrap_ci_low_kcal_mol": 2.3777219348706438,
+      "bootstrap_ci_high_kcal_mol": 3.293762741289985,
+      "first_half_contact_dG_kcal_mol": 3.183191797231063,
+      "second_half_contact_dG_kcal_mol": 2.5070718670833068,
+      "support_min_nm": 0.3379553,
+      "support_max_nm": 2.750096,
+      "minimum_neighbor_overlap": 0.251103077769505,
+      "maximum_mean_center_error_nm": 0.125032846441949,
+      "window_count": 25
+    },
+    {
+      "pathway": "c7_q1_reuse_v2_v5",
+      "system": "A4_m_C7",
+      "stage": "q1",
+      "route_family": "reuse",
+      "topology": "cross_arm",
+      "pair": "V2-V5",
+      "source_replica": 2,
+      "contact_dG_kcal_mol": 1.9323643833398485,
+      "bootstrap_median_kcal_mol": 1.9409910792216616,
+      "bootstrap_ci_low_kcal_mol": 1.5724817884536215,
+      "bootstrap_ci_high_kcal_mol": 2.399359284405023,
+      "first_half_contact_dG_kcal_mol": 2.021603170395132,
+      "second_half_contact_dG_kcal_mol": 1.9247070102251158,
+      "support_min_nm": 0.3439661,
+      "support_max_nm": 2.822053,
+      "minimum_neighbor_overlap": 0.2840168018271694,
+      "maximum_mean_center_error_nm": 0.08202286392010061,
+      "window_count": 25
+    },
+    {
+      "pathway": "c7_q1_switch_v1_v8",
+      "system": "A4_m_C7",
+      "stage": "q1",
+      "route_family": "switch",
+      "topology": "cross_arm",
+      "pair": "V1-V8",
+      "source_replica": 2,
+      "contact_dG_kcal_mol": 2.8318070853355852,
+      "bootstrap_median_kcal_mol": 2.8213014313518143,
+      "bootstrap_ci_low_kcal_mol": 2.420012176583536,
+      "bootstrap_ci_high_kcal_mol": 3.3932227497401537,
+      "first_half_contact_dG_kcal_mol": 2.8170996236210963,
+      "second_half_contact_dG_kcal_mol": 3.241988204381166,
+      "support_min_nm": 0.338,
+      "support_max_nm": 2.858,
+      "minimum_neighbor_overlap": 0.3352374932640373,
+      "maximum_mean_center_error_nm": 0.08234704744069926,
+      "window_count": 25
+    }
+  ],
+  "contrasts": [
+    {
+      "quantity": "C6_q1",
+      "definition": "reuse minus switch",
+      "point_ddG_kcal_mol": 0.05545392672159366,
+      "bootstrap_median_kcal_mol": 0.04130911292402817,
+      "bootstrap_ci_low_kcal_mol": -0.6819693467159119,
+      "bootstrap_ci_high_kcal_mol": 0.7953964200035537,
+      "left_over_right_contact_odds": 0.914742893624104,
+      "probability_ddG_below_zero": 0.458025,
+      "first_half_ddG_kcal_mol": -0.4829293440957665,
+      "second_half_ddG_kcal_mol": 0.7379607238274537,
+      "alpha_umbrella": 0.08911224376661386
+    },
+    {
+      "quantity": "C7_q1",
+      "definition": "reuse minus switch",
+      "point_ddG_kcal_mol": -0.8994427019957367,
+      "bootstrap_median_kcal_mol": -0.9006181379247847,
+      "bootstrap_ci_low_kcal_mol": -1.5775270692723955,
+      "bootstrap_ci_high_kcal_mol": -0.24336700991049226,
+      "left_over_right_contact_odds": 4.243415433209997,
+      "probability_ddG_below_zero": 0.997,
+      "first_half_ddG_kcal_mol": -0.7954964532259643,
+      "second_half_ddG_kcal_mol": -1.31728119415605,
+      "alpha_umbrella": -1.445368471681828
+    }
+  ],
+  "sensitivity": [
+    {
+      "quantity": "C6_q1",
+      "definition": "reuse minus switch",
+      "minimum_histogram_count": 1.0,
+      "contact_split_nm": 0.45,
+      "ddG_kcal_mol": -0.025607556148429467,
+      "reuse_over_switch_contact_odds": 1.042008727697111,
+      "alpha_umbrella": -0.041150319205033176
+    },
+    {
+      "quantity": "C7_q1",
+      "definition": "reuse minus switch",
+      "minimum_histogram_count": 1.0,
+      "contact_split_nm": 0.45,
+      "ddG_kcal_mol": -0.8933128844477496,
+      "reuse_over_switch_contact_odds": 4.201821408148178,
+      "alpha_umbrella": -1.4355180998889792
+    },
+    {
+      "quantity": "C6_q1",
+      "definition": "reuse minus switch",
+      "minimum_histogram_count": 1.0,
+      "contact_split_nm": 0.5,
+      "ddG_kcal_mol": 0.05537743449527577,
+      "reuse_over_switch_contact_odds": 0.9148553406859996,
+      "alpha_umbrella": 0.08898932381628982
+    },
+    {
+      "quantity": "C7_q1",
+      "definition": "reuse minus switch",
+      "minimum_histogram_count": 1.0,
+      "contact_split_nm": 0.5,
+      "ddG_kcal_mol": -0.9006717820988239,
+      "reuse_over_switch_contact_odds": 4.2518048113257505,
+      "alpha_umbrella": -1.4473435542815667
+    },
+    {
+      "quantity": "C6_q1",
+      "definition": "reuse minus switch",
+      "minimum_histogram_count": 1.0,
+      "contact_split_nm": 0.55,
+      "ddG_kcal_mol": 0.08163740380604523,
+      "reuse_over_switch_contact_odds": 0.8770528335741051,
+      "alpha_umbrella": 0.1311880448964665
+    },
+    {
+      "quantity": "C7_q1",
+      "definition": "reuse minus switch",
+      "minimum_histogram_count": 1.0,
+      "contact_split_nm": 0.55,
+      "ddG_kcal_mol": -0.9351239754789984,
+      "reuse_over_switch_contact_odds": 4.49383677296446,
+      "alpha_umbrella": -1.502706852000809
+    },
+    {
+      "quantity": "C6_q1",
+      "definition": "reuse minus switch",
+      "minimum_histogram_count": 5.0,
+      "contact_split_nm": 0.45,
+      "ddG_kcal_mol": -0.02586570234869301,
+      "reuse_over_switch_contact_odds": 1.042441074498864,
+      "alpha_umbrella": -0.04156514983083902
+    },
+    {
+      "quantity": "C7_q1",
+      "definition": "reuse minus switch",
+      "minimum_histogram_count": 5.0,
+      "contact_split_nm": 0.45,
+      "ddG_kcal_mol": -0.8910212055064579,
+      "reuse_over_switch_contact_odds": 4.1863760846391695,
+      "alpha_umbrella": -1.4318354634279677
+    },
+    {
+      "quantity": "C6_q1",
+      "definition": "reuse minus switch",
+      "minimum_histogram_count": 5.0,
+      "contact_split_nm": 0.5,
+      "ddG_kcal_mol": 0.05545392672159366,
+      "reuse_over_switch_contact_odds": 0.914742893624104,
+      "alpha_umbrella": 0.08911224376661386
+    },
+    {
+      "quantity": "C7_q1",
+      "definition": "reuse minus switch",
+      "minimum_histogram_count": 5.0,
+      "contact_split_nm": 0.5,
+      "ddG_kcal_mol": -0.8994427019957367,
+      "reuse_over_switch_contact_odds": 4.243415433209997,
+      "alpha_umbrella": -1.445368471681828
+    },
+    {
+      "quantity": "C6_q1",
+      "definition": "reuse minus switch",
+      "minimum_histogram_count": 5.0,
+      "contact_split_nm": 0.55,
+      "ddG_kcal_mol": 0.08173592541472274,
+      "reuse_over_switch_contact_odds": 0.8769139893087656,
+      "alpha_umbrella": 0.13134636518373538
+    },
+    {
+      "quantity": "C7_q1",
+      "definition": "reuse minus switch",
+      "minimum_histogram_count": 5.0,
+      "contact_split_nm": 0.55,
+      "ddG_kcal_mol": -0.9343266520312634,
+      "reuse_over_switch_contact_odds": 4.4880826556676565,
+      "alpha_umbrella": -1.5014255850890514
+    },
+    {
+      "quantity": "C6_q1",
+      "definition": "reuse minus switch",
+      "minimum_histogram_count": 20.0,
+      "contact_split_nm": 0.45,
+      "ddG_kcal_mol": -0.05409263510659512,
+      "reuse_over_switch_contact_odds": 1.0908145410743724,
+      "alpha_umbrella": -0.0869247025516838
+    },
+    {
+      "quantity": "C7_q1",
+      "definition": "reuse minus switch",
+      "minimum_histogram_count": 20.0,
+      "contact_split_nm": 0.45,
+      "ddG_kcal_mol": -0.8864030739674109,
+      "reuse_over_switch_contact_odds": 4.155423342615134,
+      "alpha_umbrella": -1.4244143106298992
+    },
+    {
+      "quantity": "C6_q1",
+      "definition": "reuse minus switch",
+      "minimum_histogram_count": 20.0,
+      "contact_split_nm": 0.5,
+      "ddG_kcal_mol": 0.04284486100498475,
+      "reuse_over_switch_contact_odds": 0.9334667090526095,
+      "alpha_umbrella": 0.06884997914018172
+    },
+    {
+      "quantity": "C7_q1",
+      "definition": "reuse minus switch",
+      "minimum_histogram_count": 20.0,
+      "contact_split_nm": 0.5,
+      "ddG_kcal_mol": -0.8962907081828961,
+      "reuse_over_switch_contact_odds": 4.2219763323053074,
+      "alpha_umbrella": -1.4403033436087365
+    },
+    {
+      "quantity": "C6_q1",
+      "definition": "reuse minus switch",
+      "minimum_histogram_count": 20.0,
+      "contact_split_nm": 0.55,
+      "ddG_kcal_mol": 0.07355739622351898,
+      "reuse_over_switch_contact_odds": 0.8885149586639138,
+      "alpha_umbrella": 0.11820379566655957
+    },
+    {
+      "quantity": "C7_q1",
+      "definition": "reuse minus switch",
+      "minimum_histogram_count": 20.0,
+      "contact_split_nm": 0.55,
+      "ddG_kcal_mol": -0.9320676401356789,
+      "reuse_over_switch_contact_odds": 4.471819815176556,
+      "alpha_umbrella": -1.4977954432648004
+    }
+  ]
+}
