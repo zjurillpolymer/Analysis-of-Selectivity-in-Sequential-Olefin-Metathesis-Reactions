@@ -290,11 +290,14 @@ def require_environment(
     *,
     require_gromacs: bool = True,
     require_packing: bool = True,
+    require_packmol: bool = True,
 ) -> dict[str, str]:
     tools = {}
     executables = ["antechamber", "parmchk2"]
     if require_packing:
-        executables.extend(["tleap", "packmol"])
+        executables.append("tleap")
+        if require_packmol:
+            executables.append("packmol")
         if require_gromacs:
             executables.append("gmx")
     for executable in executables:
@@ -969,6 +972,11 @@ def pack_box(
     log: Path,
     solute_pdb: Path | None = None,
 ) -> None:
+    if os.environ.get("USE_PREPACKED_DCM_BOXES") == "1":
+        validate_prepacked_box(destination, dcm_pdb, dcm_molecules, box_nm, solute_pdb)
+        with log.open("a", encoding="utf-8") as handle:
+            handle.write(f"Reused validated local Packmol box: {destination}\n")
+        return
     box_A = box_nm * 10.0
     sections = [
         "tolerance 2.0",
@@ -1002,9 +1010,40 @@ def pack_box(
     )
     packmol_input = destination.with_suffix(".packmol.inp")
     packmol_input.write_text("\n".join(sections), encoding="utf-8")
-    run_command(["packmol"], destination.parent, log, stdin_path=packmol_input)
+    run_command([os.environ.get("PACKMOL_BIN", "packmol")], destination.parent, log, stdin_path=packmol_input)
     if not destination.is_file():
         raise RuntimeError(f"Packmol did not create {destination}")
+    validate_prepacked_box(destination, dcm_pdb, dcm_molecules, box_nm, solute_pdb)
+
+
+def validate_prepacked_box(
+    destination: Path,
+    dcm_pdb: Path,
+    dcm_molecules: int,
+    box_nm: float,
+    solute_pdb: Path | None,
+) -> None:
+    """Check cached Packmol output before LEaP consumes it."""
+    if not destination.is_file():
+        raise FileNotFoundError(f"prepacked solvent box is missing: {destination}")
+    atoms = read_pdb(destination)
+    solvent_template = read_pdb(dcm_pdb)
+    solute_template = read_pdb(solute_pdb) if solute_pdb is not None else []
+    expected = len(solute_template) + dcm_molecules * len(solvent_template)
+    if len(atoms) != expected:
+        raise ValueError(f"prepacked box atom count mismatch: {destination}: {len(atoms)} != {expected}")
+    for index, template in enumerate(solute_template):
+        atom = atoms[index]
+        if (atom.name, atom.element) != (template.name, template.element):
+            raise ValueError(f"prepacked solute identity mismatch at atom {index + 1}: {destination}")
+    offset = len(solute_template)
+    for index, atom in enumerate(atoms[offset:]):
+        template = solvent_template[index % len(solvent_template)]
+        if (atom.name, atom.element) != (template.name, template.element):
+            raise ValueError(f"prepacked solvent identity mismatch at atom {offset + index + 1}: {destination}")
+    box_A = box_nm * 10.0
+    if any(not -0.1 <= coordinate <= box_A + 0.1 for atom in atoms for coordinate in atom.position_A):
+        raise ValueError(f"prepacked coordinates outside box: {destination}")
 
 
 def amber_to_gromacs(prmtop: Path, rst7: Path, top: Path, gro: Path) -> None:
@@ -1633,6 +1672,10 @@ def build_parser() -> argparse.ArgumentParser:
         ),
     )
     parser.add_argument("--force", action="store_true")
+    parser.add_argument(
+        "--use-prepacked-boxes", action="store_true",
+        help="reuse locally generated Packmol boxes after atom and box checks",
+    )
     parser.add_argument("--dry-run", action="store_true")
     return parser
 
@@ -1647,6 +1690,8 @@ def main() -> None:
     ):
         raise SystemExit("invalid jobs, padding, initial density, or SQM tolerance")
     root = Path(args.root).resolve()
+    if args.use_prepacked_boxes:
+        os.environ["USE_PREPACKED_DCM_BOXES"] = "1"
     rows = read_manifest(root / "gromacs_dcm" / "state_manifest.csv")
     selected = select_rows(rows, args.states, args.stages)
     print(
@@ -1661,7 +1706,9 @@ def main() -> None:
     if args.dry_run:
         required = ["antechamber", "parmchk2"]
         if not args.parameterize_only:
-            required.extend(["tleap", "packmol"])
+            required.append("tleap")
+            if not args.use_prepacked_boxes:
+                required.append("packmol")
         if not args.parameterize_only and not args.defer_grompp:
             required.append("gmx")
         missing = [name for name in required if shutil.which(name) is None]
@@ -1672,6 +1719,7 @@ def main() -> None:
     tools = require_environment(
         require_gromacs=not args.defer_grompp,
         require_packing=not args.parameterize_only,
+        require_packmol=not args.use_prepacked_boxes,
     )
     print(f"Environment passed: {tools}")
     if not args.parameterize_only:
