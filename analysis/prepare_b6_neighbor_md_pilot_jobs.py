@@ -15,14 +15,14 @@ from verify_b6_md_setup import check_setup
 
 RUN_SCRIPT = """#!/usr/bin/env bash
 set -euo pipefail
-cd "$(dirname "${BASH_SOURCE[0]}")"
+cd "$(dirname "${{BASH_SOURCE[0]}}")"
 exec > >(tee -a md_pilot_job.log) 2>&1
 
-archive_results() {
+archive_results() {{
   status=$?
   tar -czf {archive} workspace
   exit "$status"
-}
+}}
 trap archive_results EXIT
 
 nvidia-smi -L

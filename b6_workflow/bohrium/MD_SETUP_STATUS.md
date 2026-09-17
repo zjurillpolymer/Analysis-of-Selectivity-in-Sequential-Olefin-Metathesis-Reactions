@@ -11,9 +11,24 @@ the local, unversioned bundle
 `/Users/arcadio/Molecular_dynamics_project/bohrium_submit/b6_neighbor_md_setup_prepacked_20260917/workspace/prepacked_boxes.json`.
 
 The corrected prepacked setup task, Bohr ID **20748125**, also exited with
-code 1. Its detailed log has not yet been retrieved, so the cause is unconfirmed.
-Do not submit GPU MD until its failure is diagnosed and all five `system.top`,
-`system.gro`, `metadata.json` files pass `verify_b6_md_setup.py`. In particular,
-do not equate completed Amber parameterization with completed solvated setup.
+code 1: the Amber image lacked ParmEd. The entire remaining setup was then
+performed locally with the `chem_dl` environment, which contains AmberTools
+and ParmEd. All five solute boxes and the pure-DCM box passed
+`verify_b6_md_setup.py`: LEaP reported zero errors; each GROMACS topology used
+Lorentz–Berthelot combination rule 2 and rigid CH2Cl2-DC constraints; GRO atom
+counts and vinyl mapping matched. Local GROMACS 2026.3 `grompp -maxwarn 0`
+also passed for all five solute states. The GPU package is generated from these
+local outputs, not from the failed Bohrium setup jobs.
 
-No B6 q1/q2 GPU MD job has been submitted as of this note.
+The GPU image is GROMACS 2024.2, so its own `grompp` remains the final
+version-specific check when MD starts. A previously passed 5 ns pure-DCM
+density gate is reused only because the DCM model files match byte-for-byte;
+the gate and model hashes are included in each GPU input bundle.
+
+Five one-T4-per-state, three-replica, 2 ns pilot input bundles have been
+prepared locally under
+`/Users/arcadio/Molecular_dynamics_project/bohrium_submit/b6_neighbor_md_pilot_localsetup_v2_20260917/`.
+The first GPU submission request was rejected before execution by the local
+automatic permission reviewer (capacity error). No GPU MD job ID has been
+issued; check Bohrium before retrying if a previous submission becomes
+uncertain.
