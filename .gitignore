@@ -18,6 +18,7 @@
 __pycache__/
 .DS_Store
 */runs/
+/gromacs_dcm_server_bundle/gromacs_dcm/runs/
 */run/
 */cache/
 */workspace/*/runs/

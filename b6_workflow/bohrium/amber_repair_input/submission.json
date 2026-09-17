@@ -1,10 +1,12 @@
 {
-  "status": "submitted",
+  "status": "completed_and_parameterization_qc_passed",
   "submitted_at": "2026-09-16T17:05:21+08:00",
   "bohr_job_id": 20744510,
   "bohr_job_group_id": 7422312,
   "internal_job_id": 23389994,
   "internal_job_group_id": 16553264,
+  "completed_at": "2026-09-17T02:52:44+08:00",
+  "exit_code": 0,
   "project_id": 4377225,
   "states": [
     "B6_p_C6_q2_neighbor_full_reuse_cis",
@@ -12,5 +14,5 @@
     "B6_p_C6_q2_neighbor_full_switch_d1_cis",
     "B6_p_C6_q2_neighbor_full_switch_d2_cis"
   ],
-  "note": "Submitted after ETKDGv3/MMFF94 cis geometry repair and local bond-length preflight. Completion has not yet been verified."
+  "note": "Four repaired q2 Amber outputs downloaded and checked: required files, completed SQM, zero net charge, bond geometry, input atom order and graph, and no missing-parameter or long-bond warnings. Solvated system setup and MD remain pending."
 }

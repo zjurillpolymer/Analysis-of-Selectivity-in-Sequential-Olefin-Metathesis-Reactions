@@ -1,0 +1,32 @@
+{
+  "status": "Amber parameterization QC passed; solvated setup and MD pending",
+  "root": "gromacs_dcm_server_bundle/gromacs_dcm/runs",
+  "warning": "Do not use the four distorted q2 outputs from job 20735563.",
+  "states": {
+    "B6_p_C6_q1_V1_V2_cis": {
+      "bohr_job_id": 20735563,
+      "slu_mol2_sha256": "76a0c8a9803003442fa416f1f399982714b5c5c504d4a8c2d684fcc030186f6a",
+      "slu_frcmod_sha256": "ca520358b719b4399784654412c39685301aa7d2b16691a110d34db5e77088f8"
+    },
+    "B6_p_C6_q2_neighbor_full_reuse_cis": {
+      "bohr_job_id": 20744510,
+      "slu_mol2_sha256": "16ce3d205604bc8e31076cd3dd923c7b0f0f4422276802ce8e00367978c28b56",
+      "slu_frcmod_sha256": "3ab536e4d345e15ad430531f6882fdf07dd455b791413476530b7fbb47c2b0c7"
+    },
+    "B6_p_C6_q2_neighbor_one_arm_reuse_cis": {
+      "bohr_job_id": 20744510,
+      "slu_mol2_sha256": "5630a2e4112a2fd20d6bcb52e62dafee118d7670506bf6a4c42443438ea014e2",
+      "slu_frcmod_sha256": "3ab536e4d345e15ad430531f6882fdf07dd455b791413476530b7fbb47c2b0c7"
+    },
+    "B6_p_C6_q2_neighbor_full_switch_d1_cis": {
+      "bohr_job_id": 20744510,
+      "slu_mol2_sha256": "3d72f9a0559832fe2d78bb30626c6466745d5e53415564795629f61e5c105ec0",
+      "slu_frcmod_sha256": "3ab536e4d345e15ad430531f6882fdf07dd455b791413476530b7fbb47c2b0c7"
+    },
+    "B6_p_C6_q2_neighbor_full_switch_d2_cis": {
+      "bohr_job_id": 20744510,
+      "slu_mol2_sha256": "fb4fdb60211da7331d41efb7b42c02da4c735a9bc5a42b316ee2536688126346",
+      "slu_frcmod_sha256": "3ab536e4d345e15ad430531f6882fdf07dd455b791413476530b7fbb47c2b0c7"
+    }
+  }
+}

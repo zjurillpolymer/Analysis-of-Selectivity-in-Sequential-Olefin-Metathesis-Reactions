@@ -13,7 +13,7 @@
 
 A4 的四臂几何不采用 B6 的“间位臂对排除”规则。B6 模型则固定 q0 为跨臂，并在后续反应图中只考虑相邻臂候选；这是一项模型约定，不等同于 MD 中完全不存在其他接触。A4 的目标产率报告只在 R2/R4 间归一化，详见下列报告，不能把表中的条件概率直接当作全部湿实验产物的绝对产率。
 
-B6 neighbor q1–q2 首批 Amber 参数化已完成，但四个 q2 输入有非物理长键；本地已修复 q2 cis 几何，仍待重新参数化，不能使用首批 q2 参数直接跑 MD。参见 [`B6 Amber 几何审计`](results/b6_neighbor_amber_geometry_audit/REPORT.md)。
+B6 neighbor q1–q2 Amber 参数化已完成：q1 使用首批任务 20735563，四个 q2 使用修复 cis 几何后的重算任务 20744510；输出均已通过本地结构与参数文件检查。首批任务的四套非物理长键 q2 参数仍不可使用。显式 DCM 建盒、拓扑与溶剂密度检查、MD 尚未完成。参见 [`B6 Amber 几何审计`](results/b6_neighbor_amber_geometry_audit/REPORT.md) 与 [`参数来源清单`](b6_workflow/bohrium/validated_parameter_sources.json)。
 
 ## 目录
 
@@ -21,7 +21,7 @@ B6 neighbor q1–q2 首批 Amber 参数化已完成，但四个 q2 输入有非�
 - [`gromacs_dcm_server_bundle/`](gromacs_dcm_server_bundle/)：结构、44 行合并状态清单、DCM 模型和 GROMACS `.mdp`。清单合并自原始主清单、A4-p C6/C8 清单、A4-m C5/C8 与 C6/C7 q2 补充清单；B3 行未收入。
 - [`umbrella_specs/`](umbrella_specs/)：关键 A4 umbrella 批次的 `pathway.json`、`windows.csv`、`index.ndx` 和 `.mdp` 等文本协议。这里只是协议/路径记录，不含起始 `.gro/.cpt`、拓扑或窗口轨迹，因此不能直接在本仓库内继续运行已完成的窗口。
 - [`results/`](results/)：精简报告、CSV、JSON 和小型诊断图；没有原始 XTC/EDR。
-- [`b6_workflow/bohrium/amber_input/`](b6_workflow/bohrium/amber_input/)：B6 AmberTools 参数化任务输入及提交元数据。Bohrium AccessKey/SSO 凭据不入库。
+- [`b6_workflow/bohrium/`](b6_workflow/bohrium/)：B6 AmberTools 首批与 q2 修复重算任务输入、提交元数据及已核验参数来源。Bohrium AccessKey/SSO 凭据不入库。
 
 优先阅读 [`A4-m-C5–C8 R2/R4 统一反应图报告`](results/a4_m_c5_c8_r2_r4_complete_umbrella_update/REPORT.md)、[`A4-m-C6/C7 双证据报告`](results/a4_m_c6_c7_r2_r4_dual_evidence/REPORT.md)、[`C5/C8 q1 二维 umbrella 重加权与采样审计`](results/a4_m_c5_c8_q1_umbrella_2d_3rep_analysis/REPORT.md)，以及 [`A4-p 审计`](results/a4p_detailed_analysis/DETAILED_REPORT.md)。这些报告分别说明口径、适用范围和采样限制；它们不是一个已对四个 A4 分子完全验证的统一产率预测模型。
 
