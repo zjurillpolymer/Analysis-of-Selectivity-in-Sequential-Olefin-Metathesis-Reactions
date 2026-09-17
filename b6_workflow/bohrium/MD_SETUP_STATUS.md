@@ -28,7 +28,9 @@ the gate and model hashes are included in each GPU input bundle.
 Five one-T4-per-state, three-replica, 2 ns pilot input bundles have been
 prepared locally under
 `/Users/arcadio/Molecular_dynamics_project/bohrium_submit/b6_neighbor_md_pilot_localsetup_v2_20260917/`.
-The first GPU submission request was rejected before execution by the local
-automatic permission reviewer (capacity error). No GPU MD job ID has been
-issued; check Bohrium before retrying if a previous submission becomes
-uncertain.
+The q1 task `B6_p_C6_q1_V1_V2_cis` was submitted as Bohr ID **20748984**
+(job group 7424261). The four q2 GPU tasks have **not** been submitted:
+the next submission was rejected before execution by the automatic permission
+reviewer (capacity error), as was a read-only q1 status check. Local
+`submission_summary.json` identifies the one submitted state and four pending
+ones. Do not resubmit q1 when continuing.
