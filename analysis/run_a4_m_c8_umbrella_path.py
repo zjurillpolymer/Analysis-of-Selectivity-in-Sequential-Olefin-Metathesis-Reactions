@@ -47,7 +47,9 @@ def run(
 def mdrun_command(gmx: str, deffnm: Path, ntomp: int, gpu: bool) -> list[str]:
     command = [gmx, "mdrun", "-deffnm", str(deffnm), "-ntomp", str(ntomp), "-pin", "on"]
     if gpu:
-        command.extend(["-nb", "gpu", "-pme", "gpu", "-bonded", "gpu", "-update", "gpu"])
+        # CPU update/bonded tasks also work for topologies whose constrained
+        # atoms are interspersed and therefore cannot form GPU update groups.
+        command.extend(["-nb", "gpu", "-pme", "gpu", "-bonded", "cpu", "-update", "cpu"])
     return command
 
 
@@ -398,7 +400,7 @@ def main() -> None:
     parser.add_argument("--pathway", type=Path, required=True)
     parser.add_argument("--gmx", default=os.environ.get("GMX", "gmx"))
     parser.add_argument("--ntomp", type=int, default=4)
-    parser.add_argument("--gpu", action="store_true", help="Use GPU nonbonded, PME, bonded, and update tasks")
+    parser.add_argument("--gpu", action="store_true", help="Use GPU nonbonded and PME; CPU bonded and update for topology compatibility")
     parser.add_argument("--stage", choices=("preflight", "steering", "windows", "wham", "all"), default="all")
     parser.add_argument(
         "--wham-begin-ps", type=float,
