@@ -26,6 +26,13 @@ JOBS = {
     "B6_p_C6_q2_neighbor_full_switch_d1_cis": 20749048,
     "B6_p_C6_q2_neighbor_full_switch_d2_cis": 20749051,
 }
+EXTENSION_JOBS = {
+    "B6_p_C6_q1_V1_V2_cis": 20750428,
+    "B6_p_C6_q2_neighbor_full_reuse_cis": 20750429,
+    "B6_p_C6_q2_neighbor_one_arm_reuse_cis": 20750430,
+    "B6_p_C6_q2_neighbor_full_switch_d1_cis": 20750431,
+    "B6_p_C6_q2_neighbor_full_switch_d2_cis": 20750432,
+}
 CONTACT_A = 5.0
 
 
@@ -58,13 +65,23 @@ def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     project = Path(__file__).resolve().parents[1]
     parser.add_argument("--project", type=Path, default=project)
-    parser.add_argument("--download", type=Path,
-                        default=project.parent / "bohrium_download/b6_neighbor_md_pilot_20260917")
-    parser.add_argument("--output", type=Path,
-                        default=project / "results/b6_neighbor_md_pilot_20260917/neighbor_analysis")
+    parser.add_argument("--download", type=Path)
+    parser.add_argument("--output", type=Path)
+    parser.add_argument("--extension", action="store_true",
+                        help="analyze the 2 -> 10 ns checkpoint-extension archives")
     args = parser.parse_args()
     project = args.project.resolve()
-    output = args.output.resolve()
+    jobs = EXTENSION_JOBS if args.extension else JOBS
+    download_default = project.parent / (
+        "bohrium_download/b6_neighbor_md_extensions_2to10ns_20260918"
+        if args.extension else "bohrium_download/b6_neighbor_md_pilot_20260917"
+    )
+    output_default = project / (
+        "results/b6_neighbor_md_extension_20260918/neighbor_analysis"
+        if args.extension else "results/b6_neighbor_md_pilot_20260917/neighbor_analysis"
+    )
+    download = (args.download or download_default).resolve()
+    output = (args.output or output_default).resolve()
     output.mkdir(parents=True, exist_ok=True)
     arm_of = load_arm_map(project)
     neighbors = cycle_edges()
@@ -73,8 +90,8 @@ def main() -> None:
     quality_rows = []
     pair_rows = []
     orbit_rows = []
-    for state, job in JOBS.items():
-        workspace = args.download / str(job) / "extracted/workspace"
+    for state, job in jobs.items():
+        workspace = download / str(job) / "extracted/workspace"
         manifest = read_manifest(workspace / "gromacs_dcm/state_manifest.csv")
         if manifest["state"] != state:
             raise ValueError(f"job {job}: manifest state {manifest['state']} != {state}")
@@ -100,9 +117,11 @@ def main() -> None:
                 raise ValueError(f"production log lacks normal completion: {repdir}")
             data = pd.read_csv(repdir / "vinyl_distances.csv")
             times = data["time_ps"].to_numpy(float)
-            expected = np.arange(4001) * 0.5
-            if len(times) != len(expected) or not np.allclose(times, expected, atol=1e-5):
-                raise ValueError(f"bad 0–2000 ps, 0.5 ps trajectory grid: {repdir}")
+            expected_duration = 10000.0 if args.extension else 2000.0
+            if (len(times) < 2 or abs(times[0]) > 1e-5
+                    or not np.allclose(np.diff(times), 0.5, atol=1e-5)
+                    or abs(times[-1] - expected_duration) > 1e-5):
+                raise ValueError(f"bad 0–{expected_duration:g} ps, 0.5 ps trajectory grid: {repdir}")
             all_columns = [item["column"] for item in schema]
             if list(data.columns[3:]) != all_columns:
                 raise ValueError(f"distance CSV/manifest columns differ: {repdir}")
@@ -183,7 +202,7 @@ def main() -> None:
         output / "q2_neighbor_pair_pilot_summary.csv", index=False)
     summary = {
         "status": "pilot_descriptive_only",
-        "states": list(JOBS), "job_ids": JOBS,
+        "states": list(jobs), "job_ids": jobs,
         "trajectory_count": len(quality), "frames_per_trajectory": 4001,
         "duration_ns_per_trajectory": 2.0,
         "contact_threshold_A": CONTACT_A,
