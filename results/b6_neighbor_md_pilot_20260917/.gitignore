@@ -1,0 +1,4 @@
+# Generic state-agnostic audits are reproducible local intermediates.
+# The neighbour-filtered tables and concise report are versioned below.
+q1_generic/
+B6_p_C6_q2_neighbor_*/

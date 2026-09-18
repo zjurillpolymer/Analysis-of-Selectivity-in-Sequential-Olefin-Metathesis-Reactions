@@ -1,0 +1,35 @@
+{
+  "status": "pilot_descriptive_only",
+  "states": [
+    "B6_p_C6_q1_V1_V2_cis",
+    "B6_p_C6_q2_neighbor_full_reuse_cis",
+    "B6_p_C6_q2_neighbor_one_arm_reuse_cis",
+    "B6_p_C6_q2_neighbor_full_switch_d1_cis",
+    "B6_p_C6_q2_neighbor_full_switch_d2_cis"
+  ],
+  "job_ids": {
+    "B6_p_C6_q1_V1_V2_cis": 20748984,
+    "B6_p_C6_q2_neighbor_full_reuse_cis": 20749009,
+    "B6_p_C6_q2_neighbor_one_arm_reuse_cis": 20749047,
+    "B6_p_C6_q2_neighbor_full_switch_d1_cis": 20749048,
+    "B6_p_C6_q2_neighbor_full_switch_d2_cis": 20749051
+  },
+  "trajectory_count": 15,
+  "frames_per_trajectory": 4001,
+  "duration_ns_per_trajectory": 2.0,
+  "contact_threshold_A": 5.0,
+  "soft_contact_center_A": 5.0,
+  "soft_contact_width_A": 0.5,
+  "q1_orbit_candidate_counts": {
+    "full_reuse": 1,
+    "full_switch_d1": 8,
+    "full_switch_d2": 4,
+    "one_arm_reuse": 4
+  },
+  "cautions": [
+    "Frames within a trajectory are correlated; three replicas are the uncertainty units.",
+    "Orbit soft-score shares are geometric encounter descriptors, not reaction probabilities.",
+    "q2 states are separately initialized conditional structures and cannot be pooled as if visited by q1 trajectories.",
+    "Umbrella/PMF work remains necessary for interpretable free-energy-based selectivity."
+  ]
+}

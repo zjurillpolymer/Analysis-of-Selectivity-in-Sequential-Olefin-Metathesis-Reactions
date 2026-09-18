@@ -1,0 +1,16 @@
+state,job_id,replica,frames,duration_ps,all_pair_count,neighbor_pair_count,status
+B6_p_C6_q1_V1_V2_cis,20748984,1,4001,2000.0,45,17,pass
+B6_p_C6_q1_V1_V2_cis,20748984,2,4001,2000.0,45,17,pass
+B6_p_C6_q1_V1_V2_cis,20748984,3,4001,2000.0,45,17,pass
+B6_p_C6_q2_neighbor_full_reuse_cis,20749009,1,4001,2000.0,28,12,pass
+B6_p_C6_q2_neighbor_full_reuse_cis,20749009,2,4001,2000.0,28,12,pass
+B6_p_C6_q2_neighbor_full_reuse_cis,20749009,3,4001,2000.0,28,12,pass
+B6_p_C6_q2_neighbor_one_arm_reuse_cis,20749047,1,4001,2000.0,28,12,pass
+B6_p_C6_q2_neighbor_one_arm_reuse_cis,20749047,2,4001,2000.0,28,12,pass
+B6_p_C6_q2_neighbor_one_arm_reuse_cis,20749047,3,4001,2000.0,28,12,pass
+B6_p_C6_q2_neighbor_full_switch_d1_cis,20749048,1,4001,2000.0,28,11,pass
+B6_p_C6_q2_neighbor_full_switch_d1_cis,20749048,2,4001,2000.0,28,11,pass
+B6_p_C6_q2_neighbor_full_switch_d1_cis,20749048,3,4001,2000.0,28,11,pass
+B6_p_C6_q2_neighbor_full_switch_d2_cis,20749051,1,4001,2000.0,28,10,pass
+B6_p_C6_q2_neighbor_full_switch_d2_cis,20749051,2,4001,2000.0,28,10,pass
+B6_p_C6_q2_neighbor_full_switch_d2_cis,20749051,3,4001,2000.0,28,10,pass
