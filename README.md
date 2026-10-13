@@ -17,6 +17,10 @@ B6 neighbor q1–q2 Amber 参数化已完成：q1 使用首批任务 20735563，
 
 ## 目录
 
+2026-10-13 更新：近期 B6 构象探索、REST2 后起点选择、Packmol 重建盒子及安全 umbrella 运行代码已收入 `analysis/`。最新批次采用 1 ns 窗口平衡 + 3 ns 生产，78 个窗口均完成；结果和阶段总结见 [`reports/phase_summary/`](reports/phase_summary/)。合并起点的 PMF 是探索性结果，仍需逐起点和时间分块复核，不能直接等同于全局反应概率。
+
+本地原始轨迹与大型结果包继续保存在仓库之外。顶层运输压缩包已归入工作目录的 `cleanup_archive/20261013/transport_archives/`，清理清单为 `cleanup_archive/20261013/cleanup_manifest.json`。仓库内脚本的默认数据路径针对原工作目录；使用其他路径时请先检查脚本的 `ROOT` 与输入定义。
+
 - [`analysis/`](analysis/)：A4/B6 结构构建、Bohrium 准备与提交、显式 DCM、无偏 MD、umbrella 与结果分析脚本。部分早期脚本保留作溯源；解释结果时优先参考下列较新的报告。
 - [`gromacs_dcm_server_bundle/`](gromacs_dcm_server_bundle/)：结构、44 行合并状态清单、DCM 模型和 GROMACS `.mdp`。清单合并自原始主清单、A4-p C6/C8 清单、A4-m C5/C8 与 C6/C7 q2 补充清单；B3 行未收入。
 - [`umbrella_specs/`](umbrella_specs/)：关键 A4 umbrella 批次的 `pathway.json`、`windows.csv`、`index.ndx` 和 `.mdp` 等文本协议。这里只是协议/路径记录，不含起始 `.gro/.cpt`、拓扑或窗口轨迹，因此不能直接在本仓库内继续运行已完成的窗口。

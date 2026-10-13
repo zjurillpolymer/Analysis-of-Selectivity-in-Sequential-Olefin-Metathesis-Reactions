@@ -23,9 +23,8 @@ from collections import defaultdict
 from pathlib import Path
 
 
-# The canonical B6_p_C6 arm order used by the existing model.  The manifest's
-# same-arm pairs are not numerically consecutive, so this map is constructed
-# from the manifest rather than assuming V1/V2 belong to one arm.
+# Authoritative arm order for the present neighbour-only model. The six arms
+# are (V1,V2), (V3,V4), ..., (V11,V12). Do not infer this from legacy labels.
 ARM_CYCLE = tuple(range(6))
 
 
@@ -37,23 +36,7 @@ def parse_pair(text: str) -> tuple[int, int]:
 
 
 def load_arm_map(root: Path) -> dict[int, int]:
-    manifest = root / "gromacs_dcm_server_bundle/gromacs_dcm/state_manifest.csv"
-    with manifest.open(encoding="utf-8-sig", newline="") as handle:
-        rows = csv.DictReader(handle)
-        row = next(item for item in rows if item["state"] == "B6_p_C6_q0")
-    schema = json.loads(row["pair_schema_json"])
-    same_pairs = [
-        (int(item["left"]), int(item["right"]))
-        for item in schema
-        if item["topology"] == "same_arm"
-    ]
-    if len(same_pairs) != 6:
-        raise ValueError(f"expected six same-arm pairs, found {len(same_pairs)}")
-    return {
-        vinyl: arm
-        for arm, pair in enumerate(sorted(tuple(sorted(pair)) for pair in same_pairs))
-        for vinyl in pair
-    }
+    return {vinyl: (vinyl - 1) // 2 for vinyl in range(1, 13)}
 
 
 def arm_edge(a: int, b: int) -> tuple[int, int]:
@@ -146,7 +129,7 @@ def build_rows(arm_of: dict[int, int], q0_pair: tuple[int, int]) -> list[dict[st
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--root", default=str(Path(__file__).resolve().parents[1]))
-    parser.add_argument("--q0", default="V1,V2", help="representative q0 pair, e.g. V1,V2")
+    parser.add_argument("--q0", default="V1,V12", help="representative q0 pair, e.g. V1,V12")
     parser.add_argument(
         "--output",
         default="results/b6_neighbor_orbit_table",
