@@ -29,27 +29,24 @@ def draw_panel(ax, reacted=False):
         vinyl[n1], vinyl[n2] = p1, p2
         for n, p in ((n1, p1), (n2, p2)):
             ax.add_patch(Circle(p, 0.105, facecolor="#f2c14e", edgecolor="#8a5a00", lw=1.2, zorder=3))
-            ax.text(*(p + 0.16 * u), f"V{n}", fontsize=7, ha="center", va="center", color="#5a4300")
-        label = end + 0.54 * u
-        ax.text(*label, f"arm {arm + 1}", fontsize=8, ha="center", va="center", color="#30343b")
+            # Site labels are deliberately omitted to keep the topology legible.
+        label = end + 0.35 * u
+        ax.text(*label, f"{arm + 1}", fontsize=8, ha="center", va="center", color="#30343b")
     if reacted:
         p, q = vinyl[1], vinyl[11]
         ax.plot([p[0], q[0]], [p[1], q[1]], color="#d1495b", lw=3.0, zorder=2)
         ax.text(0, 1.88, "q0: arm1–arm6 cross", color="#b02a3c", fontsize=10,
                 ha="center", va="center", fontweight="bold")
-        ax.text(*(p + 0.12 * np.array([-0.35, 0.95])), "reacted", fontsize=7,
-                color="#b02a3c", ha="center")
         for n in (2, 12):
             pos = vinyl[n]
             ax.add_patch(Circle(pos, 0.125, facecolor="#8ecae6", edgecolor="#126782", lw=1.5, zorder=4))
-            ax.text(*pos, f"V{n}", fontsize=7, ha="center", va="center", color="#073b4c", zorder=5)
         ax.text(0, -1.93, "blue: remaining vinyl sites", fontsize=8,
                 ha="center", color="#126782")
     else:
         ax.text(0, 1.88, "unreacted B6", color="#30343b", fontsize=10,
                 ha="center", va="center", fontweight="bold")
 
-fig, axes = plt.subplots(1, 2, figsize=(10, 5), dpi=220)
+fig, axes = plt.subplots(1, 2, figsize=(9, 4.7), dpi=220)
 draw_panel(axes[0], reacted=False)
 draw_panel(axes[1], reacted=True)
 fig.subplots_adjust(wspace=0.02)
